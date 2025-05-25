@@ -1,0 +1,66 @@
+pipeline {
+    agent any
+    
+    environment {
+        DOCKER_IMAGE = 'user-service-ecommerce-boot'
+        DOCKER_TAG = '0.1.0'
+        MAVEN_HOME = tool 'Maven'
+    }
+    
+    tools {
+        maven 'Maven'
+    }
+    
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+        
+        stage('Build') {
+            steps {
+                sh '''
+                    echo "Using Maven from: ${MAVEN_HOME}"
+                    ${MAVEN_HOME}/bin/mvn clean package -DskipTests
+                '''
+            }
+        }
+        
+        stage('Test') {
+            steps {
+                sh '''
+                    ${MAVEN_HOME}/bin/mvn test
+                '''
+            }
+        }
+        
+        stage('Build Docker Image') {
+            steps {
+                bat '''
+                    docker build -t %DOCKER_IMAGE%:%DOCKER_TAG% .
+                '''
+            }
+        }
+        
+        stage('Push to Docker Registry') {
+            steps {
+                // Aquí iría la configuración para subir la imagen a un registro
+                // Por ahora lo dejamos comentado
+                // sh "docker push ${DOCKER_IMAGE}:${DOCKER_TAG}"
+            }
+        }
+    }
+    
+    post {
+        always {
+            cleanWs()
+        }
+        success {
+            echo 'Pipeline ejecutado exitosamente!'
+        }
+        failure {
+            echo 'Pipeline falló! Revisar los logs para más detalles.'
+        }
+    }
+} 
