@@ -8,35 +8,12 @@ pipeline {
     NEWMAN_REPORTS_DIR = 'newman-reports'
     PROFILE = 'dev'
     DOCKER_IMAGE_NAME = 'juanito0702'
-    WORKSPACE_PATH = '/var/jenkins_home/workspace/ecommerce-pipeline'
   }
 
   stages {
-    stage('Checkout') {
-      steps {
-        sh '''
-          echo "Verificando directorio Git..."
-          cd ${WORKSPACE_PATH}
-          if [ ! -d ".git" ]; then
-            echo "Inicializando repositorio Git..."
-            git init
-            git remote add origin https://github.com/Juan181803/ecommerce-microservice-backend-app.git
-            git fetch
-            git checkout -f main
-          fi
-        '''
-      }
-    }
-
     stage('Preparación') {
       steps {
         sh '''
-          echo "Verificando workspace..."
-          if [ ! -d "${WORKSPACE_PATH}" ]; then
-            echo "Creando workspace..."
-            mkdir -p "${WORKSPACE_PATH}"
-          fi
-          
           echo "Verificando archivos necesarios..."
           if [ ! -f "pom.xml" ]; then
             echo "ERROR: pom.xml no encontrado"
@@ -44,7 +21,7 @@ pipeline {
           fi
           
           echo "Listando archivos en el workspace:"
-          ls -la "${WORKSPACE_PATH}"
+          ls -la
         '''
       }
     }
@@ -67,7 +44,7 @@ pipeline {
           ls -la
           
           docker run --rm \
-            -v "${WORKSPACE_PATH}:/app" \
+            -v "$(pwd):/app" \
             -v "$HOME/.m2:/root/.m2" \
             -w /app \
             maven:3.9.6-eclipse-temurin-11 \
@@ -81,7 +58,7 @@ pipeline {
         sh '''
           echo "Running unit and integration tests for all modules..."
           docker run --rm \
-            -v "${WORKSPACE_PATH}:/app" \
+            -v "$(pwd):/app" \
             -v "$HOME/.m2:/root/.m2" \
             -w /app \
             maven:3.9.6-eclipse-temurin-11 \
