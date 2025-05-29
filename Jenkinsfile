@@ -12,6 +12,18 @@ pipeline {
   }
 
   stages {
+    stage('Checkout') {
+      steps {
+        checkout([
+          $class: 'GitSCM',
+          branches: [[name: '*/main']],
+          userRemoteConfigs: [[
+            url: 'https://github.com/Juan181803/ecommerce-microservice-backend-app.git'
+          ]]
+        ])
+      }
+    }
+
     stage('Preparación') {
       steps {
         sh '''

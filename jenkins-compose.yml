@@ -16,6 +16,7 @@ services:
       - JAVA_OPTS=-Djenkins.install.runSetupWizard=false
     command: >
       bash -c "apt-get update && 
-      apt-get install -y docker.io && 
+      apt-get install -y docker.io git && 
       chmod 666 /var/run/docker.sock && 
+      chown -R jenkins:jenkins /var/jenkins_home && 
       /usr/local/bin/jenkins.sh" 
