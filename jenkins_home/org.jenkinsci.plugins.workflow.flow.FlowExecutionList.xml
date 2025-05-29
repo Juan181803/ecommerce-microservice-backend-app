@@ -1,2 +1,7 @@
 <?xml version='1.1' encoding='UTF-8'?>
-<list/>
+<list>
+  <flow-owner plugin="workflow-job@1520.v56d65e3b_4566">
+    <job>ecommerce-pipeline</job>
+    <id>10</id>
+  </flow-owner>
+</list>
