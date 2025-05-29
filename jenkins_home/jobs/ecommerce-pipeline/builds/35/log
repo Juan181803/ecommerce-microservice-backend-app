@@ -1,0 +1,84 @@
+Started by user unknown or anonymous
+[8mha:////4EGA9YH6v7JDXZigaFRU9r8OMVBTKWObfirqamAPj0iGAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4JyuvsiODdFXQgG9Uiz8pfxzKw4MAXJGDGFAPNgx+2V+AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4BDhZg4GHKj9nwI3EF3HrMLePrf+UZG7iq3VK85eKqtCAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/ecommerce-pipeline@2
+[8mha:////4OlMS44uSW1z/yotadzo1dBzH3caF7rCWBQvf2V0Ct/LAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4DD92tCtAw8NwyF4gKMSVk99mqQoLfE0Z0NvvgUF/OYuAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] withEnv
+[8mha:////4PryYDLlAcBgn9837YMCk9o2qhoQXVKW7Z7UnHeTuKjOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4MvclvKH8b+spWIpse8YSz9HBpLGqN94rYR8w7WgKRNNAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4Pi4qvoyZHxBakjKaz1qq1wxixNiFUjoy+ndxcaHyGmzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Build)
+[8mha:////4P7WulShPkMaZzkVao7CxuDkiUogyRDmuCS3JI5Z5YSyAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] sh
++ echo Building the project...
+Building the project...
+[8mha:////4AuzLTIUddeNGALJHaeuWfIrhzYPFB9EoSc3d8Aw2cAXAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] sh
++ pwd
++ echo Current directory: /var/jenkins_home/workspace/ecommerce-pipeline@2
+Current directory: /var/jenkins_home/workspace/ecommerce-pipeline@2
+[8mha:////4K5+fJ8fKKElNpNHKUp3WpE7+kQDxBfRWQDjVFpffKzmAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YJsL8jLsv8AYAPmjb0AAAA=[0m[Pipeline] sh
++ echo Listing all files in current directory:
+Listing all files in current directory:
+[8mha:////4DpnW5h25DGmFF2q0kJ2LKn34fumataCj55G2vbiXdLdAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDf7roPo1DLpr0AAAA=[0m[Pipeline] sh
++ ls -la
+total 2440
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:57 .
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 ..
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:58 .git
+-rwxrwxrwx 1 jenkins jenkins     305 May 29 11:31 .gitattributes
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 .github
+-rwxrwxrwx 1 jenkins jenkins    5529 May 29 11:31 .gitignore
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 .mvn
+-rwxrwxrwx 1 jenkins jenkins    6253 May 29 11:57 Jenkinsfile
+-rwxrwxrwx 1 jenkins jenkins   32776 May 29 11:31 README.md
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 api-gateway
+-rwxrwxrwx 1 jenkins jenkins  924877 May 29 11:31 app-architecture.drawio
+-rwxrwxrwx 1 jenkins jenkins 1229773 May 29 11:31 app-architecture.drawio.png
+-rwxrwxrwx 1 jenkins jenkins     362 May 29 11:31 azure-pipelines.yml
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 cloud-config
+-rwxrwxrwx 1 jenkins jenkins    7148 May 29 11:31 compose.yml
+-rwxrwxrwx 1 jenkins jenkins    6189 May 29 11:31 ecommerce-ERD.drawio
+-rwxrwxrwx 1 jenkins jenkins  146852 May 29 11:31 ecommerce-ERD.drawio.png
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 favourite-service
+-rwxrwxrwx 1 jenkins jenkins     658 May 29 11:57 jenkins-compose.yml
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:57 jenkins_home
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 k8s
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 locust
+-rwxrwxrwx 1 jenkins jenkins   10070 May 29 11:31 mvnw
+-rwxrwxrwx 1 jenkins jenkins    6608 May 29 11:31 mvnw.cmd
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 newman
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 order-service
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 payment-service
+-rwxrwxrwx 1 jenkins jenkins    3880 May 29 11:31 pom.xml
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 product-service
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 proxy-client
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 service-discovery
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 shipping-service
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 src
+-rwxrwxrwx 1 jenkins jenkins      23 May 29 11:31 system.properties
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 terraform
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 user-service
+-rwxrwxrwx 1 jenkins jenkins   93822 May 29 11:31 zipkin-dash.png
+[8mha:////4Ps+r8thxLAYybvOP7XCIIcmgqy80oveEGC41lRCXixpAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5dtd9AOJh0L+9AAAA[0m[Pipeline] sh
++ docker run --rm -v /var/jenkins_home/workspace/ecommerce-pipeline:/app -v /root/.m2:/root/.m2 -w /app maven:3.9.6-eclipse-temurin-11 mvn clean install -DskipTests
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.285 s
+[INFO] Finished at: 2025-05-29T13:13:17Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] The goal you specified requires a project to execute but there is no POM in this directory (/app). Please verify you invoked Maven from the correct directory. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+[8mha:////4ISJU5oJIZHF59j+s10SDYOlVUI62Los68Cym16gbb7iAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREgUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBNn+A27Bcy69AAAA[0m[Pipeline] }
+[8mha:////4PCcU8VZ/FwvELx5iZd5/pT861QsRZ7KZ5gH5AhEWKNJAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBaJAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AE/1rIO9AAAA[0m[Pipeline] // stage
+[8mha:////4FK2QuiLmFzZl1gb230Z5cSkD37wdBoHNEAR3/ebX0rkAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiKMDY1jZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwACb8Ls70AAAA=[0m[Pipeline] }
+[8mha:////4NGEQr154NQLsCaFVaGQ3Q1HqgLBBHKDh7LPaqsNcvS/AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBaJAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AAPHYhe9AAAA[0m[Pipeline] // withEnv
+[8mha:////4Pgiw7kSsxQFpnbvjZ6SSuY6TYpuCgM+SpGufPvaLnyDAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREgUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBdnuA0RgNeK9AAAA[0m[Pipeline] }
+[8mha:////4PHkYAGvg/6UR5hXSO09TBjMMbdvBxwE/TA6ZiN76/LuAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPV9wxQb0AAAA=[0m[Pipeline] // node
+[8mha:////4Lb1QaDUnA+ctR0NfK9iC9Ms33fW7vg4lIN0Smhw1IY+AAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI4tI6VbYbGE0SIMZDZxWQRKk/k1byDjMxY+av/XvNeb6xTxJGjU62lzlOqverD4OanRo7dNfCoWr6omilxsKqyY8WNPS1YsVgsy3KsNDaW6sDJkxNsdWsepgiGXHGWOLuDRu6bO57I9FwWE+ULU8TuNjSJ6df5G8DU94K83Auy8gMe/LK9vQAAAA==[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

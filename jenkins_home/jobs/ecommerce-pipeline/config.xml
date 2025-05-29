@@ -12,25 +12,187 @@
   <description></description>
   <keepDependencies>false</keepDependencies>
   <properties/>
-  <definition class="org.jenkinsci.plugins.workflow.cps.CpsScmFlowDefinition" plugin="workflow-cps@4106.v7a_8a_8176d450">
-    <scm class="hudson.plugins.git.GitSCM" plugin="git@5.7.0">
-      <configVersion>2</configVersion>
-      <userRemoteConfigs>
-        <hudson.plugins.git.UserRemoteConfig>
-          <url>https://github.com/Juan181803/ecommerce-microservice-backend-app.git</url>
-        </hudson.plugins.git.UserRemoteConfig>
-      </userRemoteConfigs>
-      <branches>
-        <hudson.plugins.git.BranchSpec>
-          <name>*/main</name>
-        </hudson.plugins.git.BranchSpec>
-      </branches>
-      <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
-      <submoduleCfg class="empty-list"/>
-      <extensions/>
-    </scm>
-    <scriptPath>Jenkinsfile</scriptPath>
-    <lightweight>true</lightweight>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@4106.v7a_8a_8176d450">
+    <script>pipeline {
+  agent any
+
+  environment {
+    K8S_MANIFESTS_DIR = &apos;k8s&apos;
+    NEWMAN_IMAGE_NAME = &apos;juanito0702&apos;
+    NEWMAN_IMAGE_TAG = &quot;latest&quot;
+    NEWMAN_REPORTS_DIR = &apos;newman-reports&apos;
+    PROFILE = &apos;dev&apos;
+    DOCKER_IMAGE_NAME = &apos;juanito0702&apos;
+  }
+
+  stages {
+
+    stage(&apos;Preparar entorno&apos;) {
+      steps {
+        sh &apos;&apos;&apos;
+          echo &quot;Instalando dependencias necesarias...&quot;
+          apt-get update
+          apt-get install -y apt-transport-https ca-certificates curl gnupg lsb-release
+          
+          echo &quot;Limpiando configuración anterior de Docker...&quot;
+          rm -f /etc/apt/sources.list.d/docker.list
+          
+          echo &quot;Configurando repositorio de Docker...&quot;
+          install -m 0755 -d /etc/apt/keyrings
+          curl -fsSL https://download.docker.com/linux/debian/gpg | gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+          chmod a+r /etc/apt/keyrings/docker.gpg
+          
+          echo &quot;deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian $(lsb_release -cs) stable&quot; | tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+          
+          echo &quot;Actualizando repositorios...&quot;
+          apt-get update
+          
+          echo &quot;Instalando Docker...&quot;
+          apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+          
+          echo &quot;Verificando instalación de Docker...&quot;
+          docker --version
+        &apos;&apos;&apos;
+      }
+    }
+
+    stage(&apos;User Input&apos;) {
+      steps {
+        script {
+          env.PROFILE = input message: &quot;Elige un perfil (prod / dev / stage)&quot;,
+                              parameters: [choice(name: &apos;PROFILE&apos;, choices: [&apos;prod&apos;, &apos;dev&apos;, &apos;stage&apos;], description: &apos;Selecciona el perfil de despliegue&apos;)]
+        }
+      }
+    }
+
+    stage(&apos;Checkout&apos;) {
+      steps {
+        checkout scm
+      }
+    }
+    
+    stage(&apos;Build&apos;) {
+      steps {
+        sh &apos;&apos;&apos;
+          echo &quot;Building the project...&quot;
+          docker run --rm -v &quot;$WORKSPACE&quot;:/app -w /app maven:3.9.6-eclipse-temurin-11 mvn clean package -DskipTests
+        &apos;&apos;&apos;
+      }
+    }
+
+    stage(&apos;Unit and Integration Tests&apos;) {
+      steps {
+        sh &apos;&apos;&apos;
+          echo &quot;Running unit and integration tests...&quot;
+          docker run --rm -v &quot;$WORKSPACE&quot;:/app -w /app maven:3.9.6-eclipse-temurin-11 mvn clean verify -DskipTests=false
+        &apos;&apos;&apos;
+      }
+    }
+
+    stage(&apos;Build and Push Docker Images&apos;) {
+      steps {
+        withCredentials([usernamePassword(
+          credentialsId: &apos;docker-hub-credentials&apos;,
+          usernameVariable: &apos;DOCKER_USERNAME&apos;,
+          passwordVariable: &apos;DOCKER_PASSWORD&apos;
+        )]) {
+          sh &apos;&apos;&apos;
+            echo &quot;Logging in to Docker Hub...&quot;
+            echo &quot;$DOCKER_PASSWORD&quot; | docker login -u &quot;$DOCKER_USERNAME&quot; --password-stdin
+
+            echo &quot;Building and pushing Docker images...&quot;
+            docker-compose -f compose.yml build
+            docker-compose -f compose.yml push
+
+            echo &quot;Logout from Docker Hub...&quot;
+            docker logout
+          &apos;&apos;&apos;
+        }
+      }
+    }
+    
+    stage(&apos;Desplegar manifiestos&apos;) {
+      steps {
+        sh &apos;&apos;&apos;
+          echo &quot;Deploying Core Services...&quot;
+          echo &quot;Deploying Zipkin...&quot;
+          kubectl apply -f ${K8S_MANIFESTS_DIR}/core/zipkin-deployment.yaml
+          kubectl wait --for=condition=ready pod -l app=zipkin --timeout=200s
+          
+          echo &quot;Deploying Service Discovery...&quot;
+          kubectl apply -f ${K8S_MANIFESTS_DIR}/$PROFILE/service-discovery-deployment.yaml
+          kubectl wait --for=condition=ready pod -l app=service-discovery --timeout=300s
+
+          echo &quot;Deploying Cloud Config...&quot;
+          kubectl apply -f ${K8S_MANIFESTS_DIR}/core/cloud-config-deployment.yaml
+          kubectl wait --for=condition=ready pod -l app=cloud-config --timeout=300s
+        &apos;&apos;&apos;
+      }
+    }
+
+    stage(&apos;Desplegar microservicios&apos;) {
+      steps {
+        sh &quot;&quot;&quot;
+          echo &quot;Deploying Microservices...&quot;
+          kubectl apply -f ${K8S_MANIFESTS_DIR}/${PROFILE}/api-gateway-deployment.yaml
+          kubectl wait --for=condition=ready pod -l app=api-gateway --timeout=300s
+          kubectl apply -f ${K8S_MANIFESTS_DIR}/${PROFILE}/favourite-service-deployment.yaml
+          kubectl wait --for=condition=ready pod -l app=favourite-service --timeout=300s
+          kubectl apply -f ${K8S_MANIFESTS_DIR}/${PROFILE}/order-service-deployment.yaml
+          kubectl wait --for=condition=ready pod -l app=order-service --timeout=300s
+          kubectl apply -f ${K8S_MANIFESTS_DIR}/${PROFILE}/payment-service-deployment.yaml
+          kubectl wait --for=condition=ready pod -l app=payment-service --timeout=300s
+          kubectl apply -f ${K8S_MANIFESTS_DIR}/${PROFILE}/product-service-deployment.yaml
+          kubectl wait --for=condition=ready pod -l app=product-service --timeout=300s
+          kubectl apply -f ${K8S_MANIFESTS_DIR}/${PROFILE}/proxy-client-deployment.yaml
+          kubectl wait --for=condition=ready pod -l app=proxy-client --timeout=300s
+          kubectl apply -f ${K8S_MANIFESTS_DIR}/${PROFILE}/shipping-service-deployment.yaml
+          kubectl wait --for=condition=ready pod -l app=shipping-service --timeout=300s
+          kubectl apply -f ${K8S_MANIFESTS_DIR}/${PROFILE}/user-service-deployment.yaml
+          kubectl wait --for=condition=ready pod -l app=user-service --timeout=300s
+        &quot;&quot;&quot;
+      }
+    }
+    stage(&apos;Correr e2e&apos;) {
+      when {
+        expression { env.PROFILE == &apos;stage&apos; }
+      }
+      steps {
+        sh &apos;&apos;&apos;
+          echo &quot;Running E2E tests...&quot;
+          kubectl apply -f ${K8S_MANIFESTS_DIR}/core/newman-e2e-job.yaml
+          kubectl wait --for=condition=complete job/newman-e2e-job --timeout=600s
+          echo &quot;Fetching Newman results...&quot;
+          kubectl logs job/newman-e2e-tests
+        &apos;&apos;&apos;
+      }
+    }
+    
+    stage(&apos;Desplegar Locust&apos;) {
+      when {
+        expression { env.PROFILE == &apos;dev&apos; || env.PROFILE == &apos;stage&apos; }
+      }
+      steps {
+        sh &apos;&apos;&apos;
+          echo &quot;Deploying Locust...&quot;
+          kubectl apply -f ${K8S_MANIFESTS_DIR}/core/locust-deployment.yaml
+
+          echo &quot;Esperando a que el servicio esté disponible...&quot;
+          kubectl wait --for=condition=ready pod -l app=locust --timeout=300s
+          
+          echo &quot;Obteniendo la URL de Locust...&quot;
+          LOCUST_URL=$(kubectl get svc locust -o jsonpath=&apos;{.status.loadBalancer.ingress[0].ip}&apos;)
+          if [ -z &quot;$LOCUST_URL&quot; ]; then
+            LOCUST_URL=&quot;localhost&quot;
+          fi
+          echo &quot;Locust está disponible en: http://$LOCUST_URL:8089&quot;
+        &apos;&apos;&apos;
+      }
+    }
+    
+  }
+}</script>
+    <sandbox>true</sandbox>
   </definition>
   <triggers/>
   <disabled>false</disabled>

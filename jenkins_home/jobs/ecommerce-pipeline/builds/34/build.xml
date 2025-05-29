@@ -1,0 +1,102 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1520.v56d65e3b_4566">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.32-476.v5042e1c1edd7">
+      <queuingDurationMillis>3</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>0</buildableDurationMillis>
+      <waitingDurationMillis>1</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@752.vdddedf804e72">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+  </actions>
+  <queueId>26</queueId>
+  <timestamp>1748524259772</timestamp>
+  <startTime>1748524259793</startTime>
+  <result>FAILURE</result>
+  <duration>1605</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>// ... existing code ...
+    stage(&apos;Build&apos;) {
+      steps {
+        sh &apos;&apos;&apos;
+          echo &quot;Building the full Maven multi-module project...&quot;
+          echo &quot;Current directory: $(pwd)&quot;
+          echo &quot;Listing all files in current directory:&quot;
+          ls -la
+
+          docker run --rm \
+            -v &quot;/var/jenkins_home/workspace/ecommerce-pipeline:/app&quot; \
+            -v &quot;$HOME/.m2:/root/.m2&quot; \
+            -w /app \
+            maven:3.9.6-eclipse-temurin-11 \
+            mvn clean install -DskipTests
+        &apos;&apos;&apos;
+      }
+    }
+
+    stage(&apos;Unit and Integration Tests&apos;) {
+      steps {
+        sh &apos;&apos;&apos;
+          echo &quot;Running unit and integration tests for all modules...&quot;
+          docker run --rm \
+            -v &quot;/var/jenkins_home/workspace/ecommerce-pipeline:/app&quot; \
+            -v &quot;$HOME/.m2:/root/.m2&quot; \
+            -w /app \
+            maven:3.9.6-eclipse-temurin-11 \
+            mvn verify
+        &apos;&apos;&apos;
+      }
+    }
+// ... existing code ...</script>
+    <loadedScripts class="linked-hash-map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>326008800</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>71759078</long>
+      </entry>
+      <entry>
+        <string>runQueue</string>
+        <long>722016756</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>1393715069</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>76413438</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>166790641</long>
+      </entry>
+    </timings>
+    <internalCalls class="sorted-set"/>
+    <sandbox>true</sandbox>
+    <iota>7</iota>
+    <head>1:7</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+    <storageDir>workflow-completed</storageDir>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>
