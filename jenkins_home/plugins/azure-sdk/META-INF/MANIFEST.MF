@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 17
+Specification-Title: Azure SDK API Plugin
+Specification-Version: 0.0
+Implementation-Title: Azure SDK API Plugin
+Implementation-Version: 223.vff769b_ce66b_b_
+Group-Id: io.jenkins.plugins
+Artifact-Id: azure-sdk
+Short-Name: azure-sdk
+Long-Name: Azure SDK API Plugin
+Url: https://github.com/jenkinsci/azure-sdk-plugin
+Plugin-Version: 223.vff769b_ce66b_b_
+Hudson-Version: 2.479.3
+Jenkins-Version: 2.479.3
+Plugin-Dependencies: json-path-api:2.9.0-148.v22a_7ffe323ce,netty-api:4.
+ 1.118.Final-9.v776038d601a_7,jackson2-api:2.18.3-402.v74c4eb_f122b_2
+Plugin-Developers: 
+Support-Dynamic-Loading: true
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/azure-sdk-plu
+ gin
+Plugin-ScmTag: ff769bce66bbc790d738552f24b5c56bc7b4ccb3
+Plugin-ScmUrl: https://github.com/jenkinsci/azure-sdk-plugin
+Implementation-Build: ff769bce66bbc790d738552f24b5c56bc7b4ccb3
+
