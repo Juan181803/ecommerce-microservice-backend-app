@@ -9,8 +9,8 @@ spec:
     spec:
       restartPolicy: Never
       containers:
-        - name: newman
-          image: leferez/newman-e2e:latest
+        - name: newman-e2e
+          image: juanito0702/newman-e2e:latest
           volumeMounts:
             - name: reports
               mountPath: /etc/newman/reports

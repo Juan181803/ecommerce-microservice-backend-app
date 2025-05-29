@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: user-service
-        image: leferez/user-service:latest
+        image: juanito0702/user-service:latest
         ports:
         - containerPort: 8700
         env:

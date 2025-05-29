@@ -5,7 +5,7 @@ services:
     ports:
       - 9411:9411
   service-discovery-container:
-    image: leferez/service-discovery:latest
+    image: juanito0702/service-discovery:latest
     build:
       context: ./service-discovery
       dockerfile: Dockerfile
@@ -25,7 +25,7 @@ services:
       zipkin-container:
         condition: service_started
   cloud-config-container:
-    image: leferez/cloud-config:latest
+    image: juanito0702/cloud-config:latest
     build:
       context: ./cloud-config
       dockerfile: Dockerfile
@@ -48,7 +48,7 @@ services:
       zipkin-container:
         condition: service_started
   api-gateway-container:
-    image: leferez/api-gateway:latest
+    image: juanito0702/api-gateway:latest
     build:
       context: ./api-gateway
       dockerfile: Dockerfile
@@ -67,7 +67,7 @@ services:
       zipkin-container:
         condition: service_started
   proxy-client-container:
-    image: leferez/proxy-client:latest
+    image: juanito0702/proxy-client:latest
     build:
       context: ./proxy-client
       dockerfile: Dockerfile
@@ -86,7 +86,7 @@ services:
       zipkin-container:
         condition: service_started
   order-service-container:
-    image: leferez/order-service:latest
+    image: juanito0702/order-service:latest
     build:
       context: ./order-service
       dockerfile: Dockerfile
@@ -105,7 +105,7 @@ services:
       zipkin-container:
         condition: service_started
   payment-service-container:
-    image: leferez/payment-service:latest
+    image: juanito0702/payment-service:latest
     build:
       context: ./payment-service
       dockerfile: Dockerfile
@@ -124,7 +124,7 @@ services:
       zipkin-container:
         condition: service_started
   product-service-container:
-    image: leferez/product-service:latest
+    image: juanito0702/product-service:latest
     build:
       context: ./product-service
       dockerfile: Dockerfile
@@ -143,7 +143,7 @@ services:
       zipkin-container:
         condition: service_started
   shipping-service-container:
-    image: leferez/shipping-service:latest
+    image: juanito0702/shipping-service:latest
     build:
       context: ./shipping-service
       dockerfile: Dockerfile
@@ -162,7 +162,7 @@ services:
       zipkin-container:
         condition: service_started
   user-service-container:
-    image: leferez/user-service:latest
+    image: juanito0702/user-service:latest
     build:
       context: ./user-service
       dockerfile: Dockerfile
@@ -181,7 +181,7 @@ services:
       zipkin-container:
         condition: service_started
   favourite-service-container:
-    image: leferez/favourite-service:latest
+    image: juanito0702/favourite-service:latest
     build:
       context: ./favourite-service
       dockerfile: Dockerfile
@@ -200,7 +200,7 @@ services:
       zipkin-container:
         condition: service_started
   locust-container:
-    image: leferez/locust
+    image: juanito0702/locust
     build:
       context: ./locust
       dockerfile: Dockerfile
@@ -219,7 +219,7 @@ services:
       - user-service-container
       - favourite-service-container
   newman-container:
-    image: leferez/newman-e2e:latest
+    image: juanito0702/newman-e2e:latest
     build:
       context: ./newman
       dockerfile: Dockerfile

@@ -1,63 +1,37 @@
 pipeline {
-  agent {
-    docker {
-      image 'maven:3.9.6-eclipse-temurin-11'  // imagen oficial con az y kubectl
-      args '-u 0:0 -v /var/run/docker.sock:/var/run/docker.sock' // Mount Docker socket
-    }
-  }
+  agent any
 
   environment {
     K8S_MANIFESTS_DIR = 'k8s'
-    NEWMAN_IMAGE_NAME = 'juanito0702/ecommerce-newman-runner'
+    NEWMAN_IMAGE_NAME = 'juanito0702'
     NEWMAN_IMAGE_TAG = "latest"
     NEWMAN_REPORTS_DIR = 'newman-reports'
+    PROFILE = 'dev'
+    DOCKER_IMAGE_NAME = 'juanito0702'
   }
 
   stages {
 
-    stage('Prepare Env') {
+    stage('Preparar entorno') {
       steps {
-        script {
-          // Instalar docker-compose, az y kubectl si no están disponibles
-          sh '''
-            apt-get update && apt-get install -y ca-certificates curl gnupg apt-transport-https
-
-            # Setup Docker repository and install Docker CLI
-            echo "Configurando repositorio de Docker..."
-            install -m 0755 -d /etc/apt/keyrings
-            curl -fsSL https://download.docker.com/linux/ubuntu/gpg | gpg --dearmor -o /etc/apt/keyrings/docker.gpg
-            chmod a+r /etc/apt/keyrings/docker.gpg
-            echo \
-              "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
-              $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
-              tee /etc/apt/sources.list.d/docker.list > /dev/null
-            
-            apt-get update
-
-            echo "Instalando Docker CLI..."
-            if ! command -v docker &> /dev/null; then
-              apt-get install -y docker-ce-cli
-            else
-              echo "Docker CLI ya está instalado."
-            fi
-
-            echo "Instalando docker-compose..."
-            if ! command -v docker-compose &> /dev/null; then
-              apt-get install -y docker-compose
-            else
-              echo "docker-compose ya está instalado."
-            fi
-
-            echo "Instalando kubectl..."
-            if ! command -v kubectl &> /dev/null; then
-              curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
-              chmod +x kubectl
-              mv kubectl /usr/local/bin/
-            else
-              echo "kubectl ya está instalado."
-            fi
-          '''
-        }
+        sh '''
+          echo "Instalando dependencias necesarias..."
+          apt-get update
+          apt-get install -y apt-transport-https ca-certificates curl gnupg lsb-release
+          
+          echo "Configurando repositorio de Docker..."
+          install -m 0755 -d /etc/apt/keyrings
+          curl -fsSL https://download.docker.com/linux/ubuntu/gpg | gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+          chmod a+r /etc/apt/keyrings/docker.gpg
+          echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | tee /etc/apt/sources.list.d/docker.list > /dev/null
+          
+          echo "Instalando Docker..."
+          apt-get update
+          apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+          
+          echo "Verificando instalación de Docker..."
+          docker --version
+        '''
       }
     }
 
@@ -80,7 +54,7 @@ pipeline {
       steps {
         sh '''
           echo "Building the project..."
-          mvn clean package -DskipTests
+          docker run --rm -v "$WORKSPACE":/app -w /app maven:3.9.6-eclipse-temurin-11 mvn clean package -DskipTests
         '''
       }
     }
@@ -89,7 +63,7 @@ pipeline {
       steps {
         sh '''
           echo "Running unit and integration tests..."
-          mvn clean verify -DskipTests=false
+          docker run --rm -v "$WORKSPACE":/app -w /app maven:3.9.6-eclipse-temurin-11 mvn clean verify -DskipTests=false
         '''
       }
     }

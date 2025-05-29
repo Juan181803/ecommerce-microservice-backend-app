@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2025-05-29 09:53:52.844 UTC</timestamp>
+  <md5sum>c273e864e933eca9713c4dd3c2c1fb61</md5sum>
+  <fileName>Credential id=docker-hub-credentials name=juanito0702/****** (Docker Hub Credentials)</fileName>
+  <usages>
+    <entry>
+      <string>ecommerce-pipeline</string>
+      <ranges>4,6-8</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

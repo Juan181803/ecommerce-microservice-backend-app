@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: shipping-service
-        image: leferez/shipping-service:latest
+        image: juanito0702/shipping-service:latest
         ports:
         - containerPort: 8600
         env:
@@ -26,8 +26,6 @@ spec:
           value: "http://zipkin:9411"
         - name: SPRING_CONFIG_IMPORT
           value: "optional:configserver:http://cloud-config:9296"
-        - name: EUREKA_CLIENT_SERVICEURL_DEFAULTZONE
-          value: "http://service-discovery:8761/eureka/"
         - name: EUREKA_INSTANCE
           value: "shipping-service"
         readinessProbe:
