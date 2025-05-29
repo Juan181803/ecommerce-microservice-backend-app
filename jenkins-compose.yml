@@ -12,6 +12,7 @@ services:
       - ./jenkins_home:/var/jenkins_home
       - /var/run/docker.sock:/var/run/docker.sock
       - .:/var/jenkins_home/workspace/ecommerce-pipeline
+      - ./.git:/var/jenkins_home/workspace/ecommerce-pipeline/.git
     environment:
       - JAVA_OPTS=-Djenkins.install.runSetupWizard=false
     command: >
@@ -19,4 +20,6 @@ services:
       apt-get install -y docker.io git && 
       chmod 666 /var/run/docker.sock && 
       chown -R jenkins:jenkins /var/jenkins_home && 
+      cd /var/jenkins_home/workspace/ecommerce-pipeline && 
+      git config --global --add safe.directory /var/jenkins_home/workspace/ecommerce-pipeline && 
       /usr/local/bin/jenkins.sh" 

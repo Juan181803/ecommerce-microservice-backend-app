@@ -14,13 +14,17 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        checkout([
-          $class: 'GitSCM',
-          branches: [[name: '*/main']],
-          userRemoteConfigs: [[
-            url: 'https://github.com/Juan181803/ecommerce-microservice-backend-app.git'
-          ]]
-        ])
+        sh '''
+          echo "Verificando directorio Git..."
+          cd ${WORKSPACE_PATH}
+          if [ ! -d ".git" ]; then
+            echo "Inicializando repositorio Git..."
+            git init
+            git remote add origin https://github.com/Juan181803/ecommerce-microservice-backend-app.git
+            git fetch
+            git checkout -f main
+          fi
+        '''
       }
     }
 
