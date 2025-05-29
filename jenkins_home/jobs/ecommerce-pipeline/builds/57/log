@@ -1,0 +1,1355 @@
+Started by user unknown or anonymous
+[8mha:////4EGA9YH6v7JDXZigaFRU9r8OMVBTKWObfirqamAPj0iGAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4JyuvsiODdFXQgG9Uiz8pfxzKw4MAXJGDGFAPNgx+2V+AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4BDhZg4GHKj9nwI3EF3HrMLePrf+UZG7iq3VK85eKqtCAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/ecommerce-pipeline@2
+[8mha:////4OlMS44uSW1z/yotadzo1dBzH3caF7rCWBQvf2V0Ct/LAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4DD92tCtAw8NwyF4gKMSVk99mqQoLfE0Z0NvvgUF/OYuAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] withEnv
+[8mha:////4PryYDLlAcBgn9837YMCk9o2qhoQXVKW7Z7UnHeTuKjOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4MvclvKH8b+spWIpse8YSz9HBpLGqN94rYR8w7WgKRNNAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4Pi4qvoyZHxBakjKaz1qq1wxixNiFUjoy+ndxcaHyGmzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Preparación)
+[8mha:////4P7WulShPkMaZzkVao7CxuDkiUogyRDmuCS3JI5Z5YSyAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] sh
++ echo Verificando Java...
+Verificando Java...
++ java -version
+openjdk version "21.0.7" 2025-04-15 LTS
+OpenJDK Runtime Environment Temurin-21.0.7+6 (build 21.0.7+6-LTS)
+OpenJDK 64-Bit Server VM Temurin-21.0.7+6 (build 21.0.7+6-LTS, mixed mode)
++ echo Verificando archivos necesarios...
+Verificando archivos necesarios...
++ pwd
++ echo Current directory: /var/jenkins_home/workspace/ecommerce-pipeline@2
+Current directory: /var/jenkins_home/workspace/ecommerce-pipeline@2
++ echo Workspace directory: /var/jenkins_home/workspace/ecommerce-pipeline@2
+Workspace directory: /var/jenkins_home/workspace/ecommerce-pipeline@2
++ echo Listing all files in current directory:
+Listing all files in current directory:
++ ls -la
+total 2440
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:57 .
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 ..
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:58 .git
+-rwxrwxrwx 1 jenkins jenkins     305 May 29 11:31 .gitattributes
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 .github
+-rwxrwxrwx 1 jenkins jenkins    5529 May 29 11:31 .gitignore
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 .mvn
+-rwxrwxrwx 1 jenkins jenkins    6253 May 29 11:57 Jenkinsfile
+-rwxrwxrwx 1 jenkins jenkins   32776 May 29 11:31 README.md
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 14:57 api-gateway
+-rwxrwxrwx 1 jenkins jenkins  924877 May 29 11:31 app-architecture.drawio
+-rwxrwxrwx 1 jenkins jenkins 1229773 May 29 11:31 app-architecture.drawio.png
+-rwxrwxrwx 1 jenkins jenkins     362 May 29 11:31 azure-pipelines.yml
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 14:57 cloud-config
+-rwxrwxrwx 1 jenkins jenkins    7148 May 29 11:31 compose.yml
+-rwxrwxrwx 1 jenkins jenkins    6189 May 29 11:31 ecommerce-ERD.drawio
+-rwxrwxrwx 1 jenkins jenkins  146852 May 29 11:31 ecommerce-ERD.drawio.png
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 favourite-service
+-rwxrwxrwx 1 jenkins jenkins     658 May 29 11:57 jenkins-compose.yml
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:57 jenkins_home
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 k8s
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 locust
+-rwxrwxrwx 1 jenkins jenkins   10070 May 29 11:31 mvnw
+-rwxrwxrwx 1 jenkins jenkins    6608 May 29 11:31 mvnw.cmd
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 newman
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 order-service
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 payment-service
+-rwxrwxrwx 1 jenkins jenkins    3880 May 29 11:31 pom.xml
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 product-service
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 14:57 proxy-client
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 14:57 service-discovery
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 shipping-service
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 src
+-rwxrwxrwx 1 jenkins jenkins      23 May 29 11:31 system.properties
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 terraform
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 user-service
+-rwxrwxrwx 1 jenkins jenkins   93822 May 29 11:31 zipkin-dash.png
++ [ ! -f pom.xml ]
++ echo Verificando Maven wrapper...
+Verificando Maven wrapper...
++ [ ! -f mvnw ]
++ chmod +x mvnw
++ echo Verificando el módulo proxy-client...
+Verificando el módulo proxy-client...
++ cd proxy-client
++ echo Contenido del directorio proxy-client:
+Contenido del directorio proxy-client:
++ ls -la
+total 24
+drwxrwxrwx 1 jenkins jenkins  4096 May 29 14:57 .
+drwxrwxrwx 1 jenkins jenkins  4096 May 29 11:57 ..
+-rwxrwxrwx 1 jenkins jenkins   395 May 29 11:31 .gitignore
+drwxrwxrwx 1 jenkins jenkins  4096 May 29 11:31 .mvn
+-rwxrwxrwx 1 jenkins jenkins   296 May 29 11:31 Dockerfile
+-rwxrwxrwx 1 jenkins jenkins   190 May 29 11:31 compose.yml
+-rwxrwxrwx 1 jenkins jenkins 10070 May 29 11:31 mvnw
+-rwxrwxrwx 1 jenkins jenkins  6608 May 29 11:31 mvnw.cmd
+-rwxrwxrwx 1 jenkins jenkins  3390 May 29 11:31 pom.xml
+drwxrwxrwx 1 jenkins jenkins  4096 May 29 11:31 src
+-rwxrwxrwx 1 jenkins jenkins    23 May 29 11:31 system.properties
+drwxr-xr-x 1 root    root     4096 May 29 14:58 target
++ echo Contenido de src/main/java:
+Contenido de src/main/java:
++ ls -la src/main/java/com/selimhorri/app
+total 4
+drwxrwxrwx 1 jenkins jenkins 4096 May 29 11:31 .
+drwxrwxrwx 1 jenkins jenkins 4096 May 29 11:31 ..
+-rwxrwxrwx 1 jenkins jenkins  508 May 29 11:31 ProxyClientApplication.java
+drwxrwxrwx 1 jenkins jenkins 4096 May 29 11:31 business
+drwxrwxrwx 1 jenkins jenkins 4096 May 29 11:31 config
+drwxrwxrwx 1 jenkins jenkins 4096 May 29 11:31 constant
+drwxrwxrwx 1 jenkins jenkins 4096 May 29 11:31 exception
+drwxrwxrwx 1 jenkins jenkins 4096 May 29 11:31 jwt
+drwxrwxrwx 1 jenkins jenkins 4096 May 29 11:31 security
+[8mha:////4BOUOi+xpgg4Z+ctz0coURvtlSjlD2MAaGqvUTFD3j96AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8Brmfz270AAAA=[0m[Pipeline] }
+[8mha:////4Ms2qkrlgKs6oC37A83enLo9/BYbUPlMxT5QpbLqhFgTAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIMlYVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8Aj1Msdr0AAAA=[0m[Pipeline] // stage
+[8mha:////4AJmtvC/WM0FK+JKZZLEqS+8LyEoPHdMLXqzQp9mil9qAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjKGgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxWb7OZZvfPyORMEAAAA=[0m[Pipeline] stage
+[8mha:////4DHh4B6puV379aKal71lmayS4emBbh6uLGqWkDfaHipHAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (User Input)
+[8mha:////4D4Ef3Dolq2wkMhDGLgsRseTa9yzi7Zl3zCm+/B+5b0xAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] script
+[8mha:////4DdkycdfHvjxFve2pEp6WmqgzDAUtTqzX98KCLBWT1QiAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[8mha:////4NY7H1BkqC4F0/i8qyJ4j7lmT+96EmzUyPMbEADym0rMAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] input
+[8mha:////4HJoRe9g5Iu85hKxJOpucF9cL1j8EVpKK8ZUJZtEccTiAAAAoR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgL2FQ1M/KT9JPTc7PzU0tSk7VLcgsSAXanapvaq6fmVdQWqIPAOt/UFSmAAAA[0mInput requested
+[8mha:////4ECEnI+CiOpW2zwcszRVq9wlSIj2HVOqZUy65BkeCrONAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGOY4V7vgAAAA==[0m[Pipeline] }
+[8mha:////4LPAGQ+EdQYtyln/GtuD2eqPRtVPODKO0Dk68zI7PpRvAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJAokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3N4dT9vgAAAA==[0m[Pipeline] // script
+[8mha:////4LJfo8BkPFHfLxym6iF7mgzdiFJaWTdONs8qjmSWI74oAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRIUQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N8un7Ki+AAAA[0m[Pipeline] }
+[8mha:////4AWGjSnOlKt+WIBnTbqniICTepJ2yGT/iMDIi0jnOc4ZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICaRFVWisNLzCxMU6sO2M7JBUv4mv8AYtIVGyx2tlmXm9YxwAnDgZ7TYOl2Fn0bjR54cRhuDqesOcLdkyRncZWTy0r3SzYctKwpChhJWCjqXMcLZkEW9HLh6ycJFOdU8jfUUBp1R2eUIhsTjKkL8wBdrdRRaaf568AZu8TlPU+16H+AAjcDMm+AAAA[0m[Pipeline] // stage
+[8mha:////4IzWEDLV0xD9kdtqiiOeDVGcnwIu6XCQgmKcdup7hTl7AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjKGgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxXbzOZZvT5Ty88EAAAA=[0m[Pipeline] stage
+[8mha:////4BJ3/NHrEYnIc7VgTo/ohP0AWFPqAaZp9IUO9esJ8mVtAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] { (Build)
+[8mha:////4FT6fb4wGARClIL6mSKmR/McFQuD1x0xOOYuJu/VvqbYAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] sh
++ echo Building the project...
+Building the project...
++ pwd
++ echo Current directory: /var/jenkins_home/workspace/ecommerce-pipeline@2
+Current directory: /var/jenkins_home/workspace/ecommerce-pipeline@2
++ echo Workspace directory: /var/jenkins_home/workspace/ecommerce-pipeline@2
+Workspace directory: /var/jenkins_home/workspace/ecommerce-pipeline@2
++ echo Listing all files in current directory:
+Listing all files in current directory:
++ ls -la
+total 2440
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:57 .
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 ..
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:58 .git
+-rwxrwxrwx 1 jenkins jenkins     305 May 29 11:31 .gitattributes
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 .github
+-rwxrwxrwx 1 jenkins jenkins    5529 May 29 11:31 .gitignore
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 .mvn
+-rwxrwxrwx 1 jenkins jenkins    6253 May 29 11:57 Jenkinsfile
+-rwxrwxrwx 1 jenkins jenkins   32776 May 29 11:31 README.md
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 14:57 api-gateway
+-rwxrwxrwx 1 jenkins jenkins  924877 May 29 11:31 app-architecture.drawio
+-rwxrwxrwx 1 jenkins jenkins 1229773 May 29 11:31 app-architecture.drawio.png
+-rwxrwxrwx 1 jenkins jenkins     362 May 29 11:31 azure-pipelines.yml
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 14:57 cloud-config
+-rwxrwxrwx 1 jenkins jenkins    7148 May 29 11:31 compose.yml
+-rwxrwxrwx 1 jenkins jenkins    6189 May 29 11:31 ecommerce-ERD.drawio
+-rwxrwxrwx 1 jenkins jenkins  146852 May 29 11:31 ecommerce-ERD.drawio.png
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 favourite-service
+-rwxrwxrwx 1 jenkins jenkins     658 May 29 11:57 jenkins-compose.yml
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:57 jenkins_home
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 k8s
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 locust
+-rwxrwxrwx 1 jenkins jenkins   10070 May 29 11:31 mvnw
+-rwxrwxrwx 1 jenkins jenkins    6608 May 29 11:31 mvnw.cmd
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 newman
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 order-service
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 payment-service
+-rwxrwxrwx 1 jenkins jenkins    3880 May 29 11:31 pom.xml
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 product-service
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 14:57 proxy-client
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 14:57 service-discovery
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 shipping-service
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 src
+-rwxrwxrwx 1 jenkins jenkins      23 May 29 11:31 system.properties
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 terraform
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 user-service
+-rwxrwxrwx 1 jenkins jenkins   93822 May 29 11:31 zipkin-dash.png
++ cd proxy-client
++ ../mvnw clean compile -X -Dmaven.compiler.source=11 -Dmaven.compiler.target=11 -Dlombok.addLombokGeneratedAnnotation=true -Dlombok.extern.findbugs.addSuppressFBWarnings=true
+Apache Maven 3.8.3 (ff8e977a158738155dc465c6a97ffaf31982d739)
+Maven home: /root/.m2/wrapper/dists/apache-maven-3.8.3-bin/5a6n1u8or3307vo2u2jgmkhm0t/apache-maven-3.8.3
+Java version: 21.0.7, vendor: Eclipse Adoptium, runtime: /opt/java/openjdk
+Default locale: en, platform encoding: UTF-8
+OS name: "linux", version: "5.15.167.4-microsoft-standard-wsl2", arch: "amd64", family: "unix"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from /root/.m2/wrapper/dists/apache-maven-3.8.3-bin/5a6n1u8or3307vo2u2jgmkhm0t/apache-maven-3.8.3/conf/settings.xml
+[DEBUG] Reading user settings from /root/.m2/settings.xml
+[DEBUG] Reading global toolchains from /root/.m2/wrapper/dists/apache-maven-3.8.3-bin/5a6n1u8or3307vo2u2jgmkhm0t/apache-maven-3.8.3/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /root/.m2/toolchains.xml
+[DEBUG] Using local repository at /root/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /root/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project com.selimhorri:proxy-client:jar:0.1.0: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.selimhorri:ecommerce-microservice-backend:pom:0.1.0: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.springframework.boot:spring-boot-starter-parent:pom:2.5.7: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.springframework.boot:spring-boot-dependencies:pom:2.5.7: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.selimhorri:proxy-client:jar:0.1.0
+[DEBUG] Tasks:   [clean, compile]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] --------------------< com.selimhorri:proxy-client >---------------------
+[INFO] Building proxy-client 0.1.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.selimhorri:proxy-client:0.1.0
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile]
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:3.1.0:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${maven.clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${maven.clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.build.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${maven.clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${maven.clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.2.0:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <delimiters>
+    <delimiter>@</delimiter>
+  </delimiters>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <propertiesEncoding>UTF-8</propertiesEncoding>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.resources.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true">false</useDefaultDelimiters>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compilePath default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <parameters default-value="false">true</parameters>
+  <project default-value="${project}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <release>${maven.compiler.release}</release>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.6">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.6">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://repository.apache.org/snapshots).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://people.apache.org/repo/m2-snapshot-repository).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for repository.jboss.org (http://repository.jboss.org/nexus/content/groups/public/).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for eclipselink.repository (http://www.eclipse.org/downloads/download.php?r=1&nf=1&file=/rt/eclipselink/maven.repo).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for spring-milestones (http://repo.spring.io/milestone).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for ow2-snapshot (http://repository.ow2.org/nexus/content/repositories/snapshots).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for vaadin-snapshots (http://oss.sonatype.org/content/repositories/vaadin-snapshots/).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for vaadin-releases (http://oss.sonatype.org/content/repositories/vaadin-releases/).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=3345839, ConflictMarker.markTime=1294693, ConflictMarker.nodeCount=547, ConflictIdSorter.graphTime=1888135, ConflictIdSorter.topsortTime=832860, ConflictIdSorter.conflictIdCount=222, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=36200690, ConflictResolver.conflictItemCount=446, DefaultDependencyCollector.collectTime=1199993929, DefaultDependencyCollector.transformTime=49488339}
+[DEBUG] com.selimhorri:proxy-client:jar:0.1.0
+[DEBUG]    org.springframework.boot:spring-boot-starter-security:jar:2.5.7:compile
+[DEBUG]       org.springframework:spring-aop:jar:5.3.13:compile (version managed from 5.3.13)
+[DEBUG]          org.springframework:spring-beans:jar:5.3.13:compile (version managed from 5.3.13)
+[DEBUG]       org.springframework.security:spring-security-config:jar:5.5.3:compile (version managed from 5.5.3)
+[DEBUG]          org.springframework:spring-context:jar:5.3.13:compile (version managed from 5.3.11)
+[DEBUG]       org.springframework.security:spring-security-web:jar:5.5.3:compile (version managed from 5.5.3)
+[DEBUG]          org.springframework:spring-expression:jar:5.3.13:compile (version managed from 5.3.11)
+[DEBUG]    org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.5.7:compile
+[DEBUG]       org.thymeleaf:thymeleaf-spring5:jar:3.0.12.RELEASE:compile (version managed from 3.0.12.RELEASE)
+[DEBUG]          org.thymeleaf:thymeleaf:jar:3.0.12.RELEASE:compile (version managed from 3.0.12.RELEASE)
+[DEBUG]             org.attoparser:attoparser:jar:2.0.5.RELEASE:compile
+[DEBUG]             org.unbescape:unbescape:jar:1.1.6.RELEASE:compile
+[DEBUG]       org.thymeleaf.extras:thymeleaf-extras-java8time:jar:3.0.4.RELEASE:compile (version managed from 3.0.4.RELEASE)
+[DEBUG]    org.springframework.boot:spring-boot-starter-web:jar:2.5.7:compile
+[DEBUG]       org.springframework.boot:spring-boot-starter-json:jar:2.5.7:compile (version managed from 2.5.7)
+[DEBUG]          com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.12.5:compile (version managed from 2.12.5)
+[DEBUG]          com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.12.5:compile (version managed from 2.12.5)
+[DEBUG]       org.springframework.boot:spring-boot-starter-tomcat:jar:2.5.7:compile (version managed from 2.5.7)
+[DEBUG]          org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.55:compile (version managed from 9.0.55)
+[DEBUG]          org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.55:compile (version managed from 9.0.55)
+[DEBUG]       org.springframework:spring-web:jar:5.3.13:compile (version managed from 5.3.13)
+[DEBUG]       org.springframework:spring-webmvc:jar:5.3.13:compile (version managed from 5.3.13)
+[DEBUG]    org.springframework.cloud:spring-cloud-starter-openfeign:jar:3.0.4:compile
+[DEBUG]       org.springframework.cloud:spring-cloud-starter:jar:3.0.4:compile (version managed from 3.0.4)
+[DEBUG]          org.springframework.cloud:spring-cloud-context:jar:3.0.4:compile (version managed from 3.0.4)
+[DEBUG]          org.springframework.security:spring-security-rsa:jar:1.0.10.RELEASE:compile (version managed from 1.0.10.RELEASE) (exclusions managed from [org.springframework:spring-core:*:*, org.springframework.security:spring-security-crypto:*:*])
+[DEBUG]             org.bouncycastle:bcpkix-jdk15on:jar:1.68:compile
+[DEBUG]                org.bouncycastle:bcprov-jdk15on:jar:1.68:compile
+[DEBUG]       org.springframework.cloud:spring-cloud-openfeign-core:jar:3.0.4:compile (version managed from 3.0.4)
+[DEBUG]          io.github.openfeign.form:feign-form-spring:jar:3.8.0:compile (version managed from 3.8.0)
+[DEBUG]             io.github.openfeign.form:feign-form:jar:3.8.0:compile
+[DEBUG]             commons-fileupload:commons-fileupload:jar:1.4:compile
+[DEBUG]                commons-io:commons-io:jar:2.2:compile
+[DEBUG]       org.springframework.cloud:spring-cloud-commons:jar:3.0.4:compile (version managed from 3.0.4)
+[DEBUG]          org.springframework.security:spring-security-crypto:jar:5.5.3:compile (version managed from 5.4.8)
+[DEBUG]       io.github.openfeign:feign-core:jar:10.12:compile (version managed from 10.12)
+[DEBUG]       io.github.openfeign:feign-slf4j:jar:10.12:compile (version managed from 10.12)
+[DEBUG]    org.springframework.cloud:spring-cloud-starter-config:jar:3.0.5:compile
+[DEBUG]       org.springframework.cloud:spring-cloud-config-client:jar:3.0.5:compile (version managed from 3.0.5)
+[DEBUG]          org.apache.httpcomponents:httpclient:jar:4.5.13:compile (version managed from 4.5.13) (exclusions managed from [commons-logging:commons-logging:*:*])
+[DEBUG]             org.apache.httpcomponents:httpcore:jar:4.4.14:compile (version managed from 4.4.13)
+[DEBUG]             commons-codec:commons-codec:jar:1.15:compile (version managed from 1.11)
+[DEBUG]       com.fasterxml.jackson.core:jackson-databind:jar:2.12.5:compile (version managed from 2.11.4)
+[DEBUG]    org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:3.0.4:compile
+[DEBUG]       org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:3.0.4:compile (version managed from 3.0.4)
+[DEBUG]       com.netflix.eureka:eureka-client:jar:1.10.16:compile (version managed from 1.10.16) (exclusions managed from [com.sun.jersey:jersey-client:*:*, com.sun.jersey:jersey-core:*:*, com.sun.jersey.contribs:jersey-apache-client4:*:*])
+[DEBUG]          com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0:compile
+[DEBUG]             com.netflix.netflix-commons:netflix-infix:jar:0.3.0:runtime
+[DEBUG]                commons-jxpath:commons-jxpath:jar:1.3:runtime
+[DEBUG]                joda-time:joda-time:jar:2.3:runtime
+[DEBUG]                org.antlr:antlr-runtime:jar:3.4:runtime
+[DEBUG]                   org.antlr:stringtemplate:jar:3.2.1:runtime
+[DEBUG]                   antlr:antlr:jar:2.7.7:runtime (version managed from 2.7.7)
+[DEBUG]                com.google.code.gson:gson:jar:2.8.9:runtime (version managed from 2.1)
+[DEBUG]             org.apache.commons:commons-math:jar:2.2:runtime
+[DEBUG]          com.thoughtworks.xstream:xstream:jar:1.4.18:compile (version managed from 1.4.17)
+[DEBUG]             io.github.x-stream:mxparser:jar:1.2.2:compile
+[DEBUG]                xmlpull:xmlpull:jar:1.1.3.1:compile
+[DEBUG]          javax.ws.rs:jsr311-api:jar:1.1.1:compile
+[DEBUG]          com.netflix.servo:servo-core:jar:0.12.21:compile
+[DEBUG]             com.google.guava:guava:jar:19.0:compile
+[DEBUG]          commons-configuration:commons-configuration:jar:1.10:compile
+[DEBUG]             commons-lang:commons-lang:jar:2.6:compile
+[DEBUG]          com.google.inject:guice:jar:4.1.0:compile
+[DEBUG]             javax.inject:javax.inject:jar:1:compile
+[DEBUG]             aopalliance:aopalliance:jar:1.0:compile
+[DEBUG]          org.codehaus.jettison:jettison:jar:1.4.0:runtime
+[DEBUG]       com.netflix.eureka:eureka-core:jar:1.10.16:compile (version managed from 1.10.16) (exclusions managed from [com.netflix.archaius:archaius-core:*:*, javax.servlet:servlet-api:*:*, commons-logging:commons-logging:*:*, log4j:log4j:*:*, blitz4j:com.netflix.blitz4j:*:*, com.google.code.findbugs:annotations:*:*, com.google.code.findbugs:jsr305:*:*, com.fasterxml.jackson.dataformat:jackson-dataformat-xml:*:*, com.amazonaws:*:*:*, com.thoughtworks.xstream:xstream:*:*])
+[DEBUG]          com.fasterxml.woodstox:woodstox-core:jar:6.2.1:compile
+[DEBUG]             org.codehaus.woodstox:stax2-api:jar:4.2.1:compile
+[DEBUG]       org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:3.0.4:compile (version managed from 3.0.4)
+[DEBUG]          org.springframework.cloud:spring-cloud-loadbalancer:jar:3.0.4:compile (version managed from 3.0.4)
+[DEBUG]             io.projectreactor:reactor-core:jar:3.4.12:compile (version managed from 3.4.9)
+[DEBUG]                org.reactivestreams:reactive-streams:jar:1.0.3:compile (version managed from 1.0.3)
+[DEBUG]             io.projectreactor.addons:reactor-extra:jar:3.4.5:compile (version managed from 3.4.4)
+[DEBUG]          org.springframework.boot:spring-boot-starter-cache:jar:2.5.7:compile (version managed from 2.4.10)
+[DEBUG]             org.springframework:spring-context-support:jar:5.3.13:compile (version managed from 5.3.13)
+[DEBUG]          com.stoyanr:evictor:jar:1.0.0:compile
+[DEBUG]    org.springframework.boot:spring-boot-starter-validation:jar:2.5.7:compile
+[DEBUG]       org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.55:compile (version managed from 9.0.55)
+[DEBUG]       org.hibernate.validator:hibernate-validator:jar:6.2.0.Final:compile (version managed from 6.2.0.Final)
+[DEBUG]          jakarta.validation:jakarta.validation-api:jar:2.0.2:compile (version managed from 2.0.2)
+[DEBUG]          org.jboss.logging:jboss-logging:jar:3.4.2.Final:compile (version managed from 3.4.1.Final)
+[DEBUG]          com.fasterxml:classmate:jar:1.5.1:compile (version managed from 1.5.1)
+[DEBUG]    io.jsonwebtoken:jjwt:jar:0.9.1:compile
+[DEBUG]    javax.xml.bind:jaxb-api:jar:2.3.1:compile
+[DEBUG]       javax.activation:javax.activation-api:jar:1.2.0:compile (version managed from 1.2.0)
+[DEBUG]    org.thymeleaf.extras:thymeleaf-extras-springsecurity5:jar:3.0.4.RELEASE:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.32:compile (version managed from 1.7.25)
+[DEBUG]    org.projectlombok:lombok:jar:1.18.22:compile (optional)
+[DEBUG]    org.springframework.security:spring-security-test:jar:5.5.3:test
+[DEBUG]       org.springframework.security:spring-security-core:jar:5.5.3:compile (version managed from 5.5.3)
+[DEBUG]       org.springframework:spring-core:jar:5.3.13:compile (version managed from 5.3.11)
+[DEBUG]          org.springframework:spring-jcl:jar:5.3.13:compile (version managed from 5.3.13)
+[DEBUG]       org.springframework:spring-test:jar:5.3.13:test (version managed from 5.3.11)
+[DEBUG]    org.springframework.boot:spring-boot-starter:jar:2.5.7:compile
+[DEBUG]       org.springframework.boot:spring-boot:jar:2.5.7:compile (version managed from 2.5.7)
+[DEBUG]       org.springframework.boot:spring-boot-autoconfigure:jar:2.5.7:compile (version managed from 2.5.7)
+[DEBUG]       org.springframework.boot:spring-boot-starter-logging:jar:2.5.7:compile (version managed from 2.5.7)
+[DEBUG]          ch.qos.logback:logback-classic:jar:1.2.7:compile (version managed from 1.2.7)
+[DEBUG]             ch.qos.logback:logback-core:jar:1.2.7:compile (version managed from 1.2.7)
+[DEBUG]          org.apache.logging.log4j:log4j-to-slf4j:jar:2.14.1:compile (version managed from 2.14.1)
+[DEBUG]             org.apache.logging.log4j:log4j-api:jar:2.14.1:compile (version managed from 2.14.1)
+[DEBUG]          org.slf4j:jul-to-slf4j:jar:1.7.32:compile (version managed from 1.7.32)
+[DEBUG]       jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile (version managed from 1.3.5)
+[DEBUG]       org.yaml:snakeyaml:jar:1.28:compile (version managed from 1.28)
+[DEBUG]    org.springframework.boot:spring-boot-starter-actuator:jar:2.5.7:compile
+[DEBUG]       org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.5.7:compile (version managed from 2.5.7)
+[DEBUG]          org.springframework.boot:spring-boot-actuator:jar:2.5.7:compile (version managed from 2.5.7)
+[DEBUG]       io.micrometer:micrometer-core:jar:1.7.6:compile (version managed from 1.7.6)
+[DEBUG]          org.hdrhistogram:HdrHistogram:jar:2.1.12:compile
+[DEBUG]          org.latencyutils:LatencyUtils:jar:2.0.3:runtime
+[DEBUG]    org.springframework.cloud:spring-cloud-starter-circuitbreaker-resilience4j:jar:2.0.2:compile
+[DEBUG]       org.springframework.cloud:spring-cloud-circuitbreaker-resilience4j:jar:2.0.2:compile (version managed from 2.0.2)
+[DEBUG]          io.github.resilience4j:resilience4j-spring-boot2:jar:1.7.0:compile (scope managed from compile) (version managed from 1.7.0)
+[DEBUG]             io.github.resilience4j:resilience4j-spring:jar:1.7.0:compile (scope managed from compile) (version managed from 1.7.0)
+[DEBUG]                io.github.resilience4j:resilience4j-annotations:jar:1.7.0:compile (scope managed from compile) (version managed from 1.7.0)
+[DEBUG]                io.github.resilience4j:resilience4j-consumer:jar:1.7.0:compile (scope managed from compile) (version managed from 1.7.0)
+[DEBUG]                   io.github.resilience4j:resilience4j-circularbuffer:jar:1.7.0:compile (scope managed from compile) (version managed from 1.7.0)
+[DEBUG]                io.github.resilience4j:resilience4j-framework-common:jar:1.7.0:compile
+[DEBUG]                   io.github.resilience4j:resilience4j-ratelimiter:jar:1.7.0:compile (scope managed from compile) (version managed from 1.7.0)
+[DEBUG]                   io.github.resilience4j:resilience4j-retry:jar:1.7.0:compile (scope managed from compile) (version managed from 1.7.0)
+[DEBUG]             io.github.resilience4j:resilience4j-micrometer:jar:1.7.0:compile (scope managed from compile) (version managed from 1.7.0)
+[DEBUG]       io.github.resilience4j:resilience4j-circuitbreaker:jar:1.7.0:compile (scope managed from compile) (version managed from 1.7.0)
+[DEBUG]          io.vavr:vavr:jar:0.10.2:compile
+[DEBUG]             io.vavr:vavr-match:jar:0.10.2:compile
+[DEBUG]          io.github.resilience4j:resilience4j-core:jar:1.7.0:compile (scope managed from compile) (version managed from 1.7.0)
+[DEBUG]       io.github.resilience4j:resilience4j-timelimiter:jar:1.7.0:compile (scope managed from compile) (version managed from 1.7.0)
+[DEBUG]    io.micrometer:micrometer-registry-prometheus:jar:1.7.6:compile
+[DEBUG]       io.prometheus:simpleclient_common:jar:0.10.0:compile (version managed from 0.10.0)
+[DEBUG]          io.prometheus:simpleclient:jar:0.10.0:compile (version managed from 0.10.0)
+[DEBUG]    org.springframework.cloud:spring-cloud-sleuth-zipkin:jar:3.0.4:compile
+[DEBUG]       org.springframework.cloud:spring-cloud-sleuth-instrumentation:jar:3.0.4:compile (version managed from 3.0.4)
+[DEBUG]          org.springframework.cloud:spring-cloud-sleuth-api:jar:3.0.4:compile (version managed from 3.0.4)
+[DEBUG]          org.aspectj:aspectjrt:jar:1.9.7:compile (version managed from 1.9.7)
+[DEBUG]       io.zipkin.zipkin2:zipkin:jar:2.23.0:compile (version managed from 2.23.0)
+[DEBUG]       io.zipkin.reporter2:zipkin-reporter:jar:2.16.1:compile (version managed from 2.16.1)
+[DEBUG]       io.zipkin.reporter2:zipkin-reporter-brave:jar:2.16.1:compile (version managed from 2.16.1)
+[DEBUG]       io.zipkin.reporter2:zipkin-sender-kafka:jar:2.16.1:compile (version managed from 2.16.1)
+[DEBUG]       io.zipkin.reporter2:zipkin-sender-activemq-client:jar:2.16.1:compile (version managed from 2.16.1)
+[DEBUG]       io.zipkin.reporter2:zipkin-sender-amqp-client:jar:2.16.1:compile (version managed from 2.16.1)
+[DEBUG]    org.springframework.cloud:spring-cloud-starter-sleuth:jar:3.0.4:compile
+[DEBUG]       org.springframework.boot:spring-boot-starter-aop:jar:2.5.7:compile (version managed from 2.4.10)
+[DEBUG]          org.aspectj:aspectjweaver:jar:1.9.7:compile (version managed from 1.9.7)
+[DEBUG]       org.springframework.cloud:spring-cloud-sleuth-autoconfigure:jar:3.0.4:compile (version managed from 3.0.4)
+[DEBUG]       org.springframework.cloud:spring-cloud-sleuth-brave:jar:3.0.4:compile (version managed from 3.0.4)
+[DEBUG]          io.zipkin.brave:brave:jar:5.13.2:compile (version managed from 5.13.2)
+[DEBUG]          io.zipkin.brave:brave-context-slf4j:jar:5.13.2:compile (version managed from 5.13.2)
+[DEBUG]          io.zipkin.brave:brave-instrumentation-messaging:jar:5.13.2:compile (version managed from 5.13.2)
+[DEBUG]          io.zipkin.brave:brave-instrumentation-rpc:jar:5.13.2:compile (version managed from 5.13.2)
+[DEBUG]          io.zipkin.brave:brave-instrumentation-spring-rabbit:jar:5.13.2:compile (version managed from 5.13.2)
+[DEBUG]          io.zipkin.brave:brave-instrumentation-kafka-clients:jar:5.13.2:compile (version managed from 5.13.2)
+[DEBUG]          io.zipkin.brave:brave-instrumentation-kafka-streams:jar:5.13.2:compile (version managed from 5.13.2)
+[DEBUG]          io.zipkin.brave:brave-instrumentation-httpclient:jar:5.13.2:compile (version managed from 5.13.2)
+[DEBUG]             io.zipkin.brave:brave-instrumentation-http:jar:5.13.2:compile (version managed from 5.13.2)
+[DEBUG]          io.zipkin.brave:brave-instrumentation-httpasyncclient:jar:5.13.2:compile (version managed from 5.13.2)
+[DEBUG]          io.zipkin.brave:brave-instrumentation-jms:jar:5.13.2:compile (version managed from 5.13.2)
+[DEBUG]          io.zipkin.brave:brave-instrumentation-mongodb:jar:5.13.2:compile (version managed from 5.13.2)
+[DEBUG]          io.zipkin.aws:brave-propagation-aws:jar:0.21.3:compile
+[DEBUG]          io.zipkin.reporter2:zipkin-reporter-metrics-micrometer:jar:2.16.1:compile (version managed from 2.16.1)
+[DEBUG]    org.springframework.boot:spring-boot-devtools:jar:2.5.7:runtime (optional)
+[DEBUG]    org.springframework.boot:spring-boot-configuration-processor:jar:2.5.7:compile (optional)
+[DEBUG]    com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.12.5:compile
+[DEBUG]       com.fasterxml.jackson.core:jackson-annotations:jar:2.12.5:compile (version managed from 2.12.5)
+[DEBUG]       com.fasterxml.jackson.core:jackson-core:jar:2.12.5:compile (version managed from 2.12.5)
+[DEBUG]    org.springdoc:springdoc-openapi-ui:jar:1.6.3:compile
+[DEBUG]       org.springdoc:springdoc-openapi-webmvc-core:jar:1.6.3:compile
+[DEBUG]          org.springdoc:springdoc-openapi-common:jar:1.6.3:compile
+[DEBUG]             io.swagger.core.v3:swagger-models:jar:2.1.12:compile
+[DEBUG]             io.swagger.core.v3:swagger-annotations:jar:2.1.12:compile
+[DEBUG]             io.swagger.core.v3:swagger-integration:jar:2.1.12:compile
+[DEBUG]                io.swagger.core.v3:swagger-core:jar:2.1.12:compile
+[DEBUG]                   com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.12.5:compile (version managed from 2.12.1)
+[DEBUG]             io.github.classgraph:classgraph:jar:4.8.117:compile
+[DEBUG]                io.github.toolfactory:jvm-driver:jar:4.0.0:compile
+[DEBUG]                   io.github.toolfactory:narcissus:jar:1.0.1:compile
+[DEBUG]             org.apache.commons:commons-lang3:jar:3.12.0:compile (version managed from 3.12.0)
+[DEBUG]       org.webjars:swagger-ui:jar:4.1.3:compile
+[DEBUG]       org.webjars:webjars-locator-core:jar:0.46:compile (version managed from 0.45)
+[DEBUG]    org.springframework.boot:spring-boot-starter-test:jar:2.5.7:test
+[DEBUG]       org.springframework.boot:spring-boot-test:jar:2.5.7:test (version managed from 2.5.7)
+[DEBUG]       org.springframework.boot:spring-boot-test-autoconfigure:jar:2.5.7:test (version managed from 2.5.7)
+[DEBUG]       com.jayway.jsonpath:json-path:jar:2.5.0:test (version managed from 2.5.0)
+[DEBUG]          net.minidev:json-smart:jar:2.4.7:test (version managed from 2.3)
+[DEBUG]             net.minidev:accessors-smart:jar:2.4.7:test
+[DEBUG]                org.ow2.asm:asm:jar:9.1:test
+[DEBUG]       jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:compile (version managed from 2.3.3)
+[DEBUG]          jakarta.activation:jakarta.activation-api:jar:1.2.2:compile (version managed from 1.2.2)
+[DEBUG]       org.assertj:assertj-core:jar:3.19.0:test (version managed from 3.19.0)
+[DEBUG]       org.hamcrest:hamcrest:jar:2.2:test (version managed from 2.2)
+[DEBUG]       org.junit.jupiter:junit-jupiter:jar:5.7.2:test (version managed from 5.7.2)
+[DEBUG]          org.junit.jupiter:junit-jupiter-params:jar:5.7.2:test (version managed from 5.7.2)
+[DEBUG]          org.junit.jupiter:junit-jupiter-engine:jar:5.7.2:test (version managed from 5.7.2)
+[DEBUG]             org.junit.platform:junit-platform-engine:jar:1.7.2:test (version managed from 1.7.2)
+[DEBUG]       org.mockito:mockito-core:jar:3.9.0:test (version managed from 3.9.0)
+[DEBUG]          net.bytebuddy:byte-buddy:jar:1.10.22:test (version managed from 1.10.20)
+[DEBUG]          net.bytebuddy:byte-buddy-agent:jar:1.10.22:test (version managed from 1.10.20)
+[DEBUG]          org.objenesis:objenesis:jar:3.2:test
+[DEBUG]       org.mockito:mockito-junit-jupiter:jar:3.9.0:test (version managed from 3.9.0)
+[DEBUG]       org.skyscreamer:jsonassert:jar:1.5.0:test (version managed from 1.5.0)
+[DEBUG]          com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[DEBUG]       org.xmlunit:xmlunit-core:jar:2.8.3:test (version managed from 2.8.3)
+[DEBUG]    org.testcontainers:junit-jupiter:jar:1.16.2:test
+[DEBUG]       org.testcontainers:testcontainers:jar:1.16.2:test (version managed from 1.16.2)
+[DEBUG]          junit:junit:jar:4.13.2:test (version managed from 4.13.2)
+[DEBUG]             org.hamcrest:hamcrest-core:jar:2.2:test (version managed from 1.3)
+[DEBUG]          org.apache.commons:commons-compress:jar:1.21:test
+[DEBUG]          org.rnorth.duct-tape:duct-tape:jar:1.0.8:test
+[DEBUG]             org.jetbrains:annotations:jar:17.0.0:test
+[DEBUG]          com.github.docker-java:docker-java-api:jar:3.2.12:test
+[DEBUG]          com.github.docker-java:docker-java-transport-zerodep:jar:3.2.12:test
+[DEBUG]             com.github.docker-java:docker-java-transport:jar:3.2.12:test
+[DEBUG]             net.java.dev.jna:jna:jar:5.8.0:test
+[DEBUG]       org.junit.jupiter:junit-jupiter-api:jar:5.7.2:test (version managed from 5.8.1)
+[DEBUG]          org.apiguardian:apiguardian-api:jar:1.1.0:test
+[DEBUG]          org.opentest4j:opentest4j:jar:1.2.0:test
+[DEBUG]          org.junit.platform:junit-platform-commons:jar:1.7.2:test (version managed from 1.7.2)
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ proxy-client ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=132009, ConflictMarker.markTime=44903, ConflictMarker.nodeCount=14, ConflictIdSorter.graphTime=100207, ConflictIdSorter.topsortTime=26902, ConflictIdSorter.conflictIdCount=12, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=407029, ConflictResolver.conflictItemCount=14, DefaultDependencyCollector.collectTime=37126755, DefaultDependencyCollector.transformTime=801057}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:3.1.0
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]          org.codehaus.plexus:plexus-utils:jar:2.0.4:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:compile (version managed from default)
+[DEBUG]          org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.2.1:compile
+[DEBUG]       commons-io:commons-io:jar:2.5:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.1.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.1.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.1.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:3.1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.7.1
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.2.1
+[DEBUG]   Included: commons-io:commons-io:jar:2.5
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:3.1.0:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:3.1.0, parent: java.net.URLClassLoader@4c70fda8]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:3.1.0:clean' with basic configurator -->
+[DEBUG]   (f) directory = /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/classes
+[DEBUG]   (f) reportDirectory = /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/classes
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target
+[INFO] Deleting directory /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/maven-status/maven-compiler-plugin/compile/default-compile
+[INFO] Deleting directory /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/maven-status/maven-compiler-plugin/compile
+[INFO] Deleting directory /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/maven-status/maven-compiler-plugin
+[INFO] Deleting directory /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/maven-status
+[INFO] Deleting directory /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/generated-sources/annotations
+[INFO] Deleting directory /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/generated-sources
+[INFO] Deleting file /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/classes/application.yml
+[INFO] Deleting file /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/classes/application-stage.yml
+[INFO] Deleting file /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/classes/application-prod.yml
+[INFO] Deleting file /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/classes/application-dev.yml
+[INFO] Deleting directory /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/classes
+[INFO] Deleting directory /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target
+[DEBUG] Skipping non-existing directory /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/classes
+[DEBUG] Skipping non-existing directory /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/test-classes
+[DEBUG] Skipping non-existing directory /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ proxy-client ---
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for repository.jboss.org (http://repository.jboss.org/maven2).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for snapshots.jboss.org (http://snapshots.jboss.org/maven2).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for oss.sonatype.org/jboss-snapshots (http://oss.sonatype.org/content/repositories/jboss-snapshots).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for codehaus.snapshots (http://snapshots.repository.codehaus.org).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=197715, ConflictMarker.markTime=93506, ConflictMarker.nodeCount=99, ConflictIdSorter.graphTime=137409, ConflictIdSorter.topsortTime=123609, ConflictIdSorter.conflictIdCount=35, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1020172, ConflictResolver.conflictItemCount=85, DefaultDependencyCollector.collectTime=112647758, DefaultDependencyCollector.transformTime=1624616}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:3.2.0
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.1.0:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.1.0:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.1.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.1.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.1.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.1.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.1.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.1.0:compile
+[DEBUG]          org.eclipse.aether:aether-spi:jar:0.9.0.M2:compile
+[DEBUG]       org.eclipse.aether:aether-impl:jar:0.9.0.M2:compile
+[DEBUG]       org.eclipse.aether:aether-api:jar:0.9.0.M2:compile
+[DEBUG]       org.eclipse.aether:aether-util:jar:0.9.0.M2:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:3.0.10:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.4.2:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-model:jar:3.1.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-component-annotations:jar:2.0.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.26:runtime
+[DEBUG]    org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.0.0.M2a:compile
+[DEBUG]       javax.enterprise:cdi-api:jar:1.0:compile
+[DEBUG]          javax.annotation:jsr250-api:jar:1.0:compile
+[DEBUG]          javax.inject:javax.inject:jar:1:compile
+[DEBUG]       com.google.guava:guava:jar:10.0.1:compile
+[DEBUG]          com.google.code.findbugs:jsr305:jar:1.3.9:compile
+[DEBUG]       org.sonatype.sisu:sisu-guice:jar:no_aop:3.1.0:compile
+[DEBUG]          aopalliance:aopalliance:jar:1.0:compile
+[DEBUG]       org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.0.0.M2a:compile
+[DEBUG]          asm:asm:jar:3.3.1:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:3.2.0:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:3.3.3:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.7:compile
+[DEBUG]    commons-io:commons-io:jar:2.6:compile
+[DEBUG]    org.apache.commons:commons-lang3:jar:3.8.1:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.2.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.2.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.2.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:3.2.0
+[DEBUG]   Included: org.eclipse.aether:aether-util:jar:0.9.0.M2
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.10
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:2.0.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.26
+[DEBUG]   Included: javax.enterprise:cdi-api:jar:1.0
+[DEBUG]   Included: javax.annotation:jsr250-api:jar:1.0
+[DEBUG]   Included: com.google.guava:guava:jar:10.0.1
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:1.3.9
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:no_aop:3.1.0
+[DEBUG]   Included: aopalliance:aopalliance:jar:1.0
+[DEBUG]   Included: org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.0.0.M2a
+[DEBUG]   Included: asm:asm:jar:3.3.1
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:3.2.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.3.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.7
+[DEBUG]   Included: commons-io:commons-io:jar:2.6
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.8.1
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:3.2.0:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:3.2.0, parent: java.net.URLClassLoader@4c70fda8]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:3.2.0:resources' with basic configurator -->
+[DEBUG]   (f) addDefaultExcludes = true
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (s) delimiters = [@]
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (f) fileNameFiltering = false
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.selimhorri:proxy-client:0.1.0 @ /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/pom.xml
+[DEBUG]   (f) propertiesEncoding = UTF-8
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: true, FileSet {directory: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/resources, PatternSet [includes: {**/application*.yml, **/application*.yaml, **/application*.properties}, excludes: {}]}}, Resource {targetPath: null, filtering: false, FileSet {directory: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/resources, PatternSet [includes: {}, excludes: {**/application*.yml, **/application*.yaml, **/application*.properties}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@80bfa9d
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = false
+[DEBUG] -- end configuration --
+[DEBUG] properties used {spring-integration.version=5.5.6, flyway.version=7.7.3, java.specification.version=21, env.EXECUTOR_NUMBER=1, webjars-hal-browser.version=3325375, glassfish-jstl.version=1.2.6, java.vendor.url=https://adoptium.net/, env.COPY_REFERENCE_FILE_LOG=/var/jenkins_home/copy_reference_file.log, sun.boot.library.path=/opt/java/openjdk/lib, sun.java.command=org.apache.maven.wrapper.MavenWrapperMain clean compile -X -Dmaven.compiler.source=11 -Dmaven.compiler.target=11 -Dlombok.addLombokGeneratedAnnotation=true -Dlombok.extern.findbugs.addSuppressFBWarnings=true, jdk.debug=release, maven.version=3.8.3, javax-activation.version=1.2.0, kafka.version=2.7.2, jboss-transaction-spi.version=7.6.1.Final, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, maven-install-plugin.version=2.5.2, byte-buddy.version=1.10.22, java.runtime.version=21.0.7+6-LTS, httpclient5.version=5.0.4, java.vendor.version=Temurin-21.0.7+6, micrometer.version=1.7.6, rxjava-adapter.version=1.2.1, project.baseUri=file:/var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/, hibernate.version=5.4.32.Final, java.io.tmpdir=/tmp, java.version=21.0.7, env.JAVA_OPTS=-Djenkins.install.runSetupWizard=false -Dhudson.plugins.git.GitSCM.ALLOW_LOCAL_CHECKOUT=true, javax-persistence.version=2.2, jakarta-ws-rs.version=2.1.6, build-helper-maven-plugin.version=3.2.0, mockito.version=3.9.0, java.vm.specification.name=Java Virtual Machine Specification, infinispan.version=12.1.7.Final, nekohtml.version=1.9.22, maven-assembly-plugin.version=3.3.0, env.JOB_NAME=ecommerce-pipeline, native.encoding=UTF-8, java.library.path=/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib, jakarta-servlet.version=4.0.4, java.vendor=Eclipse Adoptium, env.HUDSON_HOME=/var/jenkins_home, thymeleaf-extras-java8time.version=3.0.4.RELEASE, undertow.version=2.2.12.Final, mariadb.version=2.7.4, selenium-htmlunit.version=2.49.1, thymeleaf-extras-data-attribute.version=2.0.1, ehcache3.version=3.9.7, jakarta-xml-bind.version=2.3.3, commons-dbcp2.version=2.8.0, env.LANG=C.UTF-8, mongodb.version=4.2.3, env.RUN_DISPLAY_URL=http://unconfigured-jenkins-location/job/ecommerce-pipeline/57/display/redirect, java.vm.specification.version=21, javax-transaction.version=1.3, maven.compiler.source=11, user.home=/root, postgresql.version=42.2.24, reactive-streams.version=1.0.3, jmustache.version=1.15, querydsl.version=4.4.0, appengine-sdk.version=1.9.92, thymeleaf-layout-dialect.version=2.5.3, hamcrest.version=2.2, os.version=5.15.167.4-microsoft-standard-WSL2, commons-pool.version=1.6, jakarta-jms.version=2.0.3, jakarta-transaction.version=1.3.3, env.NODE_NAME=built-in, java.vm.name=OpenJDK 64-Bit Server VM, maven-help-plugin.version=3.2.0, mimepull.version=1.9.15, json-path.version=2.5.0, jaxen.version=1.2.0, johnzon.version=1.2.15, os.arch=amd64, spring-batch.version=4.3.4, couchbase-client.version=3.1.7, derby.version=10.14.2.0, javax-jsonb.version=1.0, rxjava2.version=2.2.21, javax-jaxws.version=2.3.1, env.NEWMAN_REPORTS_DIR=newman-reports, json-smart.version=2.4.7, javax-websocket.version=1.1, env.NEWMAN_IMAGE_NAME=juanito0702, commons-codec.version=1.15, caffeine.version=2.9.2, env.JENKINS_NODE_COOKIE=afce8919-95bb-47ce-b9d2-68041fceefa8, h2.version=1.4.200, env.JAVA_HOME=/opt/java/openjdk, java.vm.compressedOopsMode=Zero based, testcontainers.version=1.16.2, pooled-jms.version=1.2.2, unboundid-ldapsdk.version=4.0.14, thymeleaf-extras-springsecurity.version=3.0.4.RELEASE, javax-jaxb.version=2.3.1, sqlite-jdbc.version=3.34.0, jakarta-servlet-jsp-jstl.version=1.2.7, activemq.version=5.16.3, httpasyncclient.version=4.1.4, jtds.version=1.3.1, javax-jms.version=2.0.1, jakarta-websocket.version=1.1.2, spring-security.version=5.5.3, hibernate-validator.version=6.2.0.Final, assertj.version=3.19.0, jakarta-xml-soap.version=1.4.2, env.NODE_LABELS=built-in, influxdb-java.version=2.21, httpcore5.version=5.1.2, lombok.version=1.18.22, maven.compiler.target=11, jakarta-xml-ws.version=2.3.3, commons-pool2.version=2.9.0, env.HUDSON_SERVER_COOKIE=cc2815fdfb4b918f, jackson-bom.version=2.12.5, spring-retry.version=1.3.1, maven-invoker-plugin.version=3.2.2, maven-antrun-plugin.version=1.8, maven.conf=/root/.m2/wrapper/dists/apache-maven-3.8.3-bin/5a6n1u8or3307vo2u2jgmkhm0t/apache-maven-3.8.3/conf, sun.java.launcher=SUN_STANDARD, env.JENKINS_VERSION=2.504.2, resource.delimiter=@, env.PROFILE=dev, javax-json.version=1.1.4, jboss-logging.version=3.4.2.Final, lombok.extern.findbugs.addSuppressFBWarnings=true, maven-resources-plugin.version=3.2.0, javax-validation.version=2.0.1.Final, netty.version=4.1.70.Final, jetty-jsp.version=2.2.0.v201112011158, maven-source-plugin.version=3.2.1, jetty.version=9.4.44.v20210927, rxjava.version=1.3.8, elasticsearch.version=7.12.1, java.runtime.name=OpenJDK Runtime Environment, rest-assured.version=4.3.3, env.BUILD_DISPLAY_NAME=#57, env.STAGE_NAME=Build, maven-deploy-plugin.version=2.8.2, env.MAVEN_CMD_LINE_ARGS= clean compile -X -Dmaven.compiler.source=11 -Dmaven.compiler.target=11 -Dlombok.addLombokGeneratedAnnotation=true -Dlombok.extern.findbugs.addSuppressFBWarnings=true, log4j2.version=2.14.1, maven-failsafe-plugin.version=2.22.2, spring-framework.version=5.3.13, dropwizard-metrics.version=4.1.26, git-commit-id-plugin.version=4.0.5, env.WORKSPACE_TMP=/var/jenkins_home/workspace/ecommerce-pipeline@2@tmp, kotlin-coroutines.version=1.5.2, hazelcast-hibernate5.version=2.2.1, env.JOB_BASE_NAME=ecommerce-pipeline, htmlunit.version=2.49.1, sun.arch.data.model=64, env.JENKINS_SLAVE_AGENT_PORT=50000, spring-restdocs.version=2.0.5.RELEASE, env.JENKINS_HOME=/var/jenkins_home, freemarker.version=2.3.31, thymeleaf.version=3.0.12.RELEASE, jakarta-json.version=1.1.6, env.K8S_MANIFESTS_DIR=k8s, env.NEWMAN_IMAGE_TAG=latest, janino.version=3.1.6, env.JOB_DISPLAY_URL=http://unconfigured-jenkins-location/job/ecommerce-pipeline/display/redirect, env.DOCKER_IMAGE_NAME=juanito0702, maven-jar-plugin.version=3.2.0, maven-compiler-plugin.version=3.8.1, java.specification.vendor=Oracle Corporation, rabbit-amqp-client.version=5.12.0, java.version.date=2025-04-15, spring-amqp.version=2.3.12, java.home=/opt/java/openjdk, env.JENKINS_INCREMENTALS_REPO_MIRROR=https://repo.jenkins-ci.org/incrementals, lombok.addLombokGeneratedAnnotation=true, env.JENKINS_SERVER_COOKIE=durable-7c5f15141a7ee165b95e2d8fa2769d4bfaad8d5ad6588383f6017a0888e1b719, maven-war-plugin.version=3.3.2, jolokia.version=1.6.2, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.RUN_ARTIFACTS_DISPLAY_URL=http://unconfigured-jenkins-location/job/ecommerce-pipeline/57/display/redirect?page=artifacts, jetty-reactive-httpclient.version=1.1.10, env.PATH=/opt/java/openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin, httpclient.version=4.5.13, maven-dependency-plugin.version=3.1.2, jsonassert.version=1.5.0, file.encoding=UTF-8, gson.version=2.8.9, sun-mail.version=1.6.7, jakarta-annotation.version=1.3.5, env.HOSTNAME=00db4c7294ce, env.SHLVL=0, mssql-jdbc.version=9.2.1.jre8, snakeyaml.version=1.28, okhttp3.version=3.14.9, liquibase.version=4.3.5, env.WORKSPACE=/var/jenkins_home/workspace/ecommerce-pipeline@2, env.BUILD_ID=57, httpcore.version=4.4.14, lettuce.version=6.1.5.RELEASE, stderr.encoding=UTF-8, classworlds.conf=/root/.m2/wrapper/dists/apache-maven-3.8.3-bin/5a6n1u8or3307vo2u2jgmkhm0t/apache-maven-3.8.3/bin/m2.conf, sun.io.unicode.encoding=UnicodeLittle, kotlin.version=1.5.31, wsdl4j.version=1.6.3, env.RUN_TESTS_DISPLAY_URL=http://unconfigured-jenkins-location/job/ecommerce-pipeline/57/display/redirect?page=tests, jakarta-management.version=1.1.4, tomcat.version=9.0.55, sendgrid.version=4.7.6, glassfish-jaxb.version=2.3.5, spring-ws.version=3.1.1, commons-lang3.version=3.12.0, os.name=Linux, junit.version=4.13.2, jetty-el.version=9.0.52, db2-jdbc.version=11.5.6.0, maven.build.timestamp=2025-05-29T15:00:20Z, reactor-bom.version=2020.0.13, maven-enforcer-plugin.version=3.0.0, jstl.version=1.2, env.HUDSON_COOKIE=c8bc4c62-fdfe-4d57-ad62-c95d7917e3c3, quartz.version=2.3.2, javax-money.version=1.1, spring-hateoas.version=1.3.6, stdout.encoding=UTF-8, path.separator=:, jakarta-validation.version=2.0.2, maven.multiModuleProjectDirectory=/var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client, oracle-database.version=21.1.0.0, env.REF=/usr/share/jenkins/ref, env.MAVEN_PROJECTBASEDIR=/var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client, java.vm.info=mixed mode, cassandra-driver.version=4.11.3, java.class.version=65.0, env.JENKINS_UC=https://updates.jenkins.io, xml-maven-plugin.version=1.0.2, env.BUILD_TAG=jenkins-ecommerce-pipeline-57, sun.jnu.encoding=UTF-8, spring-cloud.version=2020.0.4, xmlunit2.version=2.8.3, jakarta-mail.version=1.6.7, slf4j.version=1.7.32, r2dbc-bom.version=Arabba-SR11, solr.version=8.8.2, saaj-impl.version=1.5.3, nimbus-jose-jwt.version=9.10.1, maven.build.version=Apache Maven 3.8.3 (ff8e977a158738155dc465c6a97ffaf31982d739), hikaricp.version=4.0.3, maven.home=/root/.m2/wrapper/dists/apache-maven-3.8.3-bin/5a6n1u8or3307vo2u2jgmkhm0t/apache-maven-3.8.3, netty-tcnative.version=2.0.46.Final, maven-shade-plugin.version=3.2.4, jakarta-json-bind.version=1.0.2, file.separator=/, line.separator=
+, spring-kafka.version=2.7.9, jersey.version=2.33, user.name=root, hazelcast.version=4.1.6, jdom2.version=2.0.6, atomikos.version=4.0.6, aspectj.version=1.9.7, env.JENKINS_UC_EXPERIMENTAL=https://updates.jenkins.io/experimental, hsqldb.version=2.5.2, ojdbc.version=19.3.0.0, env.RUN_CHANGES_DISPLAY_URL=http://unconfigured-jenkins-location/job/ecommerce-pipeline/57/display/redirect?page=changes, webjars-locator-core.version=0.46, project.reporting.outputEncoding=UTF-8, oauth2-oidc-sdk.version=9.9.1, awaitility.version=4.0.3, env.OLDPWD=/var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client, env.BUILD_NUMBER=57, env.PWD=/var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client, embedded-mongo.version=3.0.0, spring-ldap.version=2.3.4.RELEASE, java.class.path=/var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/.mvn/wrapper/maven-wrapper.jar, dependency-management-plugin.version=1.0.11.RELEASE, env.HOME=/root, java.vm.vendor=Eclipse Adoptium, maven-javadoc-plugin.version=3.2.0, servlet-api.version=4.0.1, rsocket.version=1.1.1, jakarta-persistence.version=2.2.3, env.CI=true, artemis.version=2.17.0, groovy.version=3.0.9, javax-cache.version=1.1.1, logback.version=1.2.7, prometheus-pushgateway.version=0.10.0, sun.cpu.endian=little, versions-maven-plugin.version=2.8.1, user.language=en, jedis.version=3.6.3, maven-clean-plugin.version=3.1.0, javax-mail.version=1.6.2, maven-surefire-plugin.version=2.22.2, javax-annotation.version=1.3.2, spring-data-bom.version=2021.0.7, mysql.version=8.0.27, classmate.version=1.5.1, jaybird.version=4.0.4.java8, antlr2.version=2.7.7, selenium.version=3.141.59, glassfish-el.version=3.0.4, project.build.sourceEncoding=UTF-8, jooq.version=3.14.15, java.vendor.url.bug=https://github.com/adoptium/adoptium-support/issues, user.dir=/var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client, ehcache.version=2.10.9.2, junit-jupiter.version=5.7.2, java.vm.version=21.0.7+6-LTS, neo4j-java-driver.version=4.2.8, jakarta-activation.version=1.2.2, spring-session-bom.version=2021.0.3}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[DEBUG] resource with targetPath null
+directory /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/resources
+excludes []
+includes [**/application*.yml, **/application*.yaml, **/application*.properties]
+[DEBUG] ignoreDelta true
+[INFO] Copying 4 resources
+[DEBUG] Copying file application-dev.yml
+[DEBUG] file application-dev.yml has a filtered file extension
+[DEBUG] Using 'UTF-8' encoding to copy filtered resource 'application-dev.yml'.
+[DEBUG] filtering /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/resources/application-dev.yml to /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/classes/application-dev.yml
+[DEBUG] Copying file application-prod.yml
+[DEBUG] file application-prod.yml has a filtered file extension
+[DEBUG] Using 'UTF-8' encoding to copy filtered resource 'application-prod.yml'.
+[DEBUG] filtering /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/resources/application-prod.yml to /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/classes/application-prod.yml
+[DEBUG] Copying file application-stage.yml
+[DEBUG] file application-stage.yml has a filtered file extension
+[DEBUG] Using 'UTF-8' encoding to copy filtered resource 'application-stage.yml'.
+[DEBUG] filtering /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/resources/application-stage.yml to /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/classes/application-stage.yml
+[DEBUG] Copying file application.yml
+[DEBUG] file application.yml has a filtered file extension
+[DEBUG] Using 'UTF-8' encoding to copy filtered resource 'application.yml'.
+[DEBUG] filtering /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/resources/application.yml to /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/classes/application.yml
+[DEBUG] resource with targetPath null
+directory /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/resources
+excludes [**/application*.yml, **/application*.yaml, **/application*.properties]
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 0 resource
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ proxy-client ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=268520, ConflictMarker.markTime=112108, ConflictMarker.nodeCount=118, ConflictIdSorter.graphTime=44603, ConflictIdSorter.topsortTime=67305, ConflictIdSorter.conflictIdCount=45, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=935968, ConflictResolver.conflictItemCount=72, DefaultDependencyCollector.collectTime=92672158, DefaultDependencyCollector.transformTime=1495209}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.8.1
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:2.0.4:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:compile (version managed from default)
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.2.1:compile
+[DEBUG]       commons-io:commons-io:jar:2.5:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-java:jar:0.9.10:compile
+[DEBUG]       org.ow2.asm:asm:jar:6.2:compile
+[DEBUG]       com.thoughtworks.qdox:qdox:jar:2.0-M9:compile (version managed from default)
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.8.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.8.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.8.4:runtime
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.8.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.8.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.8.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.8.1
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.4
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.7.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.2.1
+[DEBUG]   Included: commons-io:commons-io:jar:2.5
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-java:jar:0.9.10
+[DEBUG]   Included: org.ow2.asm:asm:jar:6.2
+[DEBUG]   Included: com.thoughtworks.qdox:qdox:jar:2.0-M9
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.8.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.8.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.8.4
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.8.1, parent: java.net.URLClassLoader@4c70fda8]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile' with basic configurator -->
+[DEBUG]   (f) basedir = /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client
+[DEBUG]   (f) buildDirectory = /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target
+[DEBUG]   (f) compilePath = [/var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/classes, /root/.m2/repository/org/springframework/boot/spring-boot-starter-security/2.5.7/spring-boot-starter-security-2.5.7.jar, /root/.m2/repository/org/springframework/spring-aop/5.3.13/spring-aop-5.3.13.jar, /root/.m2/repository/org/springframework/spring-beans/5.3.13/spring-beans-5.3.13.jar, /root/.m2/repository/org/springframework/security/spring-security-config/5.5.3/spring-security-config-5.5.3.jar, /root/.m2/repository/org/springframework/spring-context/5.3.13/spring-context-5.3.13.jar, /root/.m2/repository/org/springframework/security/spring-security-web/5.5.3/spring-security-web-5.5.3.jar, /root/.m2/repository/org/springframework/spring-expression/5.3.13/spring-expression-5.3.13.jar, /root/.m2/repository/org/springframework/boot/spring-boot-starter-thymeleaf/2.5.7/spring-boot-starter-thymeleaf-2.5.7.jar, /root/.m2/repository/org/thymeleaf/thymeleaf-spring5/3.0.12.RELEASE/thymeleaf-spring5-3.0.12.RELEASE.jar, /root/.m2/repository/org/thymeleaf/thymeleaf/3.0.12.RELEASE/thymeleaf-3.0.12.RELEASE.jar, /root/.m2/repository/org/attoparser/attoparser/2.0.5.RELEASE/attoparser-2.0.5.RELEASE.jar, /root/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar, /root/.m2/repository/org/thymeleaf/extras/thymeleaf-extras-java8time/3.0.4.RELEASE/thymeleaf-extras-java8time-3.0.4.RELEASE.jar, /root/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.5.7/spring-boot-starter-web-2.5.7.jar, /root/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.5.7/spring-boot-starter-json-2.5.7.jar, /root/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.12.5/jackson-datatype-jdk8-2.12.5.jar, /root/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.12.5/jackson-module-parameter-names-2.12.5.jar, /root/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.5.7/spring-boot-starter-tomcat-2.5.7.jar, /root/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.55/tomcat-embed-core-9.0.55.jar, /root/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.55/tomcat-embed-websocket-9.0.55.jar, /root/.m2/repository/org/springframework/spring-web/5.3.13/spring-web-5.3.13.jar, /root/.m2/repository/org/springframework/spring-webmvc/5.3.13/spring-webmvc-5.3.13.jar, /root/.m2/repository/org/springframework/cloud/spring-cloud-starter-openfeign/3.0.4/spring-cloud-starter-openfeign-3.0.4.jar, /root/.m2/repository/org/springframework/cloud/spring-cloud-starter/3.0.4/spring-cloud-starter-3.0.4.jar, /root/.m2/repository/org/springframework/cloud/spring-cloud-context/3.0.4/spring-cloud-context-3.0.4.jar, /root/.m2/repository/org/springframework/security/spring-security-rsa/1.0.10.RELEASE/spring-security-rsa-1.0.10.RELEASE.jar, /root/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.68/bcpkix-jdk15on-1.68.jar, /root/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.68/bcprov-jdk15on-1.68.jar, /root/.m2/repository/org/springframework/cloud/spring-cloud-openfeign-core/3.0.4/spring-cloud-openfeign-core-3.0.4.jar, /root/.m2/repository/io/github/openfeign/form/feign-form-spring/3.8.0/feign-form-spring-3.8.0.jar, /root/.m2/repository/io/github/openfeign/form/feign-form/3.8.0/feign-form-3.8.0.jar, /root/.m2/repository/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar, /root/.m2/repository/commons-io/commons-io/2.2/commons-io-2.2.jar, /root/.m2/repository/org/springframework/cloud/spring-cloud-commons/3.0.4/spring-cloud-commons-3.0.4.jar, /root/.m2/repository/org/springframework/security/spring-security-crypto/5.5.3/spring-security-crypto-5.5.3.jar, /root/.m2/repository/io/github/openfeign/feign-core/10.12/feign-core-10.12.jar, /root/.m2/repository/io/github/openfeign/feign-slf4j/10.12/feign-slf4j-10.12.jar, /root/.m2/repository/org/springframework/cloud/spring-cloud-starter-config/3.0.5/spring-cloud-starter-config-3.0.5.jar, /root/.m2/repository/org/springframework/cloud/spring-cloud-config-client/3.0.5/spring-cloud-config-client-3.0.5.jar, /root/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar, /root/.m2/repository/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar, /root/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar, /root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.5/jackson-databind-2.12.5.jar, /root/.m2/repository/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.0.4/spring-cloud-starter-netflix-eureka-client-3.0.4.jar, /root/.m2/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/3.0.4/spring-cloud-netflix-eureka-client-3.0.4.jar, /root/.m2/repository/com/netflix/eureka/eureka-client/1.10.16/eureka-client-1.10.16.jar, /root/.m2/repository/com/netflix/netflix-commons/netflix-eventbus/0.3.0/netflix-eventbus-0.3.0.jar, /root/.m2/repository/com/thoughtworks/xstream/xstream/1.4.18/xstream-1.4.18.jar, /root/.m2/repository/io/github/x-stream/mxparser/1.2.2/mxparser-1.2.2.jar, /root/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar, /root/.m2/repository/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar, /root/.m2/repository/com/netflix/servo/servo-core/0.12.21/servo-core-0.12.21.jar, /root/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar, /root/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar, /root/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar, /root/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0.jar, /root/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar, /root/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar, /root/.m2/repository/com/netflix/eureka/eureka-core/1.10.16/eureka-core-1.10.16.jar, /root/.m2/repository/com/fasterxml/woodstox/woodstox-core/6.2.1/woodstox-core-6.2.1.jar, /root/.m2/repository/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.jar, /root/.m2/repository/org/springframework/cloud/spring-cloud-starter-loadbalancer/3.0.4/spring-cloud-starter-loadbalancer-3.0.4.jar, /root/.m2/repository/org/springframework/cloud/spring-cloud-loadbalancer/3.0.4/spring-cloud-loadbalancer-3.0.4.jar, /root/.m2/repository/io/projectreactor/reactor-core/3.4.12/reactor-core-3.4.12.jar, /root/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar, /root/.m2/repository/io/projectreactor/addons/reactor-extra/3.4.5/reactor-extra-3.4.5.jar, /root/.m2/repository/org/springframework/boot/spring-boot-starter-cache/2.5.7/spring-boot-starter-cache-2.5.7.jar, /root/.m2/repository/org/springframework/spring-context-support/5.3.13/spring-context-support-5.3.13.jar, /root/.m2/repository/com/stoyanr/evictor/1.0.0/evictor-1.0.0.jar, /root/.m2/repository/org/springframework/boot/spring-boot-starter-validation/2.5.7/spring-boot-starter-validation-2.5.7.jar, /root/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.55/tomcat-embed-el-9.0.55.jar, /root/.m2/repository/org/hibernate/validator/hibernate-validator/6.2.0.Final/hibernate-validator-6.2.0.Final.jar, /root/.m2/repository/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar, /root/.m2/repository/org/jboss/logging/jboss-logging/3.4.2.Final/jboss-logging-3.4.2.Final.jar, /root/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar, /root/.m2/repository/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar, /root/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar, /root/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar, /root/.m2/repository/org/thymeleaf/extras/thymeleaf-extras-springsecurity5/3.0.4.RELEASE/thymeleaf-extras-springsecurity5-3.0.4.RELEASE.jar, /root/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar, /root/.m2/repository/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar, /root/.m2/repository/org/springframework/security/spring-security-core/5.5.3/spring-security-core-5.5.3.jar, /root/.m2/repository/org/springframework/spring-core/5.3.13/spring-core-5.3.13.jar, /root/.m2/repository/org/springframework/spring-jcl/5.3.13/spring-jcl-5.3.13.jar, /root/.m2/repository/org/springframework/boot/spring-boot-starter/2.5.7/spring-boot-starter-2.5.7.jar, /root/.m2/repository/org/springframework/boot/spring-boot/2.5.7/spring-boot-2.5.7.jar, /root/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.5.7/spring-boot-autoconfigure-2.5.7.jar, /root/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.5.7/spring-boot-starter-logging-2.5.7.jar, /root/.m2/repository/ch/qos/logback/logback-classic/1.2.7/logback-classic-1.2.7.jar, /root/.m2/repository/ch/qos/logback/logback-core/1.2.7/logback-core-1.2.7.jar, /root/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.14.1/log4j-to-slf4j-2.14.1.jar, /root/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar, /root/.m2/repository/org/slf4j/jul-to-slf4j/1.7.32/jul-to-slf4j-1.7.32.jar, /root/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar, /root/.m2/repository/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar, /root/.m2/repository/org/springframework/boot/spring-boot-starter-actuator/2.5.7/spring-boot-starter-actuator-2.5.7.jar, /root/.m2/repository/org/springframework/boot/spring-boot-actuator-autoconfigure/2.5.7/spring-boot-actuator-autoconfigure-2.5.7.jar, /root/.m2/repository/org/springframework/boot/spring-boot-actuator/2.5.7/spring-boot-actuator-2.5.7.jar, /root/.m2/repository/io/micrometer/micrometer-core/1.7.6/micrometer-core-1.7.6.jar, /root/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar, /root/.m2/repository/org/springframework/cloud/spring-cloud-starter-circuitbreaker-resilience4j/2.0.2/spring-cloud-starter-circuitbreaker-resilience4j-2.0.2.jar, /root/.m2/repository/org/springframework/cloud/spring-cloud-circuitbreaker-resilience4j/2.0.2/spring-cloud-circuitbreaker-resilience4j-2.0.2.jar, /root/.m2/repository/io/github/resilience4j/resilience4j-spring-boot2/1.7.0/resilience4j-spring-boot2-1.7.0.jar, /root/.m2/repository/io/github/resilience4j/resilience4j-spring/1.7.0/resilience4j-spring-1.7.0.jar, /root/.m2/repository/io/github/resilience4j/resilience4j-annotations/1.7.0/resilience4j-annotations-1.7.0.jar, /root/.m2/repository/io/github/resilience4j/resilience4j-consumer/1.7.0/resilience4j-consumer-1.7.0.jar, /root/.m2/repository/io/github/resilience4j/resilience4j-circularbuffer/1.7.0/resilience4j-circularbuffer-1.7.0.jar, /root/.m2/repository/io/github/resilience4j/resilience4j-framework-common/1.7.0/resilience4j-framework-common-1.7.0.jar, /root/.m2/repository/io/github/resilience4j/resilience4j-ratelimiter/1.7.0/resilience4j-ratelimiter-1.7.0.jar, /root/.m2/repository/io/github/resilience4j/resilience4j-retry/1.7.0/resilience4j-retry-1.7.0.jar, /root/.m2/repository/io/github/resilience4j/resilience4j-micrometer/1.7.0/resilience4j-micrometer-1.7.0.jar, /root/.m2/repository/io/github/resilience4j/resilience4j-circuitbreaker/1.7.0/resilience4j-circuitbreaker-1.7.0.jar, /root/.m2/repository/io/vavr/vavr/0.10.2/vavr-0.10.2.jar, /root/.m2/repository/io/vavr/vavr-match/0.10.2/vavr-match-0.10.2.jar, /root/.m2/repository/io/github/resilience4j/resilience4j-core/1.7.0/resilience4j-core-1.7.0.jar, /root/.m2/repository/io/github/resilience4j/resilience4j-timelimiter/1.7.0/resilience4j-timelimiter-1.7.0.jar, /root/.m2/repository/io/micrometer/micrometer-registry-prometheus/1.7.6/micrometer-registry-prometheus-1.7.6.jar, /root/.m2/repository/io/prometheus/simpleclient_common/0.10.0/simpleclient_common-0.10.0.jar, /root/.m2/repository/io/prometheus/simpleclient/0.10.0/simpleclient-0.10.0.jar, /root/.m2/repository/org/springframework/cloud/spring-cloud-sleuth-zipkin/3.0.4/spring-cloud-sleuth-zipkin-3.0.4.jar, /root/.m2/repository/org/springframework/cloud/spring-cloud-sleuth-instrumentation/3.0.4/spring-cloud-sleuth-instrumentation-3.0.4.jar, /root/.m2/repository/org/springframework/cloud/spring-cloud-sleuth-api/3.0.4/spring-cloud-sleuth-api-3.0.4.jar, /root/.m2/repository/org/aspectj/aspectjrt/1.9.7/aspectjrt-1.9.7.jar, /root/.m2/repository/io/zipkin/zipkin2/zipkin/2.23.0/zipkin-2.23.0.jar, /root/.m2/repository/io/zipkin/reporter2/zipkin-reporter/2.16.1/zipkin-reporter-2.16.1.jar, /root/.m2/repository/io/zipkin/reporter2/zipkin-reporter-brave/2.16.1/zipkin-reporter-brave-2.16.1.jar, /root/.m2/repository/io/zipkin/reporter2/zipkin-sender-kafka/2.16.1/zipkin-sender-kafka-2.16.1.jar, /root/.m2/repository/io/zipkin/reporter2/zipkin-sender-activemq-client/2.16.1/zipkin-sender-activemq-client-2.16.1.jar, /root/.m2/repository/io/zipkin/reporter2/zipkin-sender-amqp-client/2.16.1/zipkin-sender-amqp-client-2.16.1.jar, /root/.m2/repository/org/springframework/cloud/spring-cloud-starter-sleuth/3.0.4/spring-cloud-starter-sleuth-3.0.4.jar, /root/.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.5.7/spring-boot-starter-aop-2.5.7.jar, /root/.m2/repository/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar, /root/.m2/repository/org/springframework/cloud/spring-cloud-sleuth-autoconfigure/3.0.4/spring-cloud-sleuth-autoconfigure-3.0.4.jar, /root/.m2/repository/org/springframework/cloud/spring-cloud-sleuth-brave/3.0.4/spring-cloud-sleuth-brave-3.0.4.jar, /root/.m2/repository/io/zipkin/brave/brave/5.13.2/brave-5.13.2.jar, /root/.m2/repository/io/zipkin/brave/brave-context-slf4j/5.13.2/brave-context-slf4j-5.13.2.jar, /root/.m2/repository/io/zipkin/brave/brave-instrumentation-messaging/5.13.2/brave-instrumentation-messaging-5.13.2.jar, /root/.m2/repository/io/zipkin/brave/brave-instrumentation-rpc/5.13.2/brave-instrumentation-rpc-5.13.2.jar, /root/.m2/repository/io/zipkin/brave/brave-instrumentation-spring-rabbit/5.13.2/brave-instrumentation-spring-rabbit-5.13.2.jar, /root/.m2/repository/io/zipkin/brave/brave-instrumentation-kafka-clients/5.13.2/brave-instrumentation-kafka-clients-5.13.2.jar, /root/.m2/repository/io/zipkin/brave/brave-instrumentation-kafka-streams/5.13.2/brave-instrumentation-kafka-streams-5.13.2.jar, /root/.m2/repository/io/zipkin/brave/brave-instrumentation-httpclient/5.13.2/brave-instrumentation-httpclient-5.13.2.jar, /root/.m2/repository/io/zipkin/brave/brave-instrumentation-http/5.13.2/brave-instrumentation-http-5.13.2.jar, /root/.m2/repository/io/zipkin/brave/brave-instrumentation-httpasyncclient/5.13.2/brave-instrumentation-httpasyncclient-5.13.2.jar, /root/.m2/repository/io/zipkin/brave/brave-instrumentation-jms/5.13.2/brave-instrumentation-jms-5.13.2.jar, /root/.m2/repository/io/zipkin/brave/brave-instrumentation-mongodb/5.13.2/brave-instrumentation-mongodb-5.13.2.jar, /root/.m2/repository/io/zipkin/aws/brave-propagation-aws/0.21.3/brave-propagation-aws-0.21.3.jar, /root/.m2/repository/io/zipkin/reporter2/zipkin-reporter-metrics-micrometer/2.16.1/zipkin-reporter-metrics-micrometer-2.16.1.jar, /root/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/2.5.7/spring-boot-configuration-processor-2.5.7.jar, /root/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.5/jackson-datatype-jsr310-2.12.5.jar, /root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.5/jackson-annotations-2.12.5.jar, /root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.5/jackson-core-2.12.5.jar, /root/.m2/repository/org/springdoc/springdoc-openapi-ui/1.6.3/springdoc-openapi-ui-1.6.3.jar, /root/.m2/repository/org/springdoc/springdoc-openapi-webmvc-core/1.6.3/springdoc-openapi-webmvc-core-1.6.3.jar, /root/.m2/repository/org/springdoc/springdoc-openapi-common/1.6.3/springdoc-openapi-common-1.6.3.jar, /root/.m2/repository/io/swagger/core/v3/swagger-models/2.1.12/swagger-models-2.1.12.jar, /root/.m2/repository/io/swagger/core/v3/swagger-annotations/2.1.12/swagger-annotations-2.1.12.jar, /root/.m2/repository/io/swagger/core/v3/swagger-integration/2.1.12/swagger-integration-2.1.12.jar, /root/.m2/repository/io/swagger/core/v3/swagger-core/2.1.12/swagger-core-2.1.12.jar, /root/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.12.5/jackson-dataformat-yaml-2.12.5.jar, /root/.m2/repository/io/github/classgraph/classgraph/4.8.117/classgraph-4.8.117.jar, /root/.m2/repository/io/github/toolfactory/jvm-driver/4.0.0/jvm-driver-4.0.0.jar, /root/.m2/repository/io/github/toolfactory/narcissus/1.0.1/narcissus-1.0.1.jar, /root/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar, /root/.m2/repository/org/webjars/swagger-ui/4.1.3/swagger-ui-4.1.3.jar, /root/.m2/repository/org/webjars/webjars-locator-core/0.46/webjars-locator-core-0.46.jar, /root/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar, /root/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar]
+[DEBUG]   (f) compileSourceRoots = [/var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) failOnWarning = false
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/generated-sources/annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/classes
+[DEBUG]   (f) parameters = true
+[DEBUG]   (f) project = MavenProject: com.selimhorri:proxy-client:0.1.0 @ /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/pom.xml
+[DEBUG]   (f) projectArtifact = com.selimhorri:proxy-client:jar:0.1.0
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@80bfa9d
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 11
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (s) target = 11
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Adding /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/generated-sources/annotations to compile source roots:
+  /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java
+[DEBUG] New compile source roots:
+  /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java
+  /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/generated-sources/annotations
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/auth/service/impl/UserDetailsServiceImpl.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/constant/AppConstant.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/orderItem/model/OrderItemId.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/user/service/UserClientService.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/jwt/service/JwtService.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/order/service/OrderClientService.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/user/service/VerificationTokenClientService.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/user/service/AddressClientService.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/favourite/model/UserDto.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/user/model/VerificationTokenDto.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/user/model/response/CredentialUserServiceCollectionDtoResponse.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/jwt/util/JwtUtil.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/payment/model/PaymentStatus.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/user/model/UserDto.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/user/model/AddressDto.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/payment/service/PaymentClientService.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/security/SecurityConfig.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/order/model/CartDto.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/user/controller/AddressController.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/favourite/controller/FavouriteController.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/order/model/UserDto.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/product/controller/CategoryController.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/order/model/OrderDto.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/user/model/UserDetailsImpl.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/payment/model/response/PaymentPaymentServiceDtoCollectionResponse.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/exception/wrapper/CredentialNotFoundException.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/favourite/model/FavouriteDto.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/order/controller/OrderController.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/product/model/response/ProductProductServiceCollectionDtoResponse.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/config/encoder/EncoderConfig.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/payment/model/OrderDto.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/user/model/response/AddressUserServiceCollectionDtoResponse.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/exception/wrapper/FavouriteNotFoundException.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/user/model/CredentialDto.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/user/controller/UserController.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/favourite/model/response/FavouriteFavouriteServiceCollectionDtoResponse.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/favourite/service/FavouriteClientService.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/orderItem/service/OrderItemClientService.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/user/controller/VerificationTokenController.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/auth/service/impl/AuthenticationServiceImpl.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/config/filter/JwtRequestFilter.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/user/controller/CredentialController.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/orderItem/model/response/OrderItemOrderItemServiceDtoCollectionResponse.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/exception/wrapper/VerificationTokenNotFoundException.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/orderItem/model/OrderItemDto.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/exception/wrapper/UserObjectNotFoundException.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/orderItem/model/OrderDto.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/product/service/CategoryClientService.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/exception/payload/ExceptionMsg.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/auth/model/response/AuthenticationResponse.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/exception/ApiExceptionHandler.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/orderItem/controller/OrderItemController.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/product/controller/ProductController.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/jwt/util/impl/JwtUtilImpl.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/payment/controller/PaymentController.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/product/model/ProductDto.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/order/model/response/OrderOrderServiceDtoCollectionResponse.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/user/model/RoleBasedAuthority.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/favourite/model/ProductDto.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/order/service/CartClientService.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/order/controller/CartController.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/payment/model/PaymentDto.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/auth/service/AuthenticationService.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/jwt/service/impl/JwtServiceImpl.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/product/model/CategoryDto.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/product/service/ProductClientService.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/order/model/response/CartOrderServiceDtoCollectionResponse.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/favourite/model/FavouriteId.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/config/template/TemplateConfig.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/product/model/response/CategoryProductServiceCollectionDtoResponse.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/user/service/CredentialClientService.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/orderItem/model/ProductDto.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/auth/controller/AuthenticationController.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/user/model/response/VerificationUserTokenServiceCollectionDtoResponse.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/exception/wrapper/IllegalAuthenticationCredentialsException.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/auth/model/request/AuthenticationRequest.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/business/user/model/response/UserUserServiceCollectionDtoResponse.java
+[DEBUG] Stale source detected: /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java/com/selimhorri/app/ProxyClientApplication.java
+[INFO] Changes detected - recompiling the module!
+[DEBUG] Classpath:
+[DEBUG]  /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/classes
+[DEBUG]  /root/.m2/repository/org/springframework/boot/spring-boot-starter-security/2.5.7/spring-boot-starter-security-2.5.7.jar
+[DEBUG]  /root/.m2/repository/org/springframework/spring-aop/5.3.13/spring-aop-5.3.13.jar
+[DEBUG]  /root/.m2/repository/org/springframework/spring-beans/5.3.13/spring-beans-5.3.13.jar
+[DEBUG]  /root/.m2/repository/org/springframework/security/spring-security-config/5.5.3/spring-security-config-5.5.3.jar
+[DEBUG]  /root/.m2/repository/org/springframework/spring-context/5.3.13/spring-context-5.3.13.jar
+[DEBUG]  /root/.m2/repository/org/springframework/security/spring-security-web/5.5.3/spring-security-web-5.5.3.jar
+[DEBUG]  /root/.m2/repository/org/springframework/spring-expression/5.3.13/spring-expression-5.3.13.jar
+[DEBUG]  /root/.m2/repository/org/springframework/boot/spring-boot-starter-thymeleaf/2.5.7/spring-boot-starter-thymeleaf-2.5.7.jar
+[DEBUG]  /root/.m2/repository/org/thymeleaf/thymeleaf-spring5/3.0.12.RELEASE/thymeleaf-spring5-3.0.12.RELEASE.jar
+[DEBUG]  /root/.m2/repository/org/thymeleaf/thymeleaf/3.0.12.RELEASE/thymeleaf-3.0.12.RELEASE.jar
+[DEBUG]  /root/.m2/repository/org/attoparser/attoparser/2.0.5.RELEASE/attoparser-2.0.5.RELEASE.jar
+[DEBUG]  /root/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar
+[DEBUG]  /root/.m2/repository/org/thymeleaf/extras/thymeleaf-extras-java8time/3.0.4.RELEASE/thymeleaf-extras-java8time-3.0.4.RELEASE.jar
+[DEBUG]  /root/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.5.7/spring-boot-starter-web-2.5.7.jar
+[DEBUG]  /root/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.5.7/spring-boot-starter-json-2.5.7.jar
+[DEBUG]  /root/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.12.5/jackson-datatype-jdk8-2.12.5.jar
+[DEBUG]  /root/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.12.5/jackson-module-parameter-names-2.12.5.jar
+[DEBUG]  /root/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.5.7/spring-boot-starter-tomcat-2.5.7.jar
+[DEBUG]  /root/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.55/tomcat-embed-core-9.0.55.jar
+[DEBUG]  /root/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.55/tomcat-embed-websocket-9.0.55.jar
+[DEBUG]  /root/.m2/repository/org/springframework/spring-web/5.3.13/spring-web-5.3.13.jar
+[DEBUG]  /root/.m2/repository/org/springframework/spring-webmvc/5.3.13/spring-webmvc-5.3.13.jar
+[DEBUG]  /root/.m2/repository/org/springframework/cloud/spring-cloud-starter-openfeign/3.0.4/spring-cloud-starter-openfeign-3.0.4.jar
+[DEBUG]  /root/.m2/repository/org/springframework/cloud/spring-cloud-starter/3.0.4/spring-cloud-starter-3.0.4.jar
+[DEBUG]  /root/.m2/repository/org/springframework/cloud/spring-cloud-context/3.0.4/spring-cloud-context-3.0.4.jar
+[DEBUG]  /root/.m2/repository/org/springframework/security/spring-security-rsa/1.0.10.RELEASE/spring-security-rsa-1.0.10.RELEASE.jar
+[DEBUG]  /root/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.68/bcpkix-jdk15on-1.68.jar
+[DEBUG]  /root/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.68/bcprov-jdk15on-1.68.jar
+[DEBUG]  /root/.m2/repository/org/springframework/cloud/spring-cloud-openfeign-core/3.0.4/spring-cloud-openfeign-core-3.0.4.jar
+[DEBUG]  /root/.m2/repository/io/github/openfeign/form/feign-form-spring/3.8.0/feign-form-spring-3.8.0.jar
+[DEBUG]  /root/.m2/repository/io/github/openfeign/form/feign-form/3.8.0/feign-form-3.8.0.jar
+[DEBUG]  /root/.m2/repository/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar
+[DEBUG]  /root/.m2/repository/commons-io/commons-io/2.2/commons-io-2.2.jar
+[DEBUG]  /root/.m2/repository/org/springframework/cloud/spring-cloud-commons/3.0.4/spring-cloud-commons-3.0.4.jar
+[DEBUG]  /root/.m2/repository/org/springframework/security/spring-security-crypto/5.5.3/spring-security-crypto-5.5.3.jar
+[DEBUG]  /root/.m2/repository/io/github/openfeign/feign-core/10.12/feign-core-10.12.jar
+[DEBUG]  /root/.m2/repository/io/github/openfeign/feign-slf4j/10.12/feign-slf4j-10.12.jar
+[DEBUG]  /root/.m2/repository/org/springframework/cloud/spring-cloud-starter-config/3.0.5/spring-cloud-starter-config-3.0.5.jar
+[DEBUG]  /root/.m2/repository/org/springframework/cloud/spring-cloud-config-client/3.0.5/spring-cloud-config-client-3.0.5.jar
+[DEBUG]  /root/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar
+[DEBUG]  /root/.m2/repository/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar
+[DEBUG]  /root/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar
+[DEBUG]  /root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.5/jackson-databind-2.12.5.jar
+[DEBUG]  /root/.m2/repository/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.0.4/spring-cloud-starter-netflix-eureka-client-3.0.4.jar
+[DEBUG]  /root/.m2/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/3.0.4/spring-cloud-netflix-eureka-client-3.0.4.jar
+[DEBUG]  /root/.m2/repository/com/netflix/eureka/eureka-client/1.10.16/eureka-client-1.10.16.jar
+[DEBUG]  /root/.m2/repository/com/netflix/netflix-commons/netflix-eventbus/0.3.0/netflix-eventbus-0.3.0.jar
+[DEBUG]  /root/.m2/repository/com/thoughtworks/xstream/xstream/1.4.18/xstream-1.4.18.jar
+[DEBUG]  /root/.m2/repository/io/github/x-stream/mxparser/1.2.2/mxparser-1.2.2.jar
+[DEBUG]  /root/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar
+[DEBUG]  /root/.m2/repository/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar
+[DEBUG]  /root/.m2/repository/com/netflix/servo/servo-core/0.12.21/servo-core-0.12.21.jar
+[DEBUG]  /root/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar
+[DEBUG]  /root/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar
+[DEBUG]  /root/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+[DEBUG]  /root/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0.jar
+[DEBUG]  /root/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar
+[DEBUG]  /root/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+[DEBUG]  /root/.m2/repository/com/netflix/eureka/eureka-core/1.10.16/eureka-core-1.10.16.jar
+[DEBUG]  /root/.m2/repository/com/fasterxml/woodstox/woodstox-core/6.2.1/woodstox-core-6.2.1.jar
+[DEBUG]  /root/.m2/repository/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.jar
+[DEBUG]  /root/.m2/repository/org/springframework/cloud/spring-cloud-starter-loadbalancer/3.0.4/spring-cloud-starter-loadbalancer-3.0.4.jar
+[DEBUG]  /root/.m2/repository/org/springframework/cloud/spring-cloud-loadbalancer/3.0.4/spring-cloud-loadbalancer-3.0.4.jar
+[DEBUG]  /root/.m2/repository/io/projectreactor/reactor-core/3.4.12/reactor-core-3.4.12.jar
+[DEBUG]  /root/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar
+[DEBUG]  /root/.m2/repository/io/projectreactor/addons/reactor-extra/3.4.5/reactor-extra-3.4.5.jar
+[DEBUG]  /root/.m2/repository/org/springframework/boot/spring-boot-starter-cache/2.5.7/spring-boot-starter-cache-2.5.7.jar
+[DEBUG]  /root/.m2/repository/org/springframework/spring-context-support/5.3.13/spring-context-support-5.3.13.jar
+[DEBUG]  /root/.m2/repository/com/stoyanr/evictor/1.0.0/evictor-1.0.0.jar
+[DEBUG]  /root/.m2/repository/org/springframework/boot/spring-boot-starter-validation/2.5.7/spring-boot-starter-validation-2.5.7.jar
+[DEBUG]  /root/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.55/tomcat-embed-el-9.0.55.jar
+[DEBUG]  /root/.m2/repository/org/hibernate/validator/hibernate-validator/6.2.0.Final/hibernate-validator-6.2.0.Final.jar
+[DEBUG]  /root/.m2/repository/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar
+[DEBUG]  /root/.m2/repository/org/jboss/logging/jboss-logging/3.4.2.Final/jboss-logging-3.4.2.Final.jar
+[DEBUG]  /root/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar
+[DEBUG]  /root/.m2/repository/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar
+[DEBUG]  /root/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar
+[DEBUG]  /root/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar
+[DEBUG]  /root/.m2/repository/org/thymeleaf/extras/thymeleaf-extras-springsecurity5/3.0.4.RELEASE/thymeleaf-extras-springsecurity5-3.0.4.RELEASE.jar
+[DEBUG]  /root/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar
+[DEBUG]  /root/.m2/repository/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar
+[DEBUG]  /root/.m2/repository/org/springframework/security/spring-security-core/5.5.3/spring-security-core-5.5.3.jar
+[DEBUG]  /root/.m2/repository/org/springframework/spring-core/5.3.13/spring-core-5.3.13.jar
+[DEBUG]  /root/.m2/repository/org/springframework/spring-jcl/5.3.13/spring-jcl-5.3.13.jar
+[DEBUG]  /root/.m2/repository/org/springframework/boot/spring-boot-starter/2.5.7/spring-boot-starter-2.5.7.jar
+[DEBUG]  /root/.m2/repository/org/springframework/boot/spring-boot/2.5.7/spring-boot-2.5.7.jar
+[DEBUG]  /root/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.5.7/spring-boot-autoconfigure-2.5.7.jar
+[DEBUG]  /root/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.5.7/spring-boot-starter-logging-2.5.7.jar
+[DEBUG]  /root/.m2/repository/ch/qos/logback/logback-classic/1.2.7/logback-classic-1.2.7.jar
+[DEBUG]  /root/.m2/repository/ch/qos/logback/logback-core/1.2.7/logback-core-1.2.7.jar
+[DEBUG]  /root/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.14.1/log4j-to-slf4j-2.14.1.jar
+[DEBUG]  /root/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar
+[DEBUG]  /root/.m2/repository/org/slf4j/jul-to-slf4j/1.7.32/jul-to-slf4j-1.7.32.jar
+[DEBUG]  /root/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar
+[DEBUG]  /root/.m2/repository/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar
+[DEBUG]  /root/.m2/repository/org/springframework/boot/spring-boot-starter-actuator/2.5.7/spring-boot-starter-actuator-2.5.7.jar
+[DEBUG]  /root/.m2/repository/org/springframework/boot/spring-boot-actuator-autoconfigure/2.5.7/spring-boot-actuator-autoconfigure-2.5.7.jar
+[DEBUG]  /root/.m2/repository/org/springframework/boot/spring-boot-actuator/2.5.7/spring-boot-actuator-2.5.7.jar
+[DEBUG]  /root/.m2/repository/io/micrometer/micrometer-core/1.7.6/micrometer-core-1.7.6.jar
+[DEBUG]  /root/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar
+[DEBUG]  /root/.m2/repository/org/springframework/cloud/spring-cloud-starter-circuitbreaker-resilience4j/2.0.2/spring-cloud-starter-circuitbreaker-resilience4j-2.0.2.jar
+[DEBUG]  /root/.m2/repository/org/springframework/cloud/spring-cloud-circuitbreaker-resilience4j/2.0.2/spring-cloud-circuitbreaker-resilience4j-2.0.2.jar
+[DEBUG]  /root/.m2/repository/io/github/resilience4j/resilience4j-spring-boot2/1.7.0/resilience4j-spring-boot2-1.7.0.jar
+[DEBUG]  /root/.m2/repository/io/github/resilience4j/resilience4j-spring/1.7.0/resilience4j-spring-1.7.0.jar
+[DEBUG]  /root/.m2/repository/io/github/resilience4j/resilience4j-annotations/1.7.0/resilience4j-annotations-1.7.0.jar
+[DEBUG]  /root/.m2/repository/io/github/resilience4j/resilience4j-consumer/1.7.0/resilience4j-consumer-1.7.0.jar
+[DEBUG]  /root/.m2/repository/io/github/resilience4j/resilience4j-circularbuffer/1.7.0/resilience4j-circularbuffer-1.7.0.jar
+[DEBUG]  /root/.m2/repository/io/github/resilience4j/resilience4j-framework-common/1.7.0/resilience4j-framework-common-1.7.0.jar
+[DEBUG]  /root/.m2/repository/io/github/resilience4j/resilience4j-ratelimiter/1.7.0/resilience4j-ratelimiter-1.7.0.jar
+[DEBUG]  /root/.m2/repository/io/github/resilience4j/resilience4j-retry/1.7.0/resilience4j-retry-1.7.0.jar
+[DEBUG]  /root/.m2/repository/io/github/resilience4j/resilience4j-micrometer/1.7.0/resilience4j-micrometer-1.7.0.jar
+[DEBUG]  /root/.m2/repository/io/github/resilience4j/resilience4j-circuitbreaker/1.7.0/resilience4j-circuitbreaker-1.7.0.jar
+[DEBUG]  /root/.m2/repository/io/vavr/vavr/0.10.2/vavr-0.10.2.jar
+[DEBUG]  /root/.m2/repository/io/vavr/vavr-match/0.10.2/vavr-match-0.10.2.jar
+[DEBUG]  /root/.m2/repository/io/github/resilience4j/resilience4j-core/1.7.0/resilience4j-core-1.7.0.jar
+[DEBUG]  /root/.m2/repository/io/github/resilience4j/resilience4j-timelimiter/1.7.0/resilience4j-timelimiter-1.7.0.jar
+[DEBUG]  /root/.m2/repository/io/micrometer/micrometer-registry-prometheus/1.7.6/micrometer-registry-prometheus-1.7.6.jar
+[DEBUG]  /root/.m2/repository/io/prometheus/simpleclient_common/0.10.0/simpleclient_common-0.10.0.jar
+[DEBUG]  /root/.m2/repository/io/prometheus/simpleclient/0.10.0/simpleclient-0.10.0.jar
+[DEBUG]  /root/.m2/repository/org/springframework/cloud/spring-cloud-sleuth-zipkin/3.0.4/spring-cloud-sleuth-zipkin-3.0.4.jar
+[DEBUG]  /root/.m2/repository/org/springframework/cloud/spring-cloud-sleuth-instrumentation/3.0.4/spring-cloud-sleuth-instrumentation-3.0.4.jar
+[DEBUG]  /root/.m2/repository/org/springframework/cloud/spring-cloud-sleuth-api/3.0.4/spring-cloud-sleuth-api-3.0.4.jar
+[DEBUG]  /root/.m2/repository/org/aspectj/aspectjrt/1.9.7/aspectjrt-1.9.7.jar
+[DEBUG]  /root/.m2/repository/io/zipkin/zipkin2/zipkin/2.23.0/zipkin-2.23.0.jar
+[DEBUG]  /root/.m2/repository/io/zipkin/reporter2/zipkin-reporter/2.16.1/zipkin-reporter-2.16.1.jar
+[DEBUG]  /root/.m2/repository/io/zipkin/reporter2/zipkin-reporter-brave/2.16.1/zipkin-reporter-brave-2.16.1.jar
+[DEBUG]  /root/.m2/repository/io/zipkin/reporter2/zipkin-sender-kafka/2.16.1/zipkin-sender-kafka-2.16.1.jar
+[DEBUG]  /root/.m2/repository/io/zipkin/reporter2/zipkin-sender-activemq-client/2.16.1/zipkin-sender-activemq-client-2.16.1.jar
+[DEBUG]  /root/.m2/repository/io/zipkin/reporter2/zipkin-sender-amqp-client/2.16.1/zipkin-sender-amqp-client-2.16.1.jar
+[DEBUG]  /root/.m2/repository/org/springframework/cloud/spring-cloud-starter-sleuth/3.0.4/spring-cloud-starter-sleuth-3.0.4.jar
+[DEBUG]  /root/.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.5.7/spring-boot-starter-aop-2.5.7.jar
+[DEBUG]  /root/.m2/repository/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar
+[DEBUG]  /root/.m2/repository/org/springframework/cloud/spring-cloud-sleuth-autoconfigure/3.0.4/spring-cloud-sleuth-autoconfigure-3.0.4.jar
+[DEBUG]  /root/.m2/repository/org/springframework/cloud/spring-cloud-sleuth-brave/3.0.4/spring-cloud-sleuth-brave-3.0.4.jar
+[DEBUG]  /root/.m2/repository/io/zipkin/brave/brave/5.13.2/brave-5.13.2.jar
+[DEBUG]  /root/.m2/repository/io/zipkin/brave/brave-context-slf4j/5.13.2/brave-context-slf4j-5.13.2.jar
+[DEBUG]  /root/.m2/repository/io/zipkin/brave/brave-instrumentation-messaging/5.13.2/brave-instrumentation-messaging-5.13.2.jar
+[DEBUG]  /root/.m2/repository/io/zipkin/brave/brave-instrumentation-rpc/5.13.2/brave-instrumentation-rpc-5.13.2.jar
+[DEBUG]  /root/.m2/repository/io/zipkin/brave/brave-instrumentation-spring-rabbit/5.13.2/brave-instrumentation-spring-rabbit-5.13.2.jar
+[DEBUG]  /root/.m2/repository/io/zipkin/brave/brave-instrumentation-kafka-clients/5.13.2/brave-instrumentation-kafka-clients-5.13.2.jar
+[DEBUG]  /root/.m2/repository/io/zipkin/brave/brave-instrumentation-kafka-streams/5.13.2/brave-instrumentation-kafka-streams-5.13.2.jar
+[DEBUG]  /root/.m2/repository/io/zipkin/brave/brave-instrumentation-httpclient/5.13.2/brave-instrumentation-httpclient-5.13.2.jar
+[DEBUG]  /root/.m2/repository/io/zipkin/brave/brave-instrumentation-http/5.13.2/brave-instrumentation-http-5.13.2.jar
+[DEBUG]  /root/.m2/repository/io/zipkin/brave/brave-instrumentation-httpasyncclient/5.13.2/brave-instrumentation-httpasyncclient-5.13.2.jar
+[DEBUG]  /root/.m2/repository/io/zipkin/brave/brave-instrumentation-jms/5.13.2/brave-instrumentation-jms-5.13.2.jar
+[DEBUG]  /root/.m2/repository/io/zipkin/brave/brave-instrumentation-mongodb/5.13.2/brave-instrumentation-mongodb-5.13.2.jar
+[DEBUG]  /root/.m2/repository/io/zipkin/aws/brave-propagation-aws/0.21.3/brave-propagation-aws-0.21.3.jar
+[DEBUG]  /root/.m2/repository/io/zipkin/reporter2/zipkin-reporter-metrics-micrometer/2.16.1/zipkin-reporter-metrics-micrometer-2.16.1.jar
+[DEBUG]  /root/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/2.5.7/spring-boot-configuration-processor-2.5.7.jar
+[DEBUG]  /root/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.5/jackson-datatype-jsr310-2.12.5.jar
+[DEBUG]  /root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.5/jackson-annotations-2.12.5.jar
+[DEBUG]  /root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.5/jackson-core-2.12.5.jar
+[DEBUG]  /root/.m2/repository/org/springdoc/springdoc-openapi-ui/1.6.3/springdoc-openapi-ui-1.6.3.jar
+[DEBUG]  /root/.m2/repository/org/springdoc/springdoc-openapi-webmvc-core/1.6.3/springdoc-openapi-webmvc-core-1.6.3.jar
+[DEBUG]  /root/.m2/repository/org/springdoc/springdoc-openapi-common/1.6.3/springdoc-openapi-common-1.6.3.jar
+[DEBUG]  /root/.m2/repository/io/swagger/core/v3/swagger-models/2.1.12/swagger-models-2.1.12.jar
+[DEBUG]  /root/.m2/repository/io/swagger/core/v3/swagger-annotations/2.1.12/swagger-annotations-2.1.12.jar
+[DEBUG]  /root/.m2/repository/io/swagger/core/v3/swagger-integration/2.1.12/swagger-integration-2.1.12.jar
+[DEBUG]  /root/.m2/repository/io/swagger/core/v3/swagger-core/2.1.12/swagger-core-2.1.12.jar
+[DEBUG]  /root/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.12.5/jackson-dataformat-yaml-2.12.5.jar
+[DEBUG]  /root/.m2/repository/io/github/classgraph/classgraph/4.8.117/classgraph-4.8.117.jar
+[DEBUG]  /root/.m2/repository/io/github/toolfactory/jvm-driver/4.0.0/jvm-driver-4.0.0.jar
+[DEBUG]  /root/.m2/repository/io/github/toolfactory/narcissus/1.0.1/narcissus-1.0.1.jar
+[DEBUG]  /root/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
+[DEBUG]  /root/.m2/repository/org/webjars/swagger-ui/4.1.3/swagger-ui-4.1.3.jar
+[DEBUG]  /root/.m2/repository/org/webjars/webjars-locator-core/0.46/webjars-locator-core-0.46.jar
+[DEBUG]  /root/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar
+[DEBUG]  /root/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar
+[DEBUG] Source roots:
+[DEBUG]  /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java
+[DEBUG]  /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/generated-sources/annotations
+[DEBUG] Command line options:
+[DEBUG] -d /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/classes -classpath /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/classes:/root/.m2/repository/org/springframework/boot/spring-boot-starter-security/2.5.7/spring-boot-starter-security-2.5.7.jar:/root/.m2/repository/org/springframework/spring-aop/5.3.13/spring-aop-5.3.13.jar:/root/.m2/repository/org/springframework/spring-beans/5.3.13/spring-beans-5.3.13.jar:/root/.m2/repository/org/springframework/security/spring-security-config/5.5.3/spring-security-config-5.5.3.jar:/root/.m2/repository/org/springframework/spring-context/5.3.13/spring-context-5.3.13.jar:/root/.m2/repository/org/springframework/security/spring-security-web/5.5.3/spring-security-web-5.5.3.jar:/root/.m2/repository/org/springframework/spring-expression/5.3.13/spring-expression-5.3.13.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-thymeleaf/2.5.7/spring-boot-starter-thymeleaf-2.5.7.jar:/root/.m2/repository/org/thymeleaf/thymeleaf-spring5/3.0.12.RELEASE/thymeleaf-spring5-3.0.12.RELEASE.jar:/root/.m2/repository/org/thymeleaf/thymeleaf/3.0.12.RELEASE/thymeleaf-3.0.12.RELEASE.jar:/root/.m2/repository/org/attoparser/attoparser/2.0.5.RELEASE/attoparser-2.0.5.RELEASE.jar:/root/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar:/root/.m2/repository/org/thymeleaf/extras/thymeleaf-extras-java8time/3.0.4.RELEASE/thymeleaf-extras-java8time-3.0.4.RELEASE.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.5.7/spring-boot-starter-web-2.5.7.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.5.7/spring-boot-starter-json-2.5.7.jar:/root/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.12.5/jackson-datatype-jdk8-2.12.5.jar:/root/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.12.5/jackson-module-parameter-names-2.12.5.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.5.7/spring-boot-starter-tomcat-2.5.7.jar:/root/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.55/tomcat-embed-core-9.0.55.jar:/root/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.55/tomcat-embed-websocket-9.0.55.jar:/root/.m2/repository/org/springframework/spring-web/5.3.13/spring-web-5.3.13.jar:/root/.m2/repository/org/springframework/spring-webmvc/5.3.13/spring-webmvc-5.3.13.jar:/root/.m2/repository/org/springframework/cloud/spring-cloud-starter-openfeign/3.0.4/spring-cloud-starter-openfeign-3.0.4.jar:/root/.m2/repository/org/springframework/cloud/spring-cloud-starter/3.0.4/spring-cloud-starter-3.0.4.jar:/root/.m2/repository/org/springframework/cloud/spring-cloud-context/3.0.4/spring-cloud-context-3.0.4.jar:/root/.m2/repository/org/springframework/security/spring-security-rsa/1.0.10.RELEASE/spring-security-rsa-1.0.10.RELEASE.jar:/root/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.68/bcpkix-jdk15on-1.68.jar:/root/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.68/bcprov-jdk15on-1.68.jar:/root/.m2/repository/org/springframework/cloud/spring-cloud-openfeign-core/3.0.4/spring-cloud-openfeign-core-3.0.4.jar:/root/.m2/repository/io/github/openfeign/form/feign-form-spring/3.8.0/feign-form-spring-3.8.0.jar:/root/.m2/repository/io/github/openfeign/form/feign-form/3.8.0/feign-form-3.8.0.jar:/root/.m2/repository/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar:/root/.m2/repository/commons-io/commons-io/2.2/commons-io-2.2.jar:/root/.m2/repository/org/springframework/cloud/spring-cloud-commons/3.0.4/spring-cloud-commons-3.0.4.jar:/root/.m2/repository/org/springframework/security/spring-security-crypto/5.5.3/spring-security-crypto-5.5.3.jar:/root/.m2/repository/io/github/openfeign/feign-core/10.12/feign-core-10.12.jar:/root/.m2/repository/io/github/openfeign/feign-slf4j/10.12/feign-slf4j-10.12.jar:/root/.m2/repository/org/springframework/cloud/spring-cloud-starter-config/3.0.5/spring-cloud-starter-config-3.0.5.jar:/root/.m2/repository/org/springframework/cloud/spring-cloud-config-client/3.0.5/spring-cloud-config-client-3.0.5.jar:/root/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/root/.m2/repository/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar:/root/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.5/jackson-databind-2.12.5.jar:/root/.m2/repository/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.0.4/spring-cloud-starter-netflix-eureka-client-3.0.4.jar:/root/.m2/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/3.0.4/spring-cloud-netflix-eureka-client-3.0.4.jar:/root/.m2/repository/com/netflix/eureka/eureka-client/1.10.16/eureka-client-1.10.16.jar:/root/.m2/repository/com/netflix/netflix-commons/netflix-eventbus/0.3.0/netflix-eventbus-0.3.0.jar:/root/.m2/repository/com/thoughtworks/xstream/xstream/1.4.18/xstream-1.4.18.jar:/root/.m2/repository/io/github/x-stream/mxparser/1.2.2/mxparser-1.2.2.jar:/root/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar:/root/.m2/repository/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar:/root/.m2/repository/com/netflix/servo/servo-core/0.12.21/servo-core-0.12.21.jar:/root/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar:/root/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/root/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/root/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0.jar:/root/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/root/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/root/.m2/repository/com/netflix/eureka/eureka-core/1.10.16/eureka-core-1.10.16.jar:/root/.m2/repository/com/fasterxml/woodstox/woodstox-core/6.2.1/woodstox-core-6.2.1.jar:/root/.m2/repository/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.jar:/root/.m2/repository/org/springframework/cloud/spring-cloud-starter-loadbalancer/3.0.4/spring-cloud-starter-loadbalancer-3.0.4.jar:/root/.m2/repository/org/springframework/cloud/spring-cloud-loadbalancer/3.0.4/spring-cloud-loadbalancer-3.0.4.jar:/root/.m2/repository/io/projectreactor/reactor-core/3.4.12/reactor-core-3.4.12.jar:/root/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/root/.m2/repository/io/projectreactor/addons/reactor-extra/3.4.5/reactor-extra-3.4.5.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-cache/2.5.7/spring-boot-starter-cache-2.5.7.jar:/root/.m2/repository/org/springframework/spring-context-support/5.3.13/spring-context-support-5.3.13.jar:/root/.m2/repository/com/stoyanr/evictor/1.0.0/evictor-1.0.0.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-validation/2.5.7/spring-boot-starter-validation-2.5.7.jar:/root/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.55/tomcat-embed-el-9.0.55.jar:/root/.m2/repository/org/hibernate/validator/hibernate-validator/6.2.0.Final/hibernate-validator-6.2.0.Final.jar:/root/.m2/repository/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar:/root/.m2/repository/org/jboss/logging/jboss-logging/3.4.2.Final/jboss-logging-3.4.2.Final.jar:/root/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar:/root/.m2/repository/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar:/root/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/root/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/root/.m2/repository/org/thymeleaf/extras/thymeleaf-extras-springsecurity5/3.0.4.RELEASE/thymeleaf-extras-springsecurity5-3.0.4.RELEASE.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/root/.m2/repository/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar:/root/.m2/repository/org/springframework/security/spring-security-core/5.5.3/spring-security-core-5.5.3.jar:/root/.m2/repository/org/springframework/spring-core/5.3.13/spring-core-5.3.13.jar:/root/.m2/repository/org/springframework/spring-jcl/5.3.13/spring-jcl-5.3.13.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter/2.5.7/spring-boot-starter-2.5.7.jar:/root/.m2/repository/org/springframework/boot/spring-boot/2.5.7/spring-boot-2.5.7.jar:/root/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.5.7/spring-boot-autoconfigure-2.5.7.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.5.7/spring-boot-starter-logging-2.5.7.jar:/root/.m2/repository/ch/qos/logback/logback-classic/1.2.7/logback-classic-1.2.7.jar:/root/.m2/repository/ch/qos/logback/logback-core/1.2.7/logback-core-1.2.7.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.14.1/log4j-to-slf4j-2.14.1.jar:/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar:/root/.m2/repository/org/slf4j/jul-to-slf4j/1.7.32/jul-to-slf4j-1.7.32.jar:/root/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/root/.m2/repository/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-actuator/2.5.7/spring-boot-starter-actuator-2.5.7.jar:/root/.m2/repository/org/springframework/boot/spring-boot-actuator-autoconfigure/2.5.7/spring-boot-actuator-autoconfigure-2.5.7.jar:/root/.m2/repository/org/springframework/boot/spring-boot-actuator/2.5.7/spring-boot-actuator-2.5.7.jar:/root/.m2/repository/io/micrometer/micrometer-core/1.7.6/micrometer-core-1.7.6.jar:/root/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar:/root/.m2/repository/org/springframework/cloud/spring-cloud-starter-circuitbreaker-resilience4j/2.0.2/spring-cloud-starter-circuitbreaker-resilience4j-2.0.2.jar:/root/.m2/repository/org/springframework/cloud/spring-cloud-circuitbreaker-resilience4j/2.0.2/spring-cloud-circuitbreaker-resilience4j-2.0.2.jar:/root/.m2/repository/io/github/resilience4j/resilience4j-spring-boot2/1.7.0/resilience4j-spring-boot2-1.7.0.jar:/root/.m2/repository/io/github/resilience4j/resilience4j-spring/1.7.0/resilience4j-spring-1.7.0.jar:/root/.m2/repository/io/github/resilience4j/resilience4j-annotations/1.7.0/resilience4j-annotations-1.7.0.jar:/root/.m2/repository/io/github/resilience4j/resilience4j-consumer/1.7.0/resilience4j-consumer-1.7.0.jar:/root/.m2/repository/io/github/resilience4j/resilience4j-circularbuffer/1.7.0/resilience4j-circularbuffer-1.7.0.jar:/root/.m2/repository/io/github/resilience4j/resilience4j-framework-common/1.7.0/resilience4j-framework-common-1.7.0.jar:/root/.m2/repository/io/github/resilience4j/resilience4j-ratelimiter/1.7.0/resilience4j-ratelimiter-1.7.0.jar:/root/.m2/repository/io/github/resilience4j/resilience4j-retry/1.7.0/resilience4j-retry-1.7.0.jar:/root/.m2/repository/io/github/resilience4j/resilience4j-micrometer/1.7.0/resilience4j-micrometer-1.7.0.jar:/root/.m2/repository/io/github/resilience4j/resilience4j-circuitbreaker/1.7.0/resilience4j-circuitbreaker-1.7.0.jar:/root/.m2/repository/io/vavr/vavr/0.10.2/vavr-0.10.2.jar:/root/.m2/repository/io/vavr/vavr-match/0.10.2/vavr-match-0.10.2.jar:/root/.m2/repository/io/github/resilience4j/resilience4j-core/1.7.0/resilience4j-core-1.7.0.jar:/root/.m2/repository/io/github/resilience4j/resilience4j-timelimiter/1.7.0/resilience4j-timelimiter-1.7.0.jar:/root/.m2/repository/io/micrometer/micrometer-registry-prometheus/1.7.6/micrometer-registry-prometheus-1.7.6.jar:/root/.m2/repository/io/prometheus/simpleclient_common/0.10.0/simpleclient_common-0.10.0.jar:/root/.m2/repository/io/prometheus/simpleclient/0.10.0/simpleclient-0.10.0.jar:/root/.m2/repository/org/springframework/cloud/spring-cloud-sleuth-zipkin/3.0.4/spring-cloud-sleuth-zipkin-3.0.4.jar:/root/.m2/repository/org/springframework/cloud/spring-cloud-sleuth-instrumentation/3.0.4/spring-cloud-sleuth-instrumentation-3.0.4.jar:/root/.m2/repository/org/springframework/cloud/spring-cloud-sleuth-api/3.0.4/spring-cloud-sleuth-api-3.0.4.jar:/root/.m2/repository/org/aspectj/aspectjrt/1.9.7/aspectjrt-1.9.7.jar:/root/.m2/repository/io/zipkin/zipkin2/zipkin/2.23.0/zipkin-2.23.0.jar:/root/.m2/repository/io/zipkin/reporter2/zipkin-reporter/2.16.1/zipkin-reporter-2.16.1.jar:/root/.m2/repository/io/zipkin/reporter2/zipkin-reporter-brave/2.16.1/zipkin-reporter-brave-2.16.1.jar:/root/.m2/repository/io/zipkin/reporter2/zipkin-sender-kafka/2.16.1/zipkin-sender-kafka-2.16.1.jar:/root/.m2/repository/io/zipkin/reporter2/zipkin-sender-activemq-client/2.16.1/zipkin-sender-activemq-client-2.16.1.jar:/root/.m2/repository/io/zipkin/reporter2/zipkin-sender-amqp-client/2.16.1/zipkin-sender-amqp-client-2.16.1.jar:/root/.m2/repository/org/springframework/cloud/spring-cloud-starter-sleuth/3.0.4/spring-cloud-starter-sleuth-3.0.4.jar:/root/.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.5.7/spring-boot-starter-aop-2.5.7.jar:/root/.m2/repository/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar:/root/.m2/repository/org/springframework/cloud/spring-cloud-sleuth-autoconfigure/3.0.4/spring-cloud-sleuth-autoconfigure-3.0.4.jar:/root/.m2/repository/org/springframework/cloud/spring-cloud-sleuth-brave/3.0.4/spring-cloud-sleuth-brave-3.0.4.jar:/root/.m2/repository/io/zipkin/brave/brave/5.13.2/brave-5.13.2.jar:/root/.m2/repository/io/zipkin/brave/brave-context-slf4j/5.13.2/brave-context-slf4j-5.13.2.jar:/root/.m2/repository/io/zipkin/brave/brave-instrumentation-messaging/5.13.2/brave-instrumentation-messaging-5.13.2.jar:/root/.m2/repository/io/zipkin/brave/brave-instrumentation-rpc/5.13.2/brave-instrumentation-rpc-5.13.2.jar:/root/.m2/repository/io/zipkin/brave/brave-instrumentation-spring-rabbit/5.13.2/brave-instrumentation-spring-rabbit-5.13.2.jar:/root/.m2/repository/io/zipkin/brave/brave-instrumentation-kafka-clients/5.13.2/brave-instrumentation-kafka-clients-5.13.2.jar:/root/.m2/repository/io/zipkin/brave/brave-instrumentation-kafka-streams/5.13.2/brave-instrumentation-kafka-streams-5.13.2.jar:/root/.m2/repository/io/zipkin/brave/brave-instrumentation-httpclient/5.13.2/brave-instrumentation-httpclient-5.13.2.jar:/root/.m2/repository/io/zipkin/brave/brave-instrumentation-http/5.13.2/brave-instrumentation-http-5.13.2.jar:/root/.m2/repository/io/zipkin/brave/brave-instrumentation-httpasyncclient/5.13.2/brave-instrumentation-httpasyncclient-5.13.2.jar:/root/.m2/repository/io/zipkin/brave/brave-instrumentation-jms/5.13.2/brave-instrumentation-jms-5.13.2.jar:/root/.m2/repository/io/zipkin/brave/brave-instrumentation-mongodb/5.13.2/brave-instrumentation-mongodb-5.13.2.jar:/root/.m2/repository/io/zipkin/aws/brave-propagation-aws/0.21.3/brave-propagation-aws-0.21.3.jar:/root/.m2/repository/io/zipkin/reporter2/zipkin-reporter-metrics-micrometer/2.16.1/zipkin-reporter-metrics-micrometer-2.16.1.jar:/root/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/2.5.7/spring-boot-configuration-processor-2.5.7.jar:/root/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.5/jackson-datatype-jsr310-2.12.5.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.5/jackson-annotations-2.12.5.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.5/jackson-core-2.12.5.jar:/root/.m2/repository/org/springdoc/springdoc-openapi-ui/1.6.3/springdoc-openapi-ui-1.6.3.jar:/root/.m2/repository/org/springdoc/springdoc-openapi-webmvc-core/1.6.3/springdoc-openapi-webmvc-core-1.6.3.jar:/root/.m2/repository/org/springdoc/springdoc-openapi-common/1.6.3/springdoc-openapi-common-1.6.3.jar:/root/.m2/repository/io/swagger/core/v3/swagger-models/2.1.12/swagger-models-2.1.12.jar:/root/.m2/repository/io/swagger/core/v3/swagger-annotations/2.1.12/swagger-annotations-2.1.12.jar:/root/.m2/repository/io/swagger/core/v3/swagger-integration/2.1.12/swagger-integration-2.1.12.jar:/root/.m2/repository/io/swagger/core/v3/swagger-core/2.1.12/swagger-core-2.1.12.jar:/root/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.12.5/jackson-dataformat-yaml-2.12.5.jar:/root/.m2/repository/io/github/classgraph/classgraph/4.8.117/classgraph-4.8.117.jar:/root/.m2/repository/io/github/toolfactory/jvm-driver/4.0.0/jvm-driver-4.0.0.jar:/root/.m2/repository/io/github/toolfactory/narcissus/1.0.1/narcissus-1.0.1.jar:/root/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/root/.m2/repository/org/webjars/swagger-ui/4.1.3/swagger-ui-4.1.3.jar:/root/.m2/repository/org/webjars/webjars-locator-core/0.46/webjars-locator-core-0.46.jar:/root/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/root/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar: -sourcepath /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/src/main/java:/var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/generated-sources/annotations: -s /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/generated-sources/annotations -g -parameters -nowarn -target 11 -source 11 -encoding UTF-8
+[DEBUG] incrementalBuildHelper#beforeRebuildExecution
+[INFO] Compiling 78 source files to /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  14.201 s
+[INFO] Finished at: 2025-05-29T15:00:32Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project proxy-client: Fatal error compiling: java.lang.NoSuchFieldError: Class com.sun.tools.javac.tree.JCTree$JCImport does not have member field 'com.sun.tools.javac.tree.JCTree qualid' -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project proxy-client: Fatal error compiling
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:215)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:972)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:293)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:196)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (Unknown Source)
+    at java.lang.reflect.Method.invoke (Unknown Source)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (Unknown Source)
+    at java.lang.reflect.Method.invoke (Unknown Source)
+    at org.apache.maven.wrapper.BootstrapMainStarter.start (BootstrapMainStarter.java:39)
+    at org.apache.maven.wrapper.WrapperExecutor.execute (WrapperExecutor.java:122)
+    at org.apache.maven.wrapper.MavenWrapperMain.main (MavenWrapperMain.java:61)
+Caused by: org.apache.maven.plugin.MojoExecutionException: Fatal error compiling
+    at org.apache.maven.plugin.compiler.AbstractCompilerMojo.execute (AbstractCompilerMojo.java:1145)
+    at org.apache.maven.plugin.compiler.CompilerMojo.execute (CompilerMojo.java:187)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:210)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:972)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:293)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:196)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (Unknown Source)
+    at java.lang.reflect.Method.invoke (Unknown Source)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (Unknown Source)
+    at java.lang.reflect.Method.invoke (Unknown Source)
+    at org.apache.maven.wrapper.BootstrapMainStarter.start (BootstrapMainStarter.java:39)
+    at org.apache.maven.wrapper.WrapperExecutor.execute (WrapperExecutor.java:122)
+    at org.apache.maven.wrapper.MavenWrapperMain.main (MavenWrapperMain.java:61)
+Caused by: org.codehaus.plexus.compiler.CompilerException: java.lang.NoSuchFieldError: Class com.sun.tools.javac.tree.JCTree$JCImport does not have member field 'com.sun.tools.javac.tree.JCTree qualid'
+    at org.codehaus.plexus.compiler.javac.JavaxToolsCompiler.compileInProcess (JavaxToolsCompiler.java:173)
+    at org.codehaus.plexus.compiler.javac.JavacCompiler.performCompile (JavacCompiler.java:174)
+    at org.apache.maven.plugin.compiler.AbstractCompilerMojo.execute (AbstractCompilerMojo.java:1134)
+    at org.apache.maven.plugin.compiler.CompilerMojo.execute (CompilerMojo.java:187)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:210)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:972)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:293)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:196)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (Unknown Source)
+    at java.lang.reflect.Method.invoke (Unknown Source)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (Unknown Source)
+    at java.lang.reflect.Method.invoke (Unknown Source)
+    at org.apache.maven.wrapper.BootstrapMainStarter.start (BootstrapMainStarter.java:39)
+    at org.apache.maven.wrapper.WrapperExecutor.execute (WrapperExecutor.java:122)
+    at org.apache.maven.wrapper.MavenWrapperMain.main (MavenWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: java.lang.NoSuchFieldError: Class com.sun.tools.javac.tree.JCTree$JCImport does not have member field 'com.sun.tools.javac.tree.JCTree qualid'
+    at com.sun.tools.javac.api.JavacTaskImpl.invocationHelper (Unknown Source)
+    at com.sun.tools.javac.api.JavacTaskImpl.doCall (Unknown Source)
+    at com.sun.tools.javac.api.JavacTaskImpl.call (Unknown Source)
+    at org.codehaus.plexus.compiler.javac.JavaxToolsCompiler.compileInProcess (JavaxToolsCompiler.java:126)
+    at org.codehaus.plexus.compiler.javac.JavacCompiler.performCompile (JavacCompiler.java:174)
+    at org.apache.maven.plugin.compiler.AbstractCompilerMojo.execute (AbstractCompilerMojo.java:1134)
+    at org.apache.maven.plugin.compiler.CompilerMojo.execute (CompilerMojo.java:187)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:210)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:972)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:293)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:196)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (Unknown Source)
+    at java.lang.reflect.Method.invoke (Unknown Source)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (Unknown Source)
+    at java.lang.reflect.Method.invoke (Unknown Source)
+    at org.apache.maven.wrapper.BootstrapMainStarter.start (BootstrapMainStarter.java:39)
+    at org.apache.maven.wrapper.WrapperExecutor.execute (WrapperExecutor.java:122)
+    at org.apache.maven.wrapper.MavenWrapperMain.main (MavenWrapperMain.java:61)
+Caused by: java.lang.NoSuchFieldError: Class com.sun.tools.javac.tree.JCTree$JCImport does not have member field 'com.sun.tools.javac.tree.JCTree qualid'
+    at lombok.javac.JavacImportList.getFullyQualifiedNameForSimpleNameNoAliasing (JavacImportList.java:53)
+    at lombok.core.TypeResolver.typeRefToFullyQualifiedName (TypeResolver.java:60)
+    at lombok.javac.HandlerLibrary.handleAnnotation (HandlerLibrary.java:247)
+    at lombok.javac.JavacTransformer$AnnotationVisitor.visitAnnotationOnType (JavacTransformer.java:79)
+    at lombok.javac.JavacNode.traverse (JavacNode.java:132)
+    at lombok.javac.JavacAST.traverseChildren (JavacAST.java:222)
+    at lombok.javac.JavacNode.traverse (JavacNode.java:95)
+    at lombok.javac.JavacAST.traverseChildren (JavacAST.java:222)
+    at lombok.javac.JavacNode.traverse (JavacNode.java:90)
+    at lombok.javac.JavacAST.traverse (JavacAST.java:218)
+    at lombok.javac.JavacTransformer.transform (JavacTransformer.java:63)
+    at lombok.javac.apt.LombokProcessor.process (LombokProcessor.java:328)
+    at lombok.core.AnnotationProcessor$JavacDescriptor.process (AnnotationProcessor.java:187)
+    at lombok.core.AnnotationProcessor.process (AnnotationProcessor.java:241)
+    at lombok.launch.AnnotationProcessorHider$AnnotationProcessor.process (AnnotationProcessor.java:90)
+    at com.sun.tools.javac.processing.JavacProcessingEnvironment.callProcessor (Unknown Source)
+    at com.sun.tools.javac.processing.JavacProcessingEnvironment.discoverAndRunProcs (Unknown Source)
+    at com.sun.tools.javac.processing.JavacProcessingEnvironment$Round.run (Unknown Source)
+    at com.sun.tools.javac.processing.JavacProcessingEnvironment.doProcessing (Unknown Source)
+    at com.sun.tools.javac.main.JavaCompiler.processAnnotations (Unknown Source)
+    at com.sun.tools.javac.main.JavaCompiler.compile (Unknown Source)
+    at com.sun.tools.javac.api.JavacTaskImpl.lambda$doCall$0 (Unknown Source)
+    at com.sun.tools.javac.api.JavacTaskImpl.invocationHelper (Unknown Source)
+    at com.sun.tools.javac.api.JavacTaskImpl.doCall (Unknown Source)
+    at com.sun.tools.javac.api.JavacTaskImpl.call (Unknown Source)
+    at org.codehaus.plexus.compiler.javac.JavaxToolsCompiler.compileInProcess (JavaxToolsCompiler.java:126)
+    at org.codehaus.plexus.compiler.javac.JavacCompiler.performCompile (JavacCompiler.java:174)
+    at org.apache.maven.plugin.compiler.AbstractCompilerMojo.execute (AbstractCompilerMojo.java:1134)
+    at org.apache.maven.plugin.compiler.CompilerMojo.execute (CompilerMojo.java:187)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:210)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:972)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:293)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:196)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (Unknown Source)
+    at java.lang.reflect.Method.invoke (Unknown Source)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (Unknown Source)
+    at java.lang.reflect.Method.invoke (Unknown Source)
+    at org.apache.maven.wrapper.BootstrapMainStarter.start (BootstrapMainStarter.java:39)
+    at org.apache.maven.wrapper.WrapperExecutor.execute (WrapperExecutor.java:122)
+    at org.apache.maven.wrapper.MavenWrapperMain.main (MavenWrapperMain.java:61)
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[8mha:////4ORB8g4wrUhbeWLn2PPSiaHcaZJLespmY2N7N3BksWCfAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNG7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+Ad3NsHm+AAAA[0m[Pipeline] }
+[8mha:////4IzVyEgNP8DAoW6EWqPulas1bWnvgbHg+z0ZamYJ6MGKAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8JP5Su+AAAA[0m[Pipeline] // stage
+[8mha:////4J+RNB6LW3hGvu2n2Iq9wQyXGz+wH8C4fMwNm1HOf0DNAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjUaRBVLSWG15gEmOcWHfBvpBUvIiv8QcMkajYamel1TxfUKYIB4pOdhZ7j6nxcgijy01OFPtLoEl2dJYNYaJgpbaTptYeF9TEFpaIAlYK1habQMmjY9ioztxNFQy66sQxb3sFhW9v8AChsplN5C/MEbbXsU2EP89fAcwDg6gZil39OZZv96T37sEAAAA=[0m[Pipeline] stage
+[8mha:////4Mc5PCSMf8lM5tmM1jdLmEx5FOWNyeQ5jkyyc5q5+bglAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (Unit and Integration Tests)
+Stage "Unit and Integration Tests" skipped due to earlier failure(s)
+[8mha:////4PfDGkK8F+hXmnMY4cXtAL1WuzGVy6ilY1jlB7OHrHgrAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGvZp0gvgAAAA==[0m[Pipeline] getContext
+[8mha:////4EldAo9rCMGKfNBfh0eyQvTA/DjpkDKC94EcJHD8Zab/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGMKkS1vgAAAA==[0m[Pipeline] }
+[8mha:////4GuyisqqwA1/vBzTbi3zdOSWOe9/KOg9DME/hKbA01r+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9mQDtDvgAAAA==[0m[Pipeline] // stage
+[8mha:////4Hk6NcosAzH+jmLvo4inLzjWbdyPv1U1lSF9EM4qd8T9AAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjhESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKLabz7F8A/ufhVXBAAAA[0m[Pipeline] stage
+[8mha:////4C5+AIpUg6tb8K9ptJGc01ypivtJp6ZLHzAsuiFJ39TEAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] { (Build and Push Docker Images)
+Stage "Build and Push Docker Images" skipped due to earlier failure(s)
+[8mha:////4BKYEPo17sjzhlTAVbbJ8zPXztrFi3Xg1R9KDdl1Y00LAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikRJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3favo5XL4AAAA=[0m[Pipeline] getContext
+[8mha:////4GpqfIZxR1VDzgclozzMj7kmkNBnc1JFKtysIzt25EcaAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bij33Ma+AAAA[0m[Pipeline] }
+[8mha:////4PpMhdoQ85RS959gPv1BsaJsGfMZP8mFcU7YXBS/9b1iAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbNzd1iZS+AAAA[0m[Pipeline] // stage
+[8mha:////4GW8QxMRfTfrha4smv3NBCXB1TX2bfIW7eDfgpNnNfl1AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTIKVBVLSWG15gEmOcWHfBvpBUvIiv8QcMkajYamel1TxfUKYIB4pOdhZ7j6nxcgijy01OFPtLoEl2dJYNYaJgpbaTptYeF9TEFpaIAlYK1habQMmjY9ioztxNFQy66sQxb3sFhW9v8AChsplN5C/MEbbXsU2EP89fAcwDg6gZil39OZZvQ6+ASMEAAAA=[0m[Pipeline] stage
+[8mha:////4HO8T5iNuxEKxCjHnXiB4tjqhw/6wjoLLIF6CeExM/sJAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] { (Desplegar manifiestos)
+Stage "Desplegar manifiestos" skipped due to earlier failure(s)
+[8mha:////4BXsBR4V3od9k+DVf0vE1fv8oqjXqQ3e2ONF6xCiinbbAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUICEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEGDPXtvgAAAA==[0m[Pipeline] getContext
+[8mha:////4FMgso2PbmkEQWl6az/f2ZzaYQhvBLHHmMDkrn/Lct6xAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUCCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQF5ECgKvgAAAA==[0m[Pipeline] }
+[8mha:////4AJk9HI9NApI4C9OPVW17TRl84xZGoiFM3i3iObwGparAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+pT4efvgAAAA==[0m[Pipeline] // stage
+[8mha:////4COGyp56UDqKSdNUOg3wdVfQTir32qbI3Z+fhS2mwfIlAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKLabz7F8A3WhIpDBAAAA[0m[Pipeline] stage
+[8mha:////4Or5VMWmp64ls6qSkszqWq5rmFf8ISTpYohMQEUNUkslAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdhUMVHCAAAA[0m[Pipeline] { (Desplegar microservicios)
+Stage "Desplegar microservicios" skipped due to earlier failure(s)
+[8mha:////4LjpWY1IjWUk62EhAmSOgT/gTQl0G+PDC7lRjOV7qTczAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBvbls1O+AAAA[0m[Pipeline] getContext
+[8mha:////4HG42LmdNc8KO3OJ6HlvGSyncuYPdX4ypeaGSzuXaomxAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioXSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/BmFfOky+AAAA[0m[Pipeline] }
+[8mha:////4NYjG3ABrvMt6sMGF9cd+WRjv9Faff0lzCqwgAcxWKv9AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN37dbx6+AAAA[0m[Pipeline] // stage
+[8mha:////4B0yfARptvyG3WkOcCTLIHJ5ClDi57/dC04/wmf0edPJAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYTToDSIitZywwtMYowT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhThQNHJzmLvMTVeDmF0ucmJYn8JNMmOzrIhTBSs1HbS1NrjgprYwhJRwErB2mITKHl0DBvVmbupgkFXnTjmba+g8O0NHiBUNrOJ/IU5wvY6tonw5/krgHlgEDVDsas/x/INzZEnjcEAAAA=[0m[Pipeline] stage
+[8mha:////4L/5IgVE0z+wMijGvPHz0B+JFaxgFcGPecn9V8ZKew3HAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QTAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD+jQxyjCAAAA[0m[Pipeline] { (Correr e2e)
+Stage "Correr e2e" skipped due to earlier failure(s)
+[8mha:////4L83x5O83LQzx6qYj+H+o/U4e2Aa84mqlhbtGIyTO4EdAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIIGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGaE3/ivgAAAA==[0m[Pipeline] getContext
+[8mha:////4MRiDmtHGdZPZMg01ey0ZiSiMU1ByyYDZvlu+3Ie+8gXAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEwuM6AvgAAAA==[0m[Pipeline] }
+[8mha:////4MyQZp1+opqYOAW58UMZlIRmnhx/QMXAOrULhKSfI7LQAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCATQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AHa0rF2vgAAAA==[0m[Pipeline] // stage
+[8mha:////4MRDqCJ0LRdfxKdS4A4EoYaNU3B6Klz9ItQv6uRV7NE8AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjCmgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxXbzOZZvwapVNsEAAAA=[0m[Pipeline] stage
+[8mha:////4P66OiLgbZZtOdVauuSZNLUVC84z4T8OaB6qYu/FcyM/AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDwMT42zCAAAA[0m[Pipeline] { (Desplegar Locust)
+Stage "Desplegar Locust" skipped due to earlier failure(s)
+[8mha:////4KOjIsHtlcsO194cuGjvLM5oFGKKdi3rSs+ePomXeoETAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN1+P256+AAAA[0m[Pipeline] getContext
+[8mha:////4MHwgSN57tMLNX0DiWez11fTPxn/qT2iH8fbtqlv0UjsAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN5RlVvO+AAAA[0m[Pipeline] }
+[8mha:////4DMW3tyd5t13BmvDtnyhNHBxCPNN6ITu8tWzfKm4eiNyAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiilSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/BovnA6G+AAAA[0m[Pipeline] // stage
+[8mha:////4Lly+KKUujM1UjChYy5H4Hfq8BtgKGViMo1Sj+8s0BHgAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTkQZR0VpueIFJjHFi3QX7QlLxIr7GHzBEomKrnZVW83xBmSIcKDrZWew9psbLIYwuNzlR7C+BJtnRWTaEiYKV2k6aWntcUBNbWCIKWClYW2wCJY+OYaM6czdVMOiqE8e87RUUvr3BA4TKZjaRvzBH2F7HNhH+PH8FMA8MomYodvXnWL4BeZpQK8EAAAA=[0m[Pipeline] stage
+[8mha:////4ItKIPFYydnjL08E0//nmCfwQ2Jjeh4uG84tJL2P+CNWAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxATOXFRXCAAAA[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4EoNHsE8NeS32hp4JNtDoizCtRzs+ng9Y+Csfb0sv1UmAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIZAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNzN5Fy++AAAA[0m[Pipeline] echo
+Pipeline finalizado
+[8mha:////4D30xo7x9zlMgsmPlB1uPAq+nk5iIkXxhWupbLf3BqzKAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIYQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN3JIDDa+AAAA[0m[Pipeline] echo
+Pipeline falló
+[8mha:////4CPOGbEDaazIAyiI0BlH7+7PIdQ1QncwSo9qi0cP4HbTAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAxQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AGQyUUpvgAAAA==[0m[Pipeline] }
+[8mha:////4OiXkbmrF8OfwDORBQzh7uZ2KUuQ/KQCFlDV4ForPKWjAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCtIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrfa5D/QGjKh6VvgAAAA==[0m[Pipeline] // stage
+[8mha:////4AQnCSJc1rvMK5iqKBRuGu/EAq2mrDwZZpMIx98tutAwAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkDizGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUHcSmOW70AAAA=[0m[Pipeline] }
+[8mha:////4KVvwX+t8xOojnncLavjMH4YFkjbN4eLFOSf3AtatJDEAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpEDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPe1Hn/70AAAA=[0m[Pipeline] // withEnv
+[8mha:////4OnaCDZmNRLaS/khH0gHN9YwWoFQdW2aow4OlwfwQ8VAAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0jI1jZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwA/b3AOr0AAAA=[0m[Pipeline] }
+[8mha:////4NF2g59smAe5qkSdwGjQZXFT6H0tKtcaiTgn+H5csKdHAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpEDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8TZNsP7gHEmb0AAAA=[0m[Pipeline] // node
+[8mha:////4DXVxchdDQm4bFPcrfVLBpGLiqF/WHMFCPVXquWn7VMUAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkDizGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FeVkKsv0HqEtjqb0AAAA=[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

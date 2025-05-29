@@ -13,9 +13,11 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
       - .:/var/jenkins_home/workspace/ecommerce-pipeline
     environment:
-      - JAVA_OPTS=-Djenkins.install.runSetupWizard=false
+      - JAVA_OPTS=-Djenkins.install.runSetupWizard=false -Dhudson.plugins.git.GitSCM.ALLOW_LOCAL_CHECKOUT=true
     command: >
       bash -c "apt-get update && 
-      apt-get install -y docker.io && 
+      apt-get install -y docker.io docker-compose && 
       chmod 666 /var/run/docker.sock && 
+      chown -R jenkins:jenkins /var/jenkins_home/workspace && 
+      usermod -aG docker jenkins && 
       /usr/local/bin/jenkins.sh" 

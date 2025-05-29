@@ -1,0 +1,377 @@
+Started by user unknown or anonymous
+[8mha:////4EGA9YH6v7JDXZigaFRU9r8OMVBTKWObfirqamAPj0iGAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4JyuvsiODdFXQgG9Uiz8pfxzKw4MAXJGDGFAPNgx+2V+AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4BDhZg4GHKj9nwI3EF3HrMLePrf+UZG7iq3VK85eKqtCAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/ecommerce-pipeline@2
+[8mha:////4OlMS44uSW1z/yotadzo1dBzH3caF7rCWBQvf2V0Ct/LAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4DD92tCtAw8NwyF4gKMSVk99mqQoLfE0Z0NvvgUF/OYuAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] withEnv
+[8mha:////4PryYDLlAcBgn9837YMCk9o2qhoQXVKW7Z7UnHeTuKjOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4MvclvKH8b+spWIpse8YSz9HBpLGqN94rYR8w7WgKRNNAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4Pi4qvoyZHxBakjKaz1qq1wxixNiFUjoy+ndxcaHyGmzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Preparación)
+[8mha:////4P7WulShPkMaZzkVao7CxuDkiUogyRDmuCS3JI5Z5YSyAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] sh
++ echo Verificando Java...
+Verificando Java...
++ java -version
+openjdk version "21.0.7" 2025-04-15 LTS
+OpenJDK Runtime Environment Temurin-21.0.7+6 (build 21.0.7+6-LTS)
+OpenJDK 64-Bit Server VM Temurin-21.0.7+6 (build 21.0.7+6-LTS, mixed mode)
++ echo Verificando archivos necesarios...
+Verificando archivos necesarios...
++ pwd
++ echo Current directory: /var/jenkins_home/workspace/ecommerce-pipeline@2
+Current directory: /var/jenkins_home/workspace/ecommerce-pipeline@2
++ echo Workspace directory: /var/jenkins_home/workspace/ecommerce-pipeline@2
+Workspace directory: /var/jenkins_home/workspace/ecommerce-pipeline@2
++ echo Listing all files in current directory:
+Listing all files in current directory:
++ ls -la
+total 2440
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:57 .
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 ..
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:58 .git
+-rwxrwxrwx 1 jenkins jenkins     305 May 29 11:31 .gitattributes
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 .github
+-rwxrwxrwx 1 jenkins jenkins    5529 May 29 11:31 .gitignore
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 .mvn
+-rwxrwxrwx 1 jenkins jenkins    6253 May 29 11:57 Jenkinsfile
+-rwxrwxrwx 1 jenkins jenkins   32776 May 29 11:31 README.md
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 15:26 api-gateway
+-rwxrwxrwx 1 jenkins jenkins  924877 May 29 11:31 app-architecture.drawio
+-rwxrwxrwx 1 jenkins jenkins 1229773 May 29 11:31 app-architecture.drawio.png
+-rwxrwxrwx 1 jenkins jenkins     362 May 29 11:31 azure-pipelines.yml
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 15:26 cloud-config
+-rwxrwxrwx 1 jenkins jenkins    7148 May 29 11:31 compose.yml
+-rwxrwxrwx 1 jenkins jenkins    6189 May 29 11:31 ecommerce-ERD.drawio
+-rwxrwxrwx 1 jenkins jenkins  146852 May 29 11:31 ecommerce-ERD.drawio.png
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 favourite-service
+-rwxrwxrwx 1 jenkins jenkins     658 May 29 11:57 jenkins-compose.yml
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:57 jenkins_home
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 k8s
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 locust
+-rwxrwxrwx 1 jenkins jenkins   10070 May 29 11:31 mvnw
+-rwxrwxrwx 1 jenkins jenkins    6608 May 29 11:31 mvnw.cmd
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 newman
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 order-service
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 payment-service
+-rwxrwxrwx 1 jenkins jenkins    3880 May 29 11:31 pom.xml
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 product-service
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 15:26 proxy-client
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 15:25 service-discovery
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 shipping-service
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 src
+-rwxrwxrwx 1 jenkins jenkins      23 May 29 11:31 system.properties
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 terraform
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 user-service
+-rwxrwxrwx 1 jenkins jenkins   93822 May 29 11:31 zipkin-dash.png
++ [ ! -f pom.xml ]
++ echo Verificando Maven wrapper...
+Verificando Maven wrapper...
++ [ ! -f mvnw ]
++ chmod +x mvnw
+[8mha:////4BOUOi+xpgg4Z+ctz0coURvtlSjlD2MAaGqvUTFD3j96AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8Brmfz270AAAA=[0m[Pipeline] }
+[8mha:////4Ms2qkrlgKs6oC37A83enLo9/BYbUPlMxT5QpbLqhFgTAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIMlYVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8Aj1Msdr0AAAA=[0m[Pipeline] // stage
+[8mha:////4AJmtvC/WM0FK+JKZZLEqS+8LyEoPHdMLXqzQp9mil9qAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjKGgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxWb7OZZvfPyORMEAAAA=[0m[Pipeline] stage
+[8mha:////4DHh4B6puV379aKal71lmayS4emBbh6uLGqWkDfaHipHAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (User Input)
+[8mha:////4D4Ef3Dolq2wkMhDGLgsRseTa9yzi7Zl3zCm+/B+5b0xAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] script
+[8mha:////4DdkycdfHvjxFve2pEp6WmqgzDAUtTqzX98KCLBWT1QiAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[8mha:////4NY7H1BkqC4F0/i8qyJ4j7lmT+96EmzUyPMbEADym0rMAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] input
+[8mha:////4NEPoKnPQKu/FErCA5Xvsl7A38U4NSOA9BZu6QCI+xIsAAAAoR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgL2FQ1M/KT9JPTc7PzU0tSk7VLcgsSAXanapvZqSfmVdQWqIPAEpNPSWmAAAA[0mInput requested
+[8mha:////4ECEnI+CiOpW2zwcszRVq9wlSIj2HVOqZUy65BkeCrONAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGOY4V7vgAAAA==[0m[Pipeline] }
+[8mha:////4LPAGQ+EdQYtyln/GtuD2eqPRtVPODKO0Dk68zI7PpRvAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJAokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3N4dT9vgAAAA==[0m[Pipeline] // script
+[8mha:////4LJfo8BkPFHfLxym6iF7mgzdiFJaWTdONs8qjmSWI74oAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRIUQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N8un7Ki+AAAA[0m[Pipeline] }
+[8mha:////4AWGjSnOlKt+WIBnTbqniICTepJ2yGT/iMDIi0jnOc4ZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICaRFVWisNLzCxMU6sO2M7JBUv4mv8AYtIVGyx2tlmXm9YxwAnDgZ7TYOl2Fn0bjR54cRhuDqesOcLdkyRncZWTy0r3SzYctKwpChhJWCjqXMcLZkEW9HLh6ycJFOdU8jfUUBp1R2eUIhsTjKkL8wBdrdRRaaf568AZu8TlPU+16H+AAjcDMm+AAAA[0m[Pipeline] // stage
+[8mha:////4IzWEDLV0xD9kdtqiiOeDVGcnwIu6XCQgmKcdup7hTl7AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjKGgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxXbzOZZvT5Ty88EAAAA=[0m[Pipeline] stage
+[8mha:////4BJ3/NHrEYnIc7VgTo/ohP0AWFPqAaZp9IUO9esJ8mVtAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] { (Build)
+[8mha:////4FT6fb4wGARClIL6mSKmR/McFQuD1x0xOOYuJu/VvqbYAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] sh
++ echo Building the project...
+Building the project...
++ pwd
++ echo Current directory: /var/jenkins_home/workspace/ecommerce-pipeline@2
+Current directory: /var/jenkins_home/workspace/ecommerce-pipeline@2
++ echo Workspace directory: /var/jenkins_home/workspace/ecommerce-pipeline@2
+Workspace directory: /var/jenkins_home/workspace/ecommerce-pipeline@2
++ echo Listing all files in current directory:
+Listing all files in current directory:
++ ls -la
+total 2440
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:57 .
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 ..
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:58 .git
+-rwxrwxrwx 1 jenkins jenkins     305 May 29 11:31 .gitattributes
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 .github
+-rwxrwxrwx 1 jenkins jenkins    5529 May 29 11:31 .gitignore
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 .mvn
+-rwxrwxrwx 1 jenkins jenkins    6253 May 29 11:57 Jenkinsfile
+-rwxrwxrwx 1 jenkins jenkins   32776 May 29 11:31 README.md
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 15:26 api-gateway
+-rwxrwxrwx 1 jenkins jenkins  924877 May 29 11:31 app-architecture.drawio
+-rwxrwxrwx 1 jenkins jenkins 1229773 May 29 11:31 app-architecture.drawio.png
+-rwxrwxrwx 1 jenkins jenkins     362 May 29 11:31 azure-pipelines.yml
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 15:26 cloud-config
+-rwxrwxrwx 1 jenkins jenkins    7148 May 29 11:31 compose.yml
+-rwxrwxrwx 1 jenkins jenkins    6189 May 29 11:31 ecommerce-ERD.drawio
+-rwxrwxrwx 1 jenkins jenkins  146852 May 29 11:31 ecommerce-ERD.drawio.png
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 favourite-service
+-rwxrwxrwx 1 jenkins jenkins     658 May 29 11:57 jenkins-compose.yml
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:57 jenkins_home
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 k8s
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 locust
+-rwxrwxrwx 1 jenkins jenkins   10070 May 29 11:31 mvnw
+-rwxrwxrwx 1 jenkins jenkins    6608 May 29 11:31 mvnw.cmd
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 newman
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 order-service
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 payment-service
+-rwxrwxrwx 1 jenkins jenkins    3880 May 29 11:31 pom.xml
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 product-service
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 15:26 proxy-client
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 15:25 service-discovery
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 shipping-service
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 src
+-rwxrwxrwx 1 jenkins jenkins      23 May 29 11:31 system.properties
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 terraform
+drwxrwxrwx 1 jenkins jenkins    4096 May 29 11:31 user-service
+-rwxrwxrwx 1 jenkins jenkins   93822 May 29 11:31 zipkin-dash.png
++ export MAVEN_OPTS=-Dmaven.compiler.source=11 -Dmaven.compiler.target=11
++ ./mvnw clean install -DskipTests -Dlombok.version=1.18.22
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] ecommerce-microservice-backend                                     [pom]
+[INFO] service-discovery                                                  [jar]
+[INFO] cloud-config                                                       [jar]
+[INFO] api-gateway                                                        [jar]
+[INFO] proxy-client                                                       [jar]
+[INFO] user-service                                                       [jar]
+[INFO] product-service                                                    [jar]
+[INFO] favourite-service                                                  [jar]
+[INFO] order-service                                                      [jar]
+[INFO] shipping-service                                                   [jar]
+[INFO] payment-service                                                    [jar]
+[INFO] 
+[INFO] -----------< com.selimhorri:ecommerce-microservice-backend >------------
+[INFO] Building ecommerce-microservice-backend 0.1.0                     [1/11]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ ecommerce-microservice-backend ---
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.5.7:repackage (repackage) @ ecommerce-microservice-backend ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ ecommerce-microservice-backend ---
+[INFO] Installing /var/jenkins_home/workspace/ecommerce-pipeline@2/pom.xml to /root/.m2/repository/com/selimhorri/ecommerce-microservice-backend/0.1.0/ecommerce-microservice-backend-0.1.0.pom
+[INFO] 
+[INFO] ------------------< com.selimhorri:service-discovery >------------------
+[INFO] Building service-discovery 0.1.0                                  [2/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ service-discovery ---
+[INFO] Deleting /var/jenkins_home/workspace/ecommerce-pipeline@2/service-discovery/target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ service-discovery ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 4 resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ service-discovery ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /var/jenkins_home/workspace/ecommerce-pipeline@2/service-discovery/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ service-discovery ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/ecommerce-pipeline@2/service-discovery/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ service-discovery ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /var/jenkins_home/workspace/ecommerce-pipeline@2/service-discovery/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ service-discovery ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.2.0:jar (default-jar) @ service-discovery ---
+[INFO] Building jar: /var/jenkins_home/workspace/ecommerce-pipeline@2/service-discovery/target/service-discovery-v0.1.0.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.5.7:repackage (repackage) @ service-discovery ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ service-discovery ---
+[INFO] Installing /var/jenkins_home/workspace/ecommerce-pipeline@2/service-discovery/target/service-discovery-v0.1.0.jar to /root/.m2/repository/com/selimhorri/service-discovery/0.1.0/service-discovery-0.1.0.jar
+[INFO] Installing /var/jenkins_home/workspace/ecommerce-pipeline@2/service-discovery/pom.xml to /root/.m2/repository/com/selimhorri/service-discovery/0.1.0/service-discovery-0.1.0.pom
+[INFO] 
+[INFO] --------------------< com.selimhorri:cloud-config >---------------------
+[INFO] Building cloud-config 0.1.0                                       [3/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ cloud-config ---
+[INFO] Deleting /var/jenkins_home/workspace/ecommerce-pipeline@2/cloud-config/target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ cloud-config ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ cloud-config ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /var/jenkins_home/workspace/ecommerce-pipeline@2/cloud-config/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ cloud-config ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/ecommerce-pipeline@2/cloud-config/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ cloud-config ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /var/jenkins_home/workspace/ecommerce-pipeline@2/cloud-config/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ cloud-config ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.2.0:jar (default-jar) @ cloud-config ---
+[INFO] Building jar: /var/jenkins_home/workspace/ecommerce-pipeline@2/cloud-config/target/cloud-config-v0.1.0.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.5.7:repackage (repackage) @ cloud-config ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ cloud-config ---
+[INFO] Installing /var/jenkins_home/workspace/ecommerce-pipeline@2/cloud-config/target/cloud-config-v0.1.0.jar to /root/.m2/repository/com/selimhorri/cloud-config/0.1.0/cloud-config-0.1.0.jar
+[INFO] Installing /var/jenkins_home/workspace/ecommerce-pipeline@2/cloud-config/pom.xml to /root/.m2/repository/com/selimhorri/cloud-config/0.1.0/cloud-config-0.1.0.pom
+[INFO] 
+[INFO] ---------------------< com.selimhorri:api-gateway >---------------------
+[INFO] Building api-gateway 0.1.0                                        [4/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ api-gateway ---
+[INFO] Deleting /var/jenkins_home/workspace/ecommerce-pipeline@2/api-gateway/target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ api-gateway ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 4 resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ api-gateway ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /var/jenkins_home/workspace/ecommerce-pipeline@2/api-gateway/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ api-gateway ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/ecommerce-pipeline@2/api-gateway/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ api-gateway ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /var/jenkins_home/workspace/ecommerce-pipeline@2/api-gateway/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ api-gateway ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.2.0:jar (default-jar) @ api-gateway ---
+[INFO] Building jar: /var/jenkins_home/workspace/ecommerce-pipeline@2/api-gateway/target/api-gateway-v0.1.0.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.5.7:repackage (repackage) @ api-gateway ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ api-gateway ---
+[INFO] Installing /var/jenkins_home/workspace/ecommerce-pipeline@2/api-gateway/target/api-gateway-v0.1.0.jar to /root/.m2/repository/com/selimhorri/api-gateway/0.1.0/api-gateway-0.1.0.jar
+[INFO] Installing /var/jenkins_home/workspace/ecommerce-pipeline@2/api-gateway/pom.xml to /root/.m2/repository/com/selimhorri/api-gateway/0.1.0/api-gateway-0.1.0.pom
+[INFO] 
+[INFO] --------------------< com.selimhorri:proxy-client >---------------------
+[INFO] Building proxy-client 0.1.0                                       [5/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ proxy-client ---
+[INFO] Deleting /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ proxy-client ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 4 resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ proxy-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 78 source files to /var/jenkins_home/workspace/ecommerce-pipeline@2/proxy-client/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for ecommerce-microservice-backend 0.1.0:
+[INFO] 
+[INFO] ecommerce-microservice-backend ..................... SUCCESS [  1.431 s]
+[INFO] service-discovery .................................. SUCCESS [  8.501 s]
+[INFO] cloud-config ....................................... SUCCESS [  4.450 s]
+[INFO] api-gateway ........................................ SUCCESS [  6.961 s]
+[INFO] proxy-client ....................................... FAILURE [ 12.511 s]
+[INFO] user-service ....................................... SKIPPED
+[INFO] product-service .................................... SKIPPED
+[INFO] favourite-service .................................. SKIPPED
+[INFO] order-service ...................................... SKIPPED
+[INFO] shipping-service ................................... SKIPPED
+[INFO] payment-service .................................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  34.406 s
+[INFO] Finished at: 2025-05-29T15:30:47Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project proxy-client: Fatal error compiling: java.lang.NoSuchFieldError: Class com.sun.tools.javac.tree.JCTree$JCImport does not have member field 'com.sun.tools.javac.tree.JCTree qualid' -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :proxy-client
+[8mha:////4ORB8g4wrUhbeWLn2PPSiaHcaZJLespmY2N7N3BksWCfAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNG7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+Ad3NsHm+AAAA[0m[Pipeline] }
+[8mha:////4IzVyEgNP8DAoW6EWqPulas1bWnvgbHg+z0ZamYJ6MGKAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8JP5Su+AAAA[0m[Pipeline] // stage
+[8mha:////4J+RNB6LW3hGvu2n2Iq9wQyXGz+wH8C4fMwNm1HOf0DNAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjUaRBVLSWG15gEmOcWHfBvpBUvIiv8QcMkajYamel1TxfUKYIB4pOdhZ7j6nxcgijy01OFPtLoEl2dJYNYaJgpbaTptYeF9TEFpaIAlYK1habQMmjY9ioztxNFQy66sQxb3sFhW9v8AChsplN5C/MEbbXsU2EP89fAcwDg6gZil39OZZv96T37sEAAAA=[0m[Pipeline] stage
+[8mha:////4Mc5PCSMf8lM5tmM1jdLmEx5FOWNyeQ5jkyyc5q5+bglAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (Unit and Integration Tests)
+Stage "Unit and Integration Tests" skipped due to earlier failure(s)
+[8mha:////4PfDGkK8F+hXmnMY4cXtAL1WuzGVy6ilY1jlB7OHrHgrAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGvZp0gvgAAAA==[0m[Pipeline] getContext
+[8mha:////4EldAo9rCMGKfNBfh0eyQvTA/DjpkDKC94EcJHD8Zab/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGMKkS1vgAAAA==[0m[Pipeline] }
+[8mha:////4GuyisqqwA1/vBzTbi3zdOSWOe9/KOg9DME/hKbA01r+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9mQDtDvgAAAA==[0m[Pipeline] // stage
+[8mha:////4Hk6NcosAzH+jmLvo4inLzjWbdyPv1U1lSF9EM4qd8T9AAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjhESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKLabz7F8A/ufhVXBAAAA[0m[Pipeline] stage
+[8mha:////4C5+AIpUg6tb8K9ptJGc01ypivtJp6ZLHzAsuiFJ39TEAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] { (Build and Push Docker Images)
+Stage "Build and Push Docker Images" skipped due to earlier failure(s)
+[8mha:////4BKYEPo17sjzhlTAVbbJ8zPXztrFi3Xg1R9KDdl1Y00LAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikRJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3favo5XL4AAAA=[0m[Pipeline] getContext
+[8mha:////4GpqfIZxR1VDzgclozzMj7kmkNBnc1JFKtysIzt25EcaAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bij33Ma+AAAA[0m[Pipeline] }
+[8mha:////4PpMhdoQ85RS959gPv1BsaJsGfMZP8mFcU7YXBS/9b1iAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbNzd1iZS+AAAA[0m[Pipeline] // stage
+[8mha:////4GW8QxMRfTfrha4smv3NBCXB1TX2bfIW7eDfgpNnNfl1AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTIKVBVLSWG15gEmOcWHfBvpBUvIiv8QcMkajYamel1TxfUKYIB4pOdhZ7j6nxcgijy01OFPtLoEl2dJYNYaJgpbaTptYeF9TEFpaIAlYK1habQMmjY9ioztxNFQy66sQxb3sFhW9v8AChsplN5C/MEbbXsU2EP89fAcwDg6gZil39OZZvQ6+ASMEAAAA=[0m[Pipeline] stage
+[8mha:////4HO8T5iNuxEKxCjHnXiB4tjqhw/6wjoLLIF6CeExM/sJAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] { (Desplegar manifiestos)
+Stage "Desplegar manifiestos" skipped due to earlier failure(s)
+[8mha:////4BXsBR4V3od9k+DVf0vE1fv8oqjXqQ3e2ONF6xCiinbbAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUICEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEGDPXtvgAAAA==[0m[Pipeline] getContext
+[8mha:////4FMgso2PbmkEQWl6az/f2ZzaYQhvBLHHmMDkrn/Lct6xAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUCCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQF5ECgKvgAAAA==[0m[Pipeline] }
+[8mha:////4AJk9HI9NApI4C9OPVW17TRl84xZGoiFM3i3iObwGparAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+pT4efvgAAAA==[0m[Pipeline] // stage
+[8mha:////4COGyp56UDqKSdNUOg3wdVfQTir32qbI3Z+fhS2mwfIlAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKLabz7F8A3WhIpDBAAAA[0m[Pipeline] stage
+[8mha:////4Or5VMWmp64ls6qSkszqWq5rmFf8ISTpYohMQEUNUkslAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdhUMVHCAAAA[0m[Pipeline] { (Desplegar microservicios)
+Stage "Desplegar microservicios" skipped due to earlier failure(s)
+[8mha:////4LjpWY1IjWUk62EhAmSOgT/gTQl0G+PDC7lRjOV7qTczAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBvbls1O+AAAA[0m[Pipeline] getContext
+[8mha:////4HG42LmdNc8KO3OJ6HlvGSyncuYPdX4ypeaGSzuXaomxAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioXSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/BmFfOky+AAAA[0m[Pipeline] }
+[8mha:////4NYjG3ABrvMt6sMGF9cd+WRjv9Faff0lzCqwgAcxWKv9AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN37dbx6+AAAA[0m[Pipeline] // stage
+[8mha:////4B0yfARptvyG3WkOcCTLIHJ5ClDi57/dC04/wmf0edPJAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYTToDSIitZywwtMYowT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhThQNHJzmLvMTVeDmF0ucmJYn8JNMmOzrIhTBSs1HbS1NrjgprYwhJRwErB2mITKHl0DBvVmbupgkFXnTjmba+g8O0NHiBUNrOJ/IU5wvY6tonw5/krgHlgEDVDsas/x/INzZEnjcEAAAA=[0m[Pipeline] stage
+[8mha:////4L/5IgVE0z+wMijGvPHz0B+JFaxgFcGPecn9V8ZKew3HAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QTAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD+jQxyjCAAAA[0m[Pipeline] { (Correr e2e)
+Stage "Correr e2e" skipped due to earlier failure(s)
+[8mha:////4L83x5O83LQzx6qYj+H+o/U4e2Aa84mqlhbtGIyTO4EdAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIIGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGaE3/ivgAAAA==[0m[Pipeline] getContext
+[8mha:////4MRiDmtHGdZPZMg01ey0ZiSiMU1ByyYDZvlu+3Ie+8gXAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEwuM6AvgAAAA==[0m[Pipeline] }
+[8mha:////4MyQZp1+opqYOAW58UMZlIRmnhx/QMXAOrULhKSfI7LQAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCATQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AHa0rF2vgAAAA==[0m[Pipeline] // stage
+[8mha:////4MRDqCJ0LRdfxKdS4A4EoYaNU3B6Klz9ItQv6uRV7NE8AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjCmgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxXbzOZZvwapVNsEAAAA=[0m[Pipeline] stage
+[8mha:////4P66OiLgbZZtOdVauuSZNLUVC84z4T8OaB6qYu/FcyM/AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDwMT42zCAAAA[0m[Pipeline] { (Desplegar Locust)
+Stage "Desplegar Locust" skipped due to earlier failure(s)
+[8mha:////4KOjIsHtlcsO194cuGjvLM5oFGKKdi3rSs+ePomXeoETAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN1+P256+AAAA[0m[Pipeline] getContext
+[8mha:////4MHwgSN57tMLNX0DiWez11fTPxn/qT2iH8fbtqlv0UjsAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN5RlVvO+AAAA[0m[Pipeline] }
+[8mha:////4DMW3tyd5t13BmvDtnyhNHBxCPNN6ITu8tWzfKm4eiNyAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiilSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/BovnA6G+AAAA[0m[Pipeline] // stage
+[8mha:////4Lly+KKUujM1UjChYy5H4Hfq8BtgKGViMo1Sj+8s0BHgAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTkQZR0VpueIFJjHFi3QX7QlLxIr7GHzBEomKrnZVW83xBmSIcKDrZWew9psbLIYwuNzlR7C+BJtnRWTaEiYKV2k6aWntcUBNbWCIKWClYW2wCJY+OYaM6czdVMOiqE8e87RUUvr3BA4TKZjaRvzBH2F7HNhH+PH8FMA8MomYodvXnWL4BeZpQK8EAAAA=[0m[Pipeline] stage
+[8mha:////4ItKIPFYydnjL08E0//nmCfwQ2Jjeh4uG84tJL2P+CNWAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxATOXFRXCAAAA[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4EoNHsE8NeS32hp4JNtDoizCtRzs+ng9Y+Csfb0sv1UmAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIZAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNzN5Fy++AAAA[0m[Pipeline] echo
+Pipeline finalizado
+[8mha:////4D30xo7x9zlMgsmPlB1uPAq+nk5iIkXxhWupbLf3BqzKAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIYQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN3JIDDa+AAAA[0m[Pipeline] echo
+Pipeline falló
+[8mha:////4CPOGbEDaazIAyiI0BlH7+7PIdQ1QncwSo9qi0cP4HbTAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAxQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AGQyUUpvgAAAA==[0m[Pipeline] }
+[8mha:////4OiXkbmrF8OfwDORBQzh7uZ2KUuQ/KQCFlDV4ForPKWjAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCtIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrfa5D/QGjKh6VvgAAAA==[0m[Pipeline] // stage
+[8mha:////4AQnCSJc1rvMK5iqKBRuGu/EAq2mrDwZZpMIx98tutAwAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkDizGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUHcSmOW70AAAA=[0m[Pipeline] }
+[8mha:////4KVvwX+t8xOojnncLavjMH4YFkjbN4eLFOSf3AtatJDEAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpEDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPe1Hn/70AAAA=[0m[Pipeline] // withEnv
+[8mha:////4OnaCDZmNRLaS/khH0gHN9YwWoFQdW2aow4OlwfwQ8VAAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0jI1jZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwA/b3AOr0AAAA=[0m[Pipeline] }
+[8mha:////4NF2g59smAe5qkSdwGjQZXFT6H0tKtcaiTgn+H5csKdHAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpEDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8TZNsP7gHEmb0AAAA=[0m[Pipeline] // node
+[8mha:////4DXVxchdDQm4bFPcrfVLBpGLiqF/WHMFCPVXquWn7VMUAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkDizGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FeVkKsv0HqEtjqb0AAAA=[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

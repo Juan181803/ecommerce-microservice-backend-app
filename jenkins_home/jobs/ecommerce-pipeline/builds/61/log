@@ -1,0 +1,442 @@
+Started by user unknown or anonymous
+[8mha:////4EGA9YH6v7JDXZigaFRU9r8OMVBTKWObfirqamAPj0iGAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4JyuvsiODdFXQgG9Uiz8pfxzKw4MAXJGDGFAPNgx+2V+AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4BDhZg4GHKj9nwI3EF3HrMLePrf+UZG7iq3VK85eKqtCAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/ecommerce-pipeline@2
+[8mha:////4OlMS44uSW1z/yotadzo1dBzH3caF7rCWBQvf2V0Ct/LAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4MRH7NHMCicfKUWrK2qnBkEELiFRVBh6EQQ6zwpg+16/AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaGWsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gdpL1fxvAAAAA==[0m[Pipeline] isUnix
+[8mha:////4Lgp/9wbR8omjUI6vacXSOdzYFIy2q2qVQH1zXzJyCibAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0QSyIiTXKwglCEkLa6P82SWknTsTVuAOBSkxYsmRbst7zBXWKcKToeGux85i0530YXUl8othdA028pQvXhImC5dJOkow9LVVStrCIVbASsLaoAyWPLsNGtOqumqDQNeccy3YQUHkzwAOYKOSsYv6WOcL2NppE+OP8BcDcZ2C74v3nV78BmoXK/sAAAAA=[0m[Pipeline] withEnv
+[8mha:////4MvclvKH8b+spWIpse8YSz9HBpLGqN94rYR8w7WgKRNNAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] {
+[8mha:////4PaTGXvZoo7Lklb/kpWeCY3wRrsGYaxlFI2ZK6wOnwSTAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbamKsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4geKI23CvAAAAA==[0m[Pipeline] sh
++ docker inspect -f . maven:3.8.4-openjdk-11
+
+Error: No such object: maven:3.8.4-openjdk-11
+[8mha:////4CS61M9DbdUDdaEdltPIbALy9K3OCe1fc0uWeQHX0Q9cAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbGmOsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfLEnbbvAAAAA==[0m[Pipeline] isUnix
+[8mha:////4KaEwY1Np4+kOPZdzY/57m3MWwp9dSu+HVXfjdsEMlrHAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDFQWiorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INt4LIyMEAAAA=[0m[Pipeline] withEnv
+[8mha:////4MBbrt2prXuClGD6aUVatMJm1Z6LUykN/CwX10aaIm3EAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4Hw7FGp0IPMmptYql+98sGxisxXyujR8rt+ZoS49bEJrAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ docker pull maven:3.8.4-openjdk-11
+3.8.4-openjdk-11: Pulling from library/maven
+e4d61adff207: Pulling fs layer
+4ff1945c672b: Pulling fs layer
+ff5b10aec998: Pulling fs layer
+12de8c754e45: Pulling fs layer
+4848edf44506: Pulling fs layer
+e80286f947f6: Pulling fs layer
+fe10bb9a5d5c: Pulling fs layer
+e05364bfdbef: Pulling fs layer
+43107496d3ef: Pulling fs layer
+155263e14622: Pulling fs layer
+12de8c754e45: Waiting
+4848edf44506: Waiting
+e80286f947f6: Waiting
+fe10bb9a5d5c: Waiting
+e05364bfdbef: Waiting
+43107496d3ef: Waiting
+155263e14622: Waiting
+4ff1945c672b: Verifying Checksum
+4ff1945c672b: Download complete
+ff5b10aec998: Verifying Checksum
+ff5b10aec998: Download complete
+4848edf44506: Verifying Checksum
+4848edf44506: Download complete
+e80286f947f6: Verifying Checksum
+e80286f947f6: Download complete
+e4d61adff207: Verifying Checksum
+e4d61adff207: Download complete
+12de8c754e45: Verifying Checksum
+12de8c754e45: Download complete
+e05364bfdbef: Verifying Checksum
+e05364bfdbef: Download complete
+43107496d3ef: Verifying Checksum
+43107496d3ef: Download complete
+155263e14622: Download complete
+e4d61adff207: Pull complete
+4ff1945c672b: Pull complete
+ff5b10aec998: Pull complete
+fe10bb9a5d5c: Verifying Checksum
+fe10bb9a5d5c: Download complete
+12de8c754e45: Pull complete
+4848edf44506: Pull complete
+e80286f947f6: Pull complete
+fe10bb9a5d5c: Pull complete
+e05364bfdbef: Pull complete
+43107496d3ef: Pull complete
+155263e14622: Pull complete
+Digest: sha256:4b82a5896571897aab610b34c09ac326aa1d4fdf5e6993c41493bf3566a8bef6
+Status: Downloaded newer image for maven:3.8.4-openjdk-11
+docker.io/library/maven:3.8.4-openjdk-11
+[8mha:////4B5G23yfl22+w5yNkXToG5rtfb7Sgijm67hs/ttWIkaaAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzN4nqNv9p9o3geV5574AAAA=[0m[Pipeline] }
+[8mha:////4CV4YDEl9jIX+kO3AogIMUOKzZiOjGmXAub3hr+j0s1DAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bq/le42+AAAA[0m[Pipeline] // withEnv
+[8mha:////4PCcU8VZ/FwvELx5iZd5/pT861QsRZ7KZ5gH5AhEWKNJAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBaJAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AE/1rIO9AAAA[0m[Pipeline] }
+[8mha:////4FK2QuiLmFzZl1gb230Z5cSkD37wdBoHNEAR3/ebX0rkAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiKMDY1jZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwACb8Ls70AAAA=[0m[Pipeline] // withEnv
+[8mha:////4PIRtblTxWPaRzoxXOh0ogiriKqswshXKuMgdRhR+meMAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJCQKREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgtQ7HZfY7lGw7UL0zBAAAA[0m[Pipeline] withDockerContainer
+Jenkins seems to be running inside container 00db4c7294ceb158855ece0dfc1db35d722258e9443b0b85a4e51c078c526aa6
+$ docker run -t -d -u 0:0 -v $HOME/.m2:/root/.m2 -w /var/jenkins_home/workspace/ecommerce-pipeline@2 --volumes-from 00db4c7294ceb158855ece0dfc1db35d722258e9443b0b85a4e51c078c526aa6 -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** maven:3.8.4-openjdk-11 cat
+$ docker top 87269c46fed29891ace3f74f3bab56f219a989ab7f99dd78d77a7c7d944a4d73 -eo pid,comm
+[8mha:////4Erp/ps4o2F48vFAytzNzSV14VyQXXi6Ay0NxP7UUCmCAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] {
+[8mha:////4GtJ1wpNGebTZJyFNhdvJsYQRPUhNNkfqWIiSspfV5u+AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] withEnv
+[8mha:////4JlzoytJluX8we9S/EwmNfMt7lSzq+mRj/v9uRRQyaFyAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] {
+[8mha:////4OLALWWhPuc4XS1he2NBadxoTky2Z4vcHBP4qBtvAsbaAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] stage
+[8mha:////4BJ3/NHrEYnIc7VgTo/ohP0AWFPqAaZp9IUO9esJ8mVtAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] { (Preparation)
+[8mha:////4FT6fb4wGARClIL6mSKmR/McFQuD1x0xOOYuJu/VvqbYAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] sh
++ java -version
+openjdk version "11.0.14.1" 2022-02-08
+OpenJDK Runtime Environment 18.9 (build 11.0.14.1+1)
+OpenJDK 64-Bit Server VM 18.9 (build 11.0.14.1+1, mixed mode, sharing)
+[8mha:////4BG2ciA4pLi1nJ5U1qjySIBuckdooTg7rtDPBE4ej6luAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNG7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPYJ6rb91N6/AQQGEN6+AAAA[0m[Pipeline] sh
++ mvn -version
+Apache Maven 3.8.4 (9b656c72d54e5bacbed989b64718c159fe39b537)
+Maven home: /usr/share/maven
+Java version: 11.0.14.1, vendor: Oracle Corporation, runtime: /usr/local/openjdk-11
+Default locale: en, platform encoding: UTF-8
+OS name: "linux", version: "5.15.167.4-microsoft-standard-wsl2", arch: "amd64", family: "unix"
+[8mha:////4E79q/NxTtdLaZxC5D4P1UrYMpAnAZVJgEw3wv1YBRnWAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNHEyTq6ExS/AFhFK3qNApZNf5K/5D6JNnLzDzT13Oc8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALNPULftp/b+DUU3C8e+AAAA[0m[Pipeline] sh
++ pwd
+/var/jenkins_home/workspace/ecommerce-pipeline@2
+[8mha:////4LURv4tI3O0bdDBkDPGWai1CQ3ePNjfqpHQv9RdzgbFsAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyk8LGsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALNPULftp/b+DYZkJuy+AAAA[0m[Pipeline] sh
++ ls -la
+total 2440
+drwxrwxrwx 1 1000 1000    4096 May 29 11:57 .
+drwxrwxrwx 1 1000 1000    4096 May 29 11:31 ..
+drwxrwxrwx 1 1000 1000    4096 May 29 11:58 .git
+-rwxrwxrwx 1 1000 1000     305 May 29 11:31 .gitattributes
+drwxrwxrwx 1 1000 1000    4096 May 29 11:31 .github
+-rwxrwxrwx 1 1000 1000    5529 May 29 11:31 .gitignore
+drwxrwxrwx 1 1000 1000    4096 May 29 11:31 .mvn
+-rwxrwxrwx 1 1000 1000    6253 May 29 11:57 Jenkinsfile
+-rwxrwxrwx 1 1000 1000   32776 May 29 11:31 README.md
+drwxrwxrwx 1 1000 1000    4096 May 29 15:26 api-gateway
+-rwxrwxrwx 1 1000 1000  924877 May 29 11:31 app-architecture.drawio
+-rwxrwxrwx 1 1000 1000 1229773 May 29 11:31 app-architecture.drawio.png
+-rwxrwxrwx 1 1000 1000     362 May 29 11:31 azure-pipelines.yml
+drwxrwxrwx 1 1000 1000    4096 May 29 15:26 cloud-config
+-rwxrwxrwx 1 1000 1000    7148 May 29 11:31 compose.yml
+-rwxrwxrwx 1 1000 1000    6189 May 29 11:31 ecommerce-ERD.drawio
+-rwxrwxrwx 1 1000 1000  146852 May 29 11:31 ecommerce-ERD.drawio.png
+drwxrwxrwx 1 1000 1000    4096 May 29 11:31 favourite-service
+-rwxrwxrwx 1 1000 1000     658 May 29 11:57 jenkins-compose.yml
+drwxrwxrwx 1 1000 1000    4096 May 29 11:57 jenkins_home
+drwxrwxrwx 1 1000 1000    4096 May 29 11:31 k8s
+drwxrwxrwx 1 1000 1000    4096 May 29 11:31 locust
+-rwxrwxrwx 1 1000 1000   10070 May 29 11:31 mvnw
+-rwxrwxrwx 1 1000 1000    6608 May 29 11:31 mvnw.cmd
+drwxrwxrwx 1 1000 1000    4096 May 29 11:31 newman
+drwxrwxrwx 1 1000 1000    4096 May 29 11:31 order-service
+drwxrwxrwx 1 1000 1000    4096 May 29 11:31 payment-service
+-rwxrwxrwx 1 1000 1000    3880 May 29 11:31 pom.xml
+drwxrwxrwx 1 1000 1000    4096 May 29 11:31 product-service
+drwxrwxrwx 1 1000 1000    4096 May 29 15:26 proxy-client
+drwxrwxrwx 1 1000 1000    4096 May 29 15:25 service-discovery
+drwxrwxrwx 1 1000 1000    4096 May 29 11:31 shipping-service
+drwxrwxrwx 1 1000 1000    4096 May 29 11:31 src
+-rwxrwxrwx 1 1000 1000      23 May 29 11:31 system.properties
+drwxrwxrwx 1 1000 1000    4096 May 29 11:31 terraform
+drwxrwxrwx 1 1000 1000    4096 May 29 11:31 user-service
+-rwxrwxrwx 1 1000 1000   93822 May 29 11:31 zipkin-dash.png
+[8mha:////4B5JK7qe8bCmN49EQ7rrqZEPYPa3YSC/THMOnmZRnaY+AAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyk8bCsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DXO/JP++AAAA[0m[Pipeline] }
+[8mha:////4ExajcevC5X/BDiVUaf+xa896/zZcUsn9Imkq8rknZRCAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiqJAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbNxxce5e+AAAA[0m[Pipeline] // stage
+[8mha:////4PoNqhpzlVRTjdnQdyxnx2WFLGqPOQBLLi1MFgHHEIPmAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUsSHE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dvd7Md5mfxAQHrlXbCAAAA[0m[Pipeline] stage
+[8mha:////4OqtvzwQl26OJcaYwihS3x8Y11cDIJba6dTxkfl1rSlgAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUwYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQH4j6CMwgAAAA==[0m[Pipeline] { (User Input)
+[8mha:////4OLOcRZtLbRooQ3hYx0PAnmO52ftR8fviR84uFXz5FWQAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+ty4Up8IAAAA=[0m[Pipeline] script
+[8mha:////4C5+AIpUg6tb8K9ptJGc01ypivtJp6ZLHzAsuiFJ39TEAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] {
+[8mha:////4BKYEPo17sjzhlTAVbbJ8zPXztrFi3Xg1R9KDdl1Y00LAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikRJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3favo5XL4AAAA=[0m[Pipeline] input
+[8mha:////4MjcI2q+SXCbLMytxN4Rh83Z+0ZUEAix60KKf0ngcvKVAAAAoR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgL2FQ1M/KT9JPTc7PzU0tSk7VLcgsSAXanapvZqifmVdQWqIPAKlKsqumAAAA[0mInput requested
+[8mha:////4GpqfIZxR1VDzgclozzMj7kmkNBnc1JFKtysIzt25EcaAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bij33Ma+AAAA[0m[Pipeline] }
+[8mha:////4PpMhdoQ85RS959gPv1BsaJsGfMZP8mFcU7YXBS/9b1iAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbNzd1iZS+AAAA[0m[Pipeline] // script
+[8mha:////4KjzI8Mwwit1mQmDTTmiDmkyu42phPqd7roQEjaJpJXAAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKChESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgEPNxplvgAAAA==[0m[Pipeline] }
+[8mha:////4IWW+LG45it20zanOolae3ApHHNCFWYczgfVSjxz/NHQAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQYEQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAT22Bzr4AAAA=[0m[Pipeline] // stage
+[8mha:////4JgJQxh5fpertzm6d/VcuUWW/06b4VGf+HIW5mMPj7ejAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUwYKEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WTb7T/P6g0QM74bwgAAAA==[0m[Pipeline] stage
+[8mha:////4Ga1RdAI8NxfSG0I3dhwP7SZW/bPq4lYk/280dwhzp6AAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD59NhPHCAAAA[0m[Pipeline] { (Build)
+[8mha:////4FSUmTp9FKJft6XuvlJI7FZSR5LXSvrkCRy+xlsbbke5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw/W61xwvgAAAA==[0m[Pipeline] sh
++ export MAVEN_OPTS=-Dmaven.compiler.source=11 -Dmaven.compiler.target=11
++ ./mvnw clean install -DskipTests -Dlombok.version=1.18.22
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/2.5.7/spring-boot-starter-parent-2.5.7.pom
+Progress (1): 2.8/8.6 kBProgress (1): 5.5/8.6 kBProgress (1): 8.3/8.6 kBProgress (1): 8.6 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/2.5.7/spring-boot-starter-parent-2.5.7.pom (8.6 kB at 53 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.5.7/spring-boot-dependencies-2.5.7.pom
+Progress (1): 2.8/109 kBProgress (1): 5.5/109 kBProgress (1): 8.3/109 kBProgress (1): 11/109 kB Progress (1): 14/109 kBProgress (1): 16/109 kBProgress (1): 19/109 kBProgress (1): 22/109 kBProgress (1): 25/109 kBProgress (1): 27/109 kBProgress (1): 30/109 kBProgress (1): 33/109 kBProgress (1): 36/109 kBProgress (1): 38/109 kBProgress (1): 41/109 kBProgress (1): 44/109 kBProgress (1): 47/109 kBProgress (1): 49/109 kBProgress (1): 53/109 kBProgress (1): 57/109 kBProgress (1): 61/109 kBProgress (1): 64/109 kBProgress (1): 68/109 kBProgress (1): 72/109 kBProgress (1): 76/109 kBProgress (1): 80/109 kBProgress (1): 84/109 kBProgress (1): 88/109 kBProgress (1): 92/109 kBProgress (1): 96/109 kBProgress (1): 100/109 kBProgress (1): 105/109 kBProgress (1): 109/109 kBProgress (1): 109 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.5.7/spring-boot-dependencies-2.5.7.pom (109 kB at 1.3 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-dependencies/2020.0.4/spring-cloud-dependencies-2020.0.4.pom
+Progress (1): 4.1/11 kBProgress (1): 8.2/11 kBProgress (1): 11 kB                       Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-dependencies/2020.0.4/spring-cloud-dependencies-2020.0.4.pom (11 kB at 279 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-dependencies-parent/3.0.4/spring-cloud-dependencies-parent-3.0.4.pom
+Progress (1): 4.1/8.4 kBProgress (1): 8.2/8.4 kBProgress (1): 8.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-dependencies-parent/3.0.4/spring-cloud-dependencies-parent-3.0.4.pom (8.4 kB at 192 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons-dependencies/3.0.4/spring-cloud-commons-dependencies-3.0.4.pom
+Progress (1): 4.1/7.1 kBProgress (1): 7.1 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons-dependencies/3.0.4/spring-cloud-commons-dependencies-3.0.4.pom (7.1 kB at 174 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-dependencies/3.0.4/spring-cloud-netflix-dependencies-3.0.4.pom
+Progress (1): 4.1/9.2 kBProgress (1): 8.2/9.2 kBProgress (1): 9.2 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-dependencies/3.0.4/spring-cloud-netflix-dependencies-3.0.4.pom (9.2 kB at 236 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-stream-dependencies/3.1.4/spring-cloud-stream-dependencies-3.1.4.pom
+Progress (1): 4.1/9.3 kBProgress (1): 8.2/9.3 kBProgress (1): 9.3 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-stream-dependencies/3.1.4/spring-cloud-stream-dependencies-3.1.4.pom (9.3 kB at 237 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-task-dependencies/2.3.2/spring-cloud-task-dependencies-2.3.2.pom
+Progress (1): 4.1/5.8 kBProgress (1): 5.8 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-task-dependencies/2.3.2/spring-cloud-task-dependencies-2.3.2.pom (5.8 kB at 143 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-dependencies-parent/3.0.3/spring-cloud-dependencies-parent-3.0.3.pom
+Progress (1): 4.1/8.4 kBProgress (1): 8.2/8.4 kBProgress (1): 8.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-dependencies-parent/3.0.3/spring-cloud-dependencies-parent-3.0.3.pom (8.4 kB at 216 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-circuitbreaker-dependencies/2.0.2/spring-cloud-circuitbreaker-dependencies-2.0.2.pom
+Progress (1): 4.1/6.5 kBProgress (1): 6.5 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-circuitbreaker-dependencies/2.0.2/spring-cloud-circuitbreaker-dependencies-2.0.2.pom (6.5 kB at 163 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-bom/1.7.0/resilience4j-bom-1.7.0.pom
+Progress (1): 4.1/7.0 kBProgress (1): 7.0 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-bom/1.7.0/resilience4j-bom-1.7.0.pom (7.0 kB at 195 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-config-dependencies/3.0.5/spring-cloud-config-dependencies-3.0.5.pom
+Progress (1): 4.1/7.5 kBProgress (1): 7.5 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-config-dependencies/3.0.5/spring-cloud-config-dependencies-3.0.5.pom (7.5 kB at 183 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-function-dependencies/3.1.4/spring-cloud-function-dependencies-3.1.4.pom
+Progress (1): 4.1/6.2 kBProgress (1): 6.2 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-function-dependencies/3.1.4/spring-cloud-function-dependencies-3.1.4.pom (6.2 kB at 178 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-gateway-dependencies/3.0.4/spring-cloud-gateway-dependencies-3.0.4.pom
+Progress (1): 4.1/6.3 kBProgress (1): 6.3 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-gateway-dependencies/3.0.4/spring-cloud-gateway-dependencies-3.0.4.pom (6.3 kB at 146 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-consul-dependencies/3.0.4/spring-cloud-consul-dependencies-3.0.4.pom
+Progress (1): 4.1/7.5 kBProgress (1): 7.5 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-consul-dependencies/3.0.4/spring-cloud-consul-dependencies-3.0.4.pom (7.5 kB at 175 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-dependencies/3.0.4/spring-cloud-sleuth-dependencies-3.0.4.pom
+Progress (1): 4.1/8.2 kBProgress (1): 8.2 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-sleuth-dependencies/3.0.4/spring-cloud-sleuth-dependencies-3.0.4.pom (8.2 kB at 178 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-bom/5.13.2/brave-bom-5.13.2.pom
+Progress (1): 4.1/12 kBProgress (1): 8.2/12 kBProgress (1): 12 kB                       Downloaded from central: https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-bom/5.13.2/brave-bom-5.13.2.pom (12 kB at 301 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-bom/2.16.1/zipkin-reporter-bom-2.16.1.pom
+Progress (1): 4.1/6.9 kBProgress (1): 6.9 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-bom/2.16.1/zipkin-reporter-bom-2.16.1.pom (6.9 kB at 160 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-vault-dependencies/3.0.4/spring-cloud-vault-dependencies-3.0.4.pom
+Progress (1): 4.1/6.3 kBProgress (1): 6.3 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-vault-dependencies/3.0.4/spring-cloud-vault-dependencies-3.0.4.pom (6.3 kB at 147 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-zookeeper-dependencies/3.0.4/spring-cloud-zookeeper-dependencies-3.0.4.pom
+Progress (1): 4.1/9.0 kBProgress (1): 8.2/9.0 kBProgress (1): 9.0 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-zookeeper-dependencies/3.0.4/spring-cloud-zookeeper-dependencies-3.0.4.pom (9.0 kB at 196 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-cloudfoundry-dependencies/3.0.2/spring-cloud-cloudfoundry-dependencies-3.0.2.pom
+Progress (1): 4.1/6.2 kBProgress (1): 6.2 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-cloudfoundry-dependencies/3.0.2/spring-cloud-cloudfoundry-dependencies-3.0.2.pom (6.2 kB at 158 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-bus-dependencies/3.0.3/spring-cloud-bus-dependencies-3.0.3.pom
+Progress (1): 4.1/6.2 kBProgress (1): 6.2 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-bus-dependencies/3.0.3/spring-cloud-bus-dependencies-3.0.3.pom (6.2 kB at 144 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-contract-dependencies/3.0.4/spring-cloud-contract-dependencies-3.0.4.pom
+Progress (1): 4.1/9.2 kBProgress (1): 8.2/9.2 kBProgress (1): 9.2 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-contract-dependencies/3.0.4/spring-cloud-contract-dependencies-3.0.4.pom (9.2 kB at 243 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-openfeign-dependencies/3.0.4/spring-cloud-openfeign-dependencies-3.0.4.pom
+Progress (1): 4.1/6.6 kBProgress (1): 6.6 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-openfeign-dependencies/3.0.4/spring-cloud-openfeign-dependencies-3.0.4.pom (6.6 kB at 161 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/openfeign/feign-bom/10.12/feign-bom-10.12.pom
+Progress (1): 4.1/6.0 kBProgress (1): 6.0 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/io/github/openfeign/feign-bom/10.12/feign-bom-10.12.pom (6.0 kB at 162 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-kubernetes-dependencies/2.0.4/spring-cloud-kubernetes-dependencies-2.0.4.pom
+Progress (1): 4.1/15 kBProgress (1): 8.2/15 kBProgress (1): 12/15 kB Progress (1): 15 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-kubernetes-dependencies/2.0.4/spring-cloud-kubernetes-dependencies-2.0.4.pom (15 kB at 383 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/fabric8/kubernetes-client-bom/4.13.3/kubernetes-client-bom-4.13.3.pom
+Progress (1): 4.1/14 kBProgress (1): 8.2/14 kBProgress (1): 12/14 kB Progress (1): 14 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/io/fabric8/kubernetes-client-bom/4.13.3/kubernetes-client-bom-4.13.3.pom (14 kB at 319 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers-bom/1.16.0/testcontainers-bom-1.16.0.pom
+Progress (1): 4.1/7.1 kBProgress (1): 7.1 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers-bom/1.16.0/testcontainers-bom-1.16.0.pom (7.1 kB at 168 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/datastax/oss/java-driver-bom/4.11.3/java-driver-bom-4.11.3.pom
+Progress (1): 4.1/4.1 kBProgress (1): 4.1 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/com/datastax/oss/java-driver-bom/4.11.3/java-driver-bom-4.11.3.pom (4.1 kB at 101 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-bom/4.1.26/metrics-bom-4.1.26.pom
+Progress (1): 4.1/5.3 kBProgress (1): 5.3 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-bom/4.1.26/metrics-bom-4.1.26.pom (5.3 kB at 140 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-parent/4.1.26/metrics-parent-4.1.26.pom
+Progress (1): 4.1/17 kBProgress (1): 8.2/17 kBProgress (1): 12/17 kB Progress (1): 16/17 kBProgress (1): 17 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-parent/4.1.26/metrics-parent-4.1.26.pom (17 kB at 303 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-bom/3.0.9/groovy-bom-3.0.9.pom
+Progress (1): 4.1/26 kBProgress (1): 8.2/26 kBProgress (1): 12/26 kB Progress (1): 16/26 kBProgress (1): 20/26 kBProgress (1): 25/26 kBProgress (1): 26 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-bom/3.0.9/groovy-bom-3.0.9.pom (26 kB at 695 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-bom/12.1.7.Final/infinispan-bom-12.1.7.Final.pom
+Progress (1): 4.1/18 kBProgress (1): 8.2/18 kBProgress (1): 12/18 kB Progress (1): 16/18 kBProgress (1): 18 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-bom/12.1.7.Final/infinispan-bom-12.1.7.Final.pom (18 kB at 486 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-build-configuration-parent/12.1.7.Final/infinispan-build-configuration-parent-12.1.7.Final.pom
+Progress (1): 4.1/14 kBProgress (1): 8.2/14 kBProgress (1): 12/14 kB Progress (1): 14 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-build-configuration-parent/12.1.7.Final/infinispan-build-configuration-parent-12.1.7.Final.pom (14 kB at 422 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/jboss-parent/36/jboss-parent-36.pom
+Progress (1): 4.1/66 kBProgress (1): 8.2/66 kBProgress (1): 12/66 kB Progress (1): 16/66 kBProgress (1): 20/66 kBProgress (1): 25/66 kBProgress (1): 29/66 kBProgress (1): 33/66 kBProgress (1): 37/66 kBProgress (1): 41/66 kBProgress (1): 45/66 kBProgress (1): 49/66 kBProgress (1): 53/66 kBProgress (1): 57/66 kBProgress (1): 61/66 kBProgress (1): 66/66 kBProgress (1): 66 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/jboss-parent/36/jboss-parent-36.pom (66 kB at 1.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.12.5/jackson-bom-2.12.5.pom
+Progress (1): 4.1/17 kBProgress (1): 8.2/17 kBProgress (1): 12/17 kB Progress (1): 16/17 kBProgress (1): 17 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.12.5/jackson-bom-2.12.5.pom (17 kB at 453 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.12/jackson-parent-2.12.pom
+Progress (1): 4.1/7.5 kBProgress (1): 7.5 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.12/jackson-parent-2.12.pom (7.5 kB at 203 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/41/oss-parent-41.pom
+Progress (1): 4.1/23 kBProgress (1): 8.2/23 kBProgress (1): 12/23 kB Progress (1): 15/23 kBProgress (1): 19/23 kBProgress (1): 23/23 kBProgress (1): 23 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/41/oss-parent-41.pom (23 kB at 599 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/jersey-bom/2.33/jersey-bom-2.33.pom
+Progress (1): 4.1/19 kBProgress (1): 8.2/19 kBProgress (1): 12/19 kB Progress (1): 16/19 kBProgress (1): 19 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/jersey-bom/2.33/jersey-bom-2.33.pom (19 kB at 490 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/ee4j/project/1.0.6/project-1.0.6.pom
+Progress (1): 4.1/13 kBProgress (1): 8.2/13 kBProgress (1): 12/13 kB Progress (1): 13 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/ee4j/project/1.0.6/project-1.0.6.pom (13 kB at 360 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/9.4.44.v20210927/jetty-bom-9.4.44.v20210927.pom
+Progress (1): 4.1/18 kBProgress (1): 8.2/18 kBProgress (1): 12/18 kB Progress (1): 16/18 kBProgress (1): 18 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/9.4.44.v20210927/jetty-bom-9.4.44.v20210927.pom (18 kB at 411 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.7.2/junit-bom-5.7.2.pom
+Progress (1): 4.1/5.1 kBProgress (1): 5.1 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.7.2/junit-bom-5.7.2.pom (5.1 kB at 138 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-bom/1.5.31/kotlin-bom-1.5.31.pom
+Progress (1): 4.1/9.3 kBProgress (1): 8.2/9.3 kBProgress (1): 9.3 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-bom/1.5.31/kotlin-bom-1.5.31.pom (9.3 kB at 275 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.5.2/kotlinx-coroutines-bom-1.5.2.pom
+Progress (1): 4.1/4.1 kBProgress (1): 4.1 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.5.2/kotlinx-coroutines-bom-1.5.2.pom (4.1 kB at 117 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-bom/2.14.1/log4j-bom-2.14.1.pom
+Progress (1): 4.1/8.1 kBProgress (1): 8.1 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-bom/2.14.1/log4j-bom-2.14.1.pom (8.1 kB at 225 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/logging/logging-parent/3/logging-parent-3.pom
+Progress (1): 3.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/logging/logging-parent/3/logging-parent-3.pom (3.1 kB at 95 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/23/apache-23.pom
+Progress (1): 4.1/18 kBProgress (1): 8.2/18 kBProgress (1): 12/18 kB Progress (1): 16/18 kBProgress (1): 18 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/23/apache-23.pom (18 kB at 576 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.7.6/micrometer-bom-1.7.6.pom
+Progress (1): 4.1/6.9 kBProgress (1): 6.9 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.7.6/micrometer-bom-1.7.6.pom (6.9 kB at 176 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.70.Final/netty-bom-4.1.70.Final.pom
+Progress (1): 4.1/13 kBProgress (1): 8.2/13 kBProgress (1): 12/13 kB Progress (1): 13 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.70.Final/netty-bom-4.1.70.Final.pom (13 kB at 383 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+Progress (1): 4.1/4.8 kBProgress (1): 4.8 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom (4.8 kB at 142 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/oracle/database/jdbc/ojdbc-bom/21.1.0.0/ojdbc-bom-21.1.0.0.pom
+Progress (1): 4.1/12 kBProgress (1): 8.2/12 kBProgress (1): 12/12 kB Progress (1): 12 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/com/oracle/database/jdbc/ojdbc-bom/21.1.0.0/ojdbc-bom-21.1.0.0.pom (12 kB at 345 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_bom/0.10.0/simpleclient_bom-0.10.0.pom
+Progress (1): 4.1/4.9 kBProgress (1): 4.9 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_bom/0.10.0/simpleclient_bom-0.10.0.pom (4.9 kB at 144 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/prometheus/parent/0.10.0/parent-0.10.0.pom
+Progress (1): 4.1/7.5 kBProgress (1): 7.5 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/io/prometheus/parent/0.10.0/parent-0.10.0.pom (7.5 kB at 214 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/r2dbc/r2dbc-bom/Arabba-SR11/r2dbc-bom-Arabba-SR11.pom
+Progress (1): 4.1/4.3 kBProgress (1): 4.3 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/io/r2dbc/r2dbc-bom/Arabba-SR11/r2dbc-bom-Arabba-SR11.pom (4.3 kB at 114 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/2020.0.13/reactor-bom-2020.0.13.pom
+Progress (1): 4.1/4.2 kBProgress (1): 4.2 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/2020.0.13/reactor-bom-2020.0.13.pom (4.2 kB at 128 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/rsocket/rsocket-bom/1.1.1/rsocket-bom-1.1.1.pom
+Progress (1): 2.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/rsocket/rsocket-bom/1.1.1/rsocket-bom-1.1.1.pom (2.6 kB at 82 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-bom/2021.0.7/spring-data-bom-2021.0.7.pom
+Progress (1): 4.1/5.7 kBProgress (1): 5.7 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-bom/2021.0.7/spring-data-bom-2021.0.7.pom (5.7 kB at 167 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.3.13/spring-framework-bom-5.3.13.pom
+Progress (1): 4.1/5.7 kBProgress (1): 5.7 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.3.13/spring-framework-bom-5.3.13.pom (5.7 kB at 157 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/5.5.6/spring-integration-bom-5.5.6.pom
+Progress (1): 4.1/9.1 kBProgress (1): 8.2/9.1 kBProgress (1): 9.1 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/5.5.6/spring-integration-bom-5.5.6.pom (9.1 kB at 286 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/5.5.3/spring-security-bom-5.5.3.pom
+Progress (1): 4.1/5.7 kBProgress (1): 5.7 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/5.5.3/spring-security-bom-5.5.3.pom (5.7 kB at 168 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/session/spring-session-bom/2021.0.3/spring-session-bom-2021.0.3.pom
+Progress (1): 2.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/session/spring-session-bom/2021.0.3/spring-session-bom-2021.0.3.pom (2.7 kB at 76 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers-bom/1.16.2/testcontainers-bom-1.16.2.pom
+Progress (1): 4.1/7.2 kBProgress (1): 7.2 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers-bom/1.16.2/testcontainers-bom-1.16.2.pom (7.2 kB at 176 kB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] ecommerce-microservice-backend                                     [pom]
+[INFO] service-discovery                                                  [jar]
+[INFO] cloud-config                                                       [jar]
+[INFO] api-gateway                                                        [jar]
+[INFO] proxy-client                                                       [jar]
+[INFO] user-service                                                       [jar]
+[INFO] product-service                                                    [jar]
+[INFO] favourite-service                                                  [jar]
+[INFO] order-service                                                      [jar]
+[INFO] shipping-service                                                   [jar]
+[INFO] payment-service                                                    [jar]
+[INFO] 
+[INFO] -----------< com.selimhorri:ecommerce-microservice-backend >------------
+[INFO] Building ecommerce-microservice-backend 0.1.0                     [1/11]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for ecommerce-microservice-backend 0.1.0:
+[INFO] 
+[INFO] ecommerce-microservice-backend ..................... FAILURE [  0.003 s]
+[INFO] service-discovery .................................. SKIPPED
+[INFO] cloud-config ....................................... SKIPPED
+[INFO] api-gateway ........................................ SKIPPED
+[INFO] proxy-client ....................................... SKIPPED
+[INFO] user-service ....................................... SKIPPED
+[INFO] product-service .................................... SKIPPED
+[INFO] favourite-service .................................. SKIPPED
+[INFO] order-service ...................................... SKIPPED
+[INFO] shipping-service ................................... SKIPPED
+[INFO] payment-service .................................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.421 s
+[INFO] Finished at: 2025-05-29T15:28:45Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Unknown lifecycle phase "/root/.m2". You must specify a valid lifecycle phase or a goal in the format <plugin-prefix>:<goal> or <plugin-group-id>:<plugin-artifact-id>[:<plugin-version>]:<goal>. Available lifecycle phases are: validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy, pre-clean, clean, post-clean, pre-site, site, post-site, site-deploy. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/LifecyclePhaseNotFoundException
+[8mha:////4IJviWrXsfiAEVrJL+exHhLrNq2PV1dOdk6VIpR+F493AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+dgWTEvgAAAA==[0m[Pipeline] }
+[8mha:////4M43oYw797nUlbHmHf1UfCofOSTPDZX8U/omPB7masvsAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAQUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wApcP3Nb4AAAA=[0m[Pipeline] // stage
+[8mha:////4B2hbr+NNlgfM8zVLLplxynnxWK2NSR8pbOqCioBubqxAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUARvqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2k22/+zyrN1393rTCAAAA[0m[Pipeline] stage
+[8mha:////4BbQuGZsCbcpMw7UXZcCN/698hqMhBl2bi3728jBqeNyAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oBtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPBA4E38IAAAA=[0m[Pipeline] { (Test)
+Stage "Test" skipped due to earlier failure(s)
+[8mha:////4IvSxqer+FMOdHnfACt1vCYJ7sdbHGutirdjAD+cOt2lAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSxMqxsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NSnc5Zr4AAAA=[0m[Pipeline] getContext
+[8mha:////4InUftlvCRwVPwH+VcsMSA4eIrtwUVixOZAPv3cysp/jAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSZGwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfX1uR6L4AAAA=[0m[Pipeline] }
+[8mha:////4Fy4CRRyvmlLYHF3GSVCmKVutLlvpBaV/MzL9ScVxBpbAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgFZHam9vgAAAA==[0m[Pipeline] // stage
+[8mha:////4KT7l9ZRAC0Wi1f+9Po4nOqlJ+S0Pqe5eSFFyp3stAt9AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUIQYk1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHK7Sbbbv95Vm+eDRnewgAAAA==[0m[Pipeline] stage
+[8mha:////4C8Op5rvoxXDg5we5ly6/8vY/7d+xYBrdw4XfOwQv0iYAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YQAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD56au0DCAAAA[0m[Pipeline] { (Build Docker Images)
+Stage "Build Docker Images" skipped due to earlier failure(s)
+[8mha:////4G75RbTfqnxWhEu6tsHDFwCD8ByoSA/3MOaM/Gqkq5jFAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAQVCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw/4iFt7vgAAAA==[0m[Pipeline] getContext
+[8mha:////4I4fF9CfzxSJ2AEFP9wrGH6m8sj3lBAvT3CZuRGofrYzAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJCgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wA7hxSLb4AAAA=[0m[Pipeline] }
+[8mha:////4G452Xsl6aBm3TFzyZd/FKHtuNgwUMt5b7bEBw8K3nTnAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIZCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKU+22u3eED1l7B3L4AAAA=[0m[Pipeline] // stage
+[8mha:////4H29/cJdW5eR+/DXpTRpLO+30jo//Nfez61DTfGpLLKTAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUgZhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3m2z73edZvQHp9qkSwgAAAA==[0m[Pipeline] stage
+[8mha:////4IH15FW526DORYXvkFBVf2MuWGvI5n815MaI5hQXIzegAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAd9J1uLCAAAA[0m[Pipeline] { (Push Docker Images)
+Stage "Push Docker Images" skipped due to earlier failure(s)
+[8mha:////4NS2nF9S7pkGGkQyB7o/mIWfZEsBs4QsPEbzBOZk731fAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSkApR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3f4x1Rq74AAAA=[0m[Pipeline] getContext
+[8mha:////4C2P9NzzSRGaHLxc6H2YGcs/KhhGN9W1Q2ux8uvJI1UuAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSAA2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bqph/Ve+AAAA[0m[Pipeline] }
+[8mha:////4Ad7qpvsIMk0o5YAuvFl32Vjgw0XvzEcC8FHYgFrmH9BAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgGsJ8UCvgAAAA==[0m[Pipeline] // stage
+[8mha:////4LK7kwJ4pxR2AVRG/341hlYXPjPG6IpvnPNHVG3mg1sHAAAAqB+LCAAAAAAAAP9tjUEKwjAURH8rXbh16SFSEQRBunIbuvEEsYkxafi/JqnpyhN5Ne9gtODKWQwzA8N7vqAKHhrymlmFvcHQGTa4UefEEvn+4igxS2fWEQZyirUqtSTVca4tRQWzihIWHJYKO0fBoI6w4lbcRe0E6voUfd4OHEojb/CAgmdyFD5+y+RhfR1lIPxx/gJgGiKU20223f7zrN4qBm54wgAAAA==[0m[Pipeline] stage
+[8mha:////4DXbbkGMdT9ynkWeEkwiW+kiwj/NGIhaxk4wlncLlm/3AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0XdaX3CAAAA[0m[Pipeline] { (Deploy to Kubernetes)
+Stage "Deploy to Kubernetes" skipped due to earlier failure(s)
+[8mha:////4NwIqW7VuGgGvvidtx8RqZs7KYMah2B/U7qQ9xhUw5q6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAxJCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw8/Nre1vgAAAA==[0m[Pipeline] getContext
+[8mha:////4Aimi9TcAta3haHebvBE1JyK7sPn3GOJbSNn/zEcaxCLAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCpAQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAMjehBb4AAAA=[0m[Pipeline] }
+[8mha:////4O0UoR6zVeEkASQxxCetlhWmuyFLpswHx4oZEvvDJ/4TAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIYGQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKU+22u3eEDCnUy9L4AAAA=[0m[Pipeline] // stage
+[8mha:////4CIHwXnfHZt40q6hCV9C0yhMqxVY0KoqoRafHu8zYARRAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUgcSCOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WTb7z7P6g107EEjwgAAAA==[0m[Pipeline] stage
+[8mha:////4IXoPsSgc65Ac/HIuqv/gwI7XzkvM0hGztrIEiuWiNHUAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ALEgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD7KBoKTCAAAA[0m[Pipeline] { (API Tests)
+Stage "API Tests" skipped due to earlier failure(s)
+[8mha:////4I7p/U93pimtATh7yr1ve7Soq8jXimsqR2Sa0E0jYGTbAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSAA2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBlmkmCe+AAAA[0m[Pipeline] getContext
+[8mha:////4C9X8V0gKgPpr7cb9DKNXyHUDATyQEptavvGA0BlB2egAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSoDSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/BvQoOE2+AAAA[0m[Pipeline] }
+[8mha:////4MGYVEq6jeUzSgZFrLG0X+bzvjIR5/QPjKyFuRJNuqGoAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIEGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgHybgAYvgAAAA==[0m[Pipeline] // stage
+[8mha:////4DvpWKo7nV0GxtAPypvxMq2h6/oHRROCHQmhThiszQdOAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUMSAk1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHK7Sbbbv95Vm+3HIZJwgAAAA==[0m[Pipeline] stage
+[8mha:////4HqhSe9QMvwTgalusm72k4PFjL+fFZFCVilYKTLZv3j6AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QyDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASgVHzvCAAAA[0m[Pipeline] { (Load Tests)
+Stage "Load Tests" skipped due to earlier failure(s)
+[8mha:////4JYRoxZ8C+UL7rfpqBrWryn/y91fHcYAGST8aUeXwZeSAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCBUIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHrW/o6vgAAAA==[0m[Pipeline] getContext
+[8mha:////4Ku0GW45BzTkEyO3TuNuHrVHNbXKzXx+hkNtaNCMwfYKAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGhBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9Fb/uIvgAAAA==[0m[Pipeline] }
+[8mha:////4BY3y9mW/mppBVYV29QApGsVFqiV/FeKudj/+8tKNpGcAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUQASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAfS1oeb4AAAA=[0m[Pipeline] // stage
+[8mha:////4HKTSQ1E6rjzCPfY8ooX82uyQYtAgQAEJs3EGhwoEHrVAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUwcCAOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WTb7z7P6g3A5zaFwgAAAA==[0m[Pipeline] stage
+[8mha:////4HlAT9qZPFx8S6DVpZCnNhw6uz7cv0UMbhZYkOEl0ZzOAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AIkBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfABpxnKZwgAAAA==[0m[Pipeline] { (Declarative: Post Actions)
+Error when executing always post condition:
+java.lang.NoSuchMethodError: No such DSL method 'junit' found among steps [archive, bat, build, catchError, checkout, container, containerLog, deleteDir, dir, dockerFingerprintFrom, dockerFingerprintRun, echo, envVarsForTool, error, fileExists, getContext, git, input, isUnix, library, libraryResource, load, mail, milestone, node, parallel, podTemplate, powershell, properties, pwd, pwsh, readFile, readTrusted, resolveScm, retry, script, sh, sleep, stage, stash, step, timeout, tool, unarchive, unstable, unstash, validateDeclarativePipeline, waitForBuild, waitUntil, warnError, withContext, withCredentials, withDockerContainer, withDockerRegistry, withDockerServer, withEnv, wrap, writeFile, ws] or symbols [GitUsernamePassword, agent, all, allBranchesSame, allOf, always, any, anyOf, apiToken, apiTokenProperty, architecture, archiveArtifacts, artifactManager, assembla, authorInChangelog, batchFile, bitbucket, bitbucketServer, booleanParam, branch, browser, buildButton, buildDiscarder, buildDiscarders, buildRetention, buildSingleRevisionOnly, buildingTag, builtInNode, caseInsensitive, caseSensitive, certificate, cgit, changeRequest, changelog, changelogBase, changelogToBranch, changeset, checkoutOption, checkoutToSubdirectory, choice, choiceParam, cleanAfterCheckout, cleanBeforeCheckout, clock, cloneOption, command, computerRetentionCheckInterval, configMapVolume, consoleUrlProvider, containerEnvVar, containerLivenessProbe, containerTemplate, cps, credentials, cron, crumb, default, defaultDisplayUrlProvider, defaultFolderConfiguration, defaultView, demand, disableConcurrentBuilds, disableRestartFromStage, disableResume, discoverOtherRefs, discoverOtherRefsTrait, diskSpace, diskSpaceMonitor, docker, docker-image-build, docker-image-producer, dockerCert, dockerEnvVars, dockerServer, dockerSettings, dockerShell, dockerTool, dockerfile, downstream, dumb, durabilityHint, dynamicPVC, emptyDirVolume, emptyDirWorkspaceVolume, envVar, envVars, envVarsFilter, environment, equals, experimentalFlags, expression, file, fileParam, filePath, fingerprint, fingerprints, firstBuildChangelog, fisheye, frameOptions, freeStyle, freeStyleJob, fromDocker, fromScm, fromSource, genericEphemeralVolume, git, gitBranchDiscovery, gitHooks, gitLab, gitList, gitSCM, gitTagDiscovery, gitTool, gitUsernamePassword, gitWeb, gitblit, github, gitiles, gogs, headRegexFilter, headWildcardFilter, hostPathVolume, hostPathWorkspaceVolume, hyperlink, hyperlinkToModels, ignoreOnPush, inbound, installSource, isRestartedRun, jdk, jdkInstaller, jgit, jgitapache, jnlp, jobBuildDiscarder, jobName, kiln, kubeconfig, kubernetes, kubernetesAgent, label, lastDuration, lastFailure, lastGrantedAuthorities, lastStable, lastSuccess, legacy, legacySCM, lfs, list, local, localBranch, localBranchTrait, location, logRotator, loggedInUsersCanDoAnything, mailer, masterBuild, maven, maven3Mojos, mavenErrors, mavenGlobalConfig, mavenMojos, mavenWarnings, merge, modernSCM, multiBranchProjectDisplayNaming, multibranch, myView, namedBranchesDifferent, never, newContainerPerStage, nfsVolume, nfsWorkspaceVolume, node, nodeProperties, none, nonresumable, not, onFailure, organizationFolder, override, overrideIndexTriggers, paneStatus, parallelsAlwaysFailFast, parameters, password, pattern, perBuildTag, permanent, persistentVolumeClaim, persistentVolumeClaimWorkspaceVolume, phabricator, pipeline, pipeline-model, pipeline-model-docker, pipelineTriggers, plainText, plugin, podAnnotation, podEnvVar, podLabel, pollSCM, portMapping, preserveStashes, projectNamingStrategy, proxy, pruneStaleBranch, pruneStaleTag, pruneTags, queueItemAuthenticator, quietPeriod, rateLimit, rateLimitBuilds, redmine, refSpecs, remoteName, resourceRoot, responseTime, retainOnlyVariables, rhodeCode, run, runParam, sSHLauncher, schedule, scmGit, scmRetryCount, scriptApproval, scriptApprovalLink, search, secretEnvVar, secretVolume, security, shell, simpleBuildDiscarder, skipDefaultCheckout, skipStagesAfterUnstable, slave, sourceRegexFilter, sourceWildcardFilter, sparseCheckout, sparseCheckoutPaths, ssh, sshPublicKey, sshUserPrivateKey, standard, status, string, stringParam, submodule, submoduleOption, suppressAutomaticTriggering, suppressFolderAutomaticTriggering, swapSpace, tag, teamFoundation, text, textParam, timezone, tmpSpace, toolLocation, triggeredBy, unsecured, untrusted, upstream, userIdentity, userSeed, usernameColonPassword, usernamePassword, viewgit, viewsTabBar, weather, x509ClientCert, yadockerWrapper, zip] or globals [currentBuild, docker, env, params, pipeline, scm]
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.DSL.invokeMethod(DSL.java:219)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsScript.invokeMethod(CpsScript.java:124)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:41)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at PluginClassLoader for script-security//org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:180)
+	at PluginClassLoader for script-security//org.kohsuke.groovy.sandbox.GroovyInterceptor.onMethodCall(GroovyInterceptor.java:23)
+	at PluginClassLoader for script-security//org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.SandboxInterceptor.onMethodCall(SandboxInterceptor.java:163)
+	at PluginClassLoader for script-security//org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:178)
+	at PluginClassLoader for script-security//org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:182)
+	at PluginClassLoader for script-security//org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:152)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.sandbox.SandboxInvoker.methodCall(SandboxInvoker.java:17)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.LoggingInvoker.methodCall(LoggingInvoker.java:118)
+	at WorkflowScript.run(WorkflowScript:108)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.delegateAndExecute(ModelInterpreter.groovy:139)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:728)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.catchRequiredContextForNode(ModelInterpreter.groovy:390)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:727)
+	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2125)
+	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2110)
+	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2151)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:717)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.executePostBuild(ModelInterpreter.groovy:695)
+	at ___cps.transform___(Native Method)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.ContinuationGroup.methodCall(ContinuationGroup.java:90)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.dispatchOrArg(FunctionCallBlock.java:114)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.fixArg(FunctionCallBlock.java:83)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:72)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.ConstantBlock.eval(ConstantBlock.java:21)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.Next.step(Next.java:83)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.Continuable.run0(Continuable.java:147)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.SandboxContinuable.access$001(SandboxContinuable.java:17)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.SandboxContinuable.run0(SandboxContinuable.java:49)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThread.runNextChunk(CpsThread.java:180)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:419)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:327)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:292)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService.lambda$wrap$4(CpsVmExecutorService.java:140)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:139)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+	at jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.call(CpsVmExecutorService.java:53)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.call(CpsVmExecutorService.java:50)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:136)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:275)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService.lambda$categoryThreadFactory$0(CpsVmExecutorService.java:50)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+[8mha:////4DBFGTTeZMCbAQJ24YdovcW7I5LQo2atwE95nWAeeBWNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN/DO8Oq+AAAA[0m[Pipeline] echo
+Pipeline failed!
+[8mha:////4M8TW5c+AwRPYhP7kuucQ3rua4ign9RtnAAXyUyIKUckAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbNwESVPK+AAAA[0m[Pipeline] }
+[8mha:////4FJN4I6eDuGvkcg6cWn8wjbcjepWctepnhxrHBwHu4ryAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUKRAVLRWGl5gEmPsWHeO7eBUvIiv8QcCkajYYrWzzTxfsI4Bjhw0WkW9odga9G7U88LMob86zmj5gi1TZKewUbnhTp0WbDgpWFKUsBKwUdQ6joZ0gq2w8i4rJ0lX5xTm7yCgNN0ADyjEbE4ypC9MAXa3sYtMP89fAUzeJyjr+lP7NwdUbKe+AAAA[0m[Pipeline] // stage
+[8mha:////4AhYMBBtPvdDg4dlkwm6k+pUvHxCycfSjd8dsuLBCQOqAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCaEBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7l22w8tQ0SyvgAAAA==[0m[Pipeline] }
+[8mha:////4GKmHeUjxpK+3wEERMumijUH+ZQCWpzM96FAZulUv6h2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKhQhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QHve+krvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4Ayt03rAfoMBT9BwaJ7RrtcPQzTBh16v5Qv5bw/7V6+MAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICXSREldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGW9z3WoP1hqqY2+AAAA[0m[Pipeline] }
+$ docker stop --time=1 87269c46fed29891ace3f74f3bab56f219a989ab7f99dd78d77a7c7d944a4d73
+$ docker rm -f --volumes 87269c46fed29891ace3f74f3bab56f219a989ab7f99dd78d77a7c7d944a4d73
+[8mha:////4FfKb4wrhbUvqoKdAPnCUxOu/Sct9u0A5+NRsml5KR+3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiVCAhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda56/wFspErWvgAAAA==[0m[Pipeline] // withDockerContainer
+[8mha:////4LpjS1x5/P95mbM/ru4ZZL+9JhZ6e/d10srslAjj+EJgAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREAUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN9vBdnuAy0pio+9AAAA[0m[Pipeline] }
+[8mha:////4GV9rnx8UEiPwmIAf+oNwm4556kLAMLVrBohvPEjsGz4AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IMLCbGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8F+b4UZOUHPpWOLL0AAAA=[0m[Pipeline] // node
+[8mha:////4BzFgvEibVcKnm9DbVhcnHI2CyMCz7jDSVXMJpRVTRPGAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREAUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/vBNn2A7h5qem9AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

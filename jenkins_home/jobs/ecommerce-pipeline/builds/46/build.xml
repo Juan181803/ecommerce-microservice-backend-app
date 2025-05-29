@@ -1,0 +1,785 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1520.v56d65e3b_4566">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.32-476.v5042e1c1edd7">
+      <queuingDurationMillis>2</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>0</buildableDurationMillis>
+      <waitingDurationMillis>0</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@752.vdddedf804e72">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@2.2255.v56a_15e805f12">
+      <stagesUUID>9e39ef64-6b58-4440-8dde-b70f9879925d</stagesUUID>
+      <pipelineDefs>
+        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef plugin="pipeline-model-api@2.2255.v56a_15e805f12">
+          <stages>
+            <stages>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Preparación</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>sh</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>script</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">
+                    echo &quot;Verificando archivos necesarios...&quot;
+                    echo &quot;Current directory: $(pwd)&quot;
+                    echo &quot;Workspace directory: $WORKSPACE&quot;
+                    echo &quot;Listing all files in current directory:&quot;
+                    ls -la
+                    
+                    if [ ! -f &quot;pom.xml&quot; ]; then
+                        echo &quot;ERROR: pom.xml no encontrado en $(pwd)&quot;
+                        echo &quot;Buscando pom.xml en el workspace...&quot;
+                        find $WORKSPACE -name &quot;pom.xml&quot;
+                        exit 1
+                    fi
+                    
+                    echo &quot;Verificando Docker:&quot;
+                    docker --version
+                </value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>User Input</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                        <name>script</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>scriptBlock</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">env.PROFILE = input message: &quot;Elige un perfil (prod / dev / stage)&quot;,
+                        parameters: [choice(name: &apos;PROFILE&apos;, choices: [&apos;prod&apos;, &apos;dev&apos;, &apos;stage&apos;], description: &apos;Selecciona el perfil de despliegue&apos;)]</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Build</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>sh</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>script</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">
+                    echo &quot;Building the project...&quot;
+                    echo &quot;Current directory: $(pwd)&quot;
+                    echo &quot;Workspace directory: $WORKSPACE&quot;
+                    echo &quot;Listing all files in current directory:&quot;
+                    ls -la
+                    
+                    docker run --rm                         -v &quot;$WORKSPACE:/app&quot;                         -v &quot;$HOME/.m2:/root/.m2&quot;                         -w /app                         maven:3.9.6-eclipse-temurin-11                         mvn clean install -DskipTests
+                </value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Unit and Integration Tests</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>sh</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>script</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">
+                    echo &quot;Running unit and integration tests for all modules...&quot;
+                    docker run --rm                         -v &quot;$WORKSPACE:/app&quot;                         -v &quot;$HOME/.m2:/root/.m2&quot;                         -w /app                         maven:3.9.6-eclipse-temurin-11                         mvn verify
+                </value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Build and Push Docker Images</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                        <name>withCredentials</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTSingleArgument">
+                          <value class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$GStringValue">
+                            <value class="string">${[usernamePassword(
+                    credentialsId: &apos;docker-hub-credentials&apos;,
+                    usernameVariable: &apos;DOCKER_USERNAME&apos;,
+                    passwordVariable: &apos;DOCKER_PASSWORD&apos;
+                )]}</value>
+                          </value>
+                        </args>
+                        <children>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                            <name>sh</name>
+                            <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                              <arguments class="linked-hash-map">
+                                <entry>
+                                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                    <key>script</key>
+                                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                    <value class="string">
+                        echo &quot;Logging in to Docker Hub...&quot;
+                        echo &quot;$DOCKER_PASSWORD&quot; | docker login -u &quot;$DOCKER_USERNAME&quot; --password-stdin
+
+                        echo &quot;Building and pushing Docker images...&quot;
+                        docker-compose -f compose.yml build
+                        docker-compose -f compose.yml push
+
+                        echo &quot;Logout from Docker Hub...&quot;
+                        docker logout
+                    </value>
+                                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                </entry>
+                              </arguments>
+                            </args>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        </children>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Desplegar manifiestos</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>sh</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>script</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">
+                    echo &quot;Verificando acceso a Kubernetes...&quot;
+                    if ! kubectl cluster-info &amp;&gt;/dev/null; then
+                        echo &quot;ERROR: No se puede acceder al cluster de Kubernetes&quot;
+                        exit 1
+                    fi
+
+                    echo &quot;Deploying Core Services...&quot;
+                    echo &quot;Deploying Zipkin...&quot;
+                    kubectl apply -f ${K8S_MANIFESTS_DIR}/core/zipkin-deployment.yaml || exit 1
+                    kubectl wait --for=condition=ready pod -l app=zipkin --timeout=200s || exit 1
+                    
+                    echo &quot;Deploying Service Discovery...&quot;
+                    kubectl apply -f ${K8S_MANIFESTS_DIR}/$PROFILE/service-discovery-deployment.yaml || exit 1
+                    kubectl wait --for=condition=ready pod -l app=service-discovery --timeout=300s || exit 1
+
+                    echo &quot;Deploying Cloud Config...&quot;
+                    kubectl apply -f ${K8S_MANIFESTS_DIR}/core/cloud-config-deployment.yaml || exit 1
+                    kubectl wait --for=condition=ready pod -l app=cloud-config --timeout=300s || exit 1
+                </value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Desplegar microservicios</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>sh</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>script</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-GStringValue>
+                                <value class="string">&quot;&quot;&quot;
+                    echo &quot;Deploying Microservices...&quot;
+                    for service in api-gateway favourite-service order-service payment-service product-service proxy-client shipping-service user-service; do
+                        echo &quot;Deploying $service...&quot;
+                        kubectl apply -f ${K8S_MANIFESTS_DIR}/${PROFILE}/${service}-deployment.yaml || exit 1
+                        kubectl wait --for=condition=ready pod -l app=${service} --timeout=300s || exit 1
+                    done
+                &quot;&quot;&quot;</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-GStringValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <when>
+                  <conditions>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTWhenExpression>
+                      <name>expression</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                        <arguments class="linked-hash-map">
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>scriptBlock</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="string">env.PROFILE == &apos;stage&apos;</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                        </arguments>
+                      </args>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTWhenExpression>
+                  </conditions>
+                </when>
+                <name>Correr e2e</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>sh</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>script</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">
+                    echo &quot;Running E2E tests...&quot;
+                    kubectl apply -f ${K8S_MANIFESTS_DIR}/core/newman-e2e-job.yaml || exit 1
+                    kubectl wait --for=condition=complete job/newman-e2e-job --timeout=600s || exit 1
+                    echo &quot;Fetching Newman results...&quot;
+                    kubectl logs job/newman-e2e-tests
+                </value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <when>
+                  <conditions>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTWhenExpression>
+                      <name>expression</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                        <arguments class="linked-hash-map">
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>scriptBlock</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="string">env.PROFILE == &apos;dev&apos; || env.PROFILE == &apos;stage&apos;</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                        </arguments>
+                      </args>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTWhenExpression>
+                  </conditions>
+                </when>
+                <name>Desplegar Locust</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>sh</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>script</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">
+                    echo &quot;Deploying Locust...&quot;
+                    kubectl apply -f ${K8S_MANIFESTS_DIR}/core/locust-deployment.yaml || exit 1
+
+                    echo &quot;Esperando a que el servicio esté disponible...&quot;
+                    kubectl wait --for=condition=ready pod -l app=locust --timeout=300s || exit 1
+                    
+                    echo &quot;Obteniendo la URL de Locust...&quot;
+                    LOCUST_URL=$(kubectl get svc locust -o jsonpath=&apos;{.status.loadBalancer.ingress[0].ip}&apos;)
+                    if [ -z &quot;$LOCUST_URL&quot; ]; then
+                        LOCUST_URL=&quot;localhost&quot;
+                    fi
+                    echo &quot;Locust está disponible en: http://$LOCUST_URL:8089&quot;
+                </value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+            </stages>
+            <uuid>9e39ef64-6b58-4440-8dde-b70f9879925d</uuid>
+          </stages>
+          <postBuild>
+            <conditions>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBuildCondition>
+                <condition>always</condition>
+                <branch>
+                  <name>default</name>
+                  <steps>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                      <name>echo</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                        <arguments class="linked-hash-map">
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>message</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="string">Pipeline finalizado</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                        </arguments>
+                      </args>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                  </steps>
+                </branch>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBuildCondition>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBuildCondition>
+                <condition>success</condition>
+                <branch>
+                  <name>default</name>
+                  <steps>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                      <name>echo</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                        <arguments class="linked-hash-map">
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>message</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="string">Pipeline completado exitosamente</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                        </arguments>
+                      </args>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                  </steps>
+                </branch>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBuildCondition>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBuildCondition>
+                <condition>failure</condition>
+                <branch>
+                  <name>default</name>
+                  <steps>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                      <name>echo</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                        <arguments class="linked-hash-map">
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>message</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="string">Pipeline falló</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                        </arguments>
+                      </args>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                  </steps>
+                </branch>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBuildCondition>
+            </conditions>
+          </postBuild>
+          <environment>
+            <variables class="linked-hash-map">
+              <entry>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                  <key>K8S_MANIFESTS_DIR</key>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                  <value class="string">k8s</value>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                  <key>NEWMAN_IMAGE_NAME</key>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                  <value class="string">juanito0702</value>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                  <key>NEWMAN_IMAGE_TAG</key>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                  <value class="string">latest</value>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                  <key>NEWMAN_REPORTS_DIR</key>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                  <value class="string">newman-reports</value>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                  <key>PROFILE</key>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                  <value class="string">dev</value>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                  <key>DOCKER_IMAGE_NAME</key>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                  <value class="string">juanito0702</value>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+              </entry>
+            </variables>
+          </environment>
+          <agent>
+            <agentType>
+              <key>any</key>
+            </agentType>
+          </agent>
+        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef>
+      </pipelineDefs>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@4106.v7a_8a_8176d450">
+      <env class="tree-map">
+        <entry>
+          <string>PROFILE</string>
+          <string>dev</string>
+        </entry>
+      </env>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <org.jenkinsci.plugins.workflow.support.steps.input.InputAction plugin="pipeline-input-step@517.vf8e782ee645c">
+      <ids class="java.util.concurrent.CopyOnWriteArrayList"/>
+    </org.jenkinsci.plugins.workflow.support.steps.input.InputAction>
+    <com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder plugin="credentials@1415.v831096eb_5534">
+      <boundCredentials class="concurrent-hash-map"/>
+    </com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder>
+    <jenkins.metrics.impl.SubTaskTimeInQueueAction plugin="metrics@4.2.32-476.v5042e1c1edd7">
+      <queuingDurationMillis>34</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>32</buildableDurationMillis>
+      <waitingDurationMillis>0</waitingDurationMillis>
+      <executingDurationMillis>32904</executingDurationMillis>
+      <workUnitCount>1</workUnitCount>
+    </jenkins.metrics.impl.SubTaskTimeInQueueAction>
+  </actions>
+  <queueId>57</queueId>
+  <timestamp>1748527777463</timestamp>
+  <startTime>1748527777486</startTime>
+  <result>FAILURE</result>
+  <duration>36990</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>pipeline {
+    agent any
+    
+    environment {
+        K8S_MANIFESTS_DIR = &apos;k8s&apos;
+        NEWMAN_IMAGE_NAME = &apos;juanito0702&apos;
+        NEWMAN_IMAGE_TAG = &quot;latest&quot;
+        NEWMAN_REPORTS_DIR = &apos;newman-reports&apos;
+        PROFILE = &apos;dev&apos;
+        DOCKER_IMAGE_NAME = &apos;juanito0702&apos;
+    }
+
+    stages {
+        stage(&apos;Preparación&apos;) {
+            steps {
+                sh &apos;&apos;&apos;
+                    echo &quot;Verificando archivos necesarios...&quot;
+                    echo &quot;Current directory: $(pwd)&quot;
+                    echo &quot;Workspace directory: $WORKSPACE&quot;
+                    echo &quot;Listing all files in current directory:&quot;
+                    ls -la
+                    
+                    if [ ! -f &quot;pom.xml&quot; ]; then
+                        echo &quot;ERROR: pom.xml no encontrado en $(pwd)&quot;
+                        echo &quot;Buscando pom.xml en el workspace...&quot;
+                        find $WORKSPACE -name &quot;pom.xml&quot;
+                        exit 1
+                    fi
+                    
+                    echo &quot;Verificando Docker:&quot;
+                    docker --version
+                &apos;&apos;&apos;
+            }
+        }
+
+        stage(&apos;User Input&apos;) {
+            steps {
+                script {
+                    env.PROFILE = input message: &quot;Elige un perfil (prod / dev / stage)&quot;,
+                        parameters: [choice(name: &apos;PROFILE&apos;, choices: [&apos;prod&apos;, &apos;dev&apos;, &apos;stage&apos;], description: &apos;Selecciona el perfil de despliegue&apos;)]
+                }
+            }
+        }
+
+        stage(&apos;Build&apos;) {
+            steps {
+                sh &apos;&apos;&apos;
+                    echo &quot;Building the project...&quot;
+                    echo &quot;Current directory: $(pwd)&quot;
+                    echo &quot;Workspace directory: $WORKSPACE&quot;
+                    echo &quot;Listing all files in current directory:&quot;
+                    ls -la
+                    
+                    docker run --rm \
+                        -v &quot;$WORKSPACE:/app&quot; \
+                        -v &quot;$HOME/.m2:/root/.m2&quot; \
+                        -w /app \
+                        maven:3.9.6-eclipse-temurin-11 \
+                        mvn clean install -DskipTests
+                &apos;&apos;&apos;
+            }
+        }
+
+        stage(&apos;Unit and Integration Tests&apos;) {
+            steps {
+                sh &apos;&apos;&apos;
+                    echo &quot;Running unit and integration tests for all modules...&quot;
+                    docker run --rm \
+                        -v &quot;$WORKSPACE:/app&quot; \
+                        -v &quot;$HOME/.m2:/root/.m2&quot; \
+                        -w /app \
+                        maven:3.9.6-eclipse-temurin-11 \
+                        mvn verify
+                &apos;&apos;&apos;
+            }
+        }
+
+        stage(&apos;Build and Push Docker Images&apos;) {
+            steps {
+                withCredentials([usernamePassword(
+                    credentialsId: &apos;docker-hub-credentials&apos;,
+                    usernameVariable: &apos;DOCKER_USERNAME&apos;,
+                    passwordVariable: &apos;DOCKER_PASSWORD&apos;
+                )]) {
+                    sh &apos;&apos;&apos;
+                        echo &quot;Logging in to Docker Hub...&quot;
+                        echo &quot;$DOCKER_PASSWORD&quot; | docker login -u &quot;$DOCKER_USERNAME&quot; --password-stdin
+
+                        echo &quot;Building and pushing Docker images...&quot;
+                        docker-compose -f compose.yml build
+                        docker-compose -f compose.yml push
+
+                        echo &quot;Logout from Docker Hub...&quot;
+                        docker logout
+                    &apos;&apos;&apos;
+                }
+            }
+        }
+
+        stage(&apos;Desplegar manifiestos&apos;) {
+            steps {
+                sh &apos;&apos;&apos;
+                    echo &quot;Verificando acceso a Kubernetes...&quot;
+                    if ! kubectl cluster-info &amp;&gt;/dev/null; then
+                        echo &quot;ERROR: No se puede acceder al cluster de Kubernetes&quot;
+                        exit 1
+                    fi
+
+                    echo &quot;Deploying Core Services...&quot;
+                    echo &quot;Deploying Zipkin...&quot;
+                    kubectl apply -f ${K8S_MANIFESTS_DIR}/core/zipkin-deployment.yaml || exit 1
+                    kubectl wait --for=condition=ready pod -l app=zipkin --timeout=200s || exit 1
+                    
+                    echo &quot;Deploying Service Discovery...&quot;
+                    kubectl apply -f ${K8S_MANIFESTS_DIR}/$PROFILE/service-discovery-deployment.yaml || exit 1
+                    kubectl wait --for=condition=ready pod -l app=service-discovery --timeout=300s || exit 1
+
+                    echo &quot;Deploying Cloud Config...&quot;
+                    kubectl apply -f ${K8S_MANIFESTS_DIR}/core/cloud-config-deployment.yaml || exit 1
+                    kubectl wait --for=condition=ready pod -l app=cloud-config --timeout=300s || exit 1
+                &apos;&apos;&apos;
+            }
+        }
+
+        stage(&apos;Desplegar microservicios&apos;) {
+            steps {
+                sh &quot;&quot;&quot;
+                    echo &quot;Deploying Microservices...&quot;
+                    for service in api-gateway favourite-service order-service payment-service product-service proxy-client shipping-service user-service; do
+                        echo &quot;Deploying $service...&quot;
+                        kubectl apply -f ${K8S_MANIFESTS_DIR}/${PROFILE}/${service}-deployment.yaml || exit 1
+                        kubectl wait --for=condition=ready pod -l app=${service} --timeout=300s || exit 1
+                    done
+                &quot;&quot;&quot;
+            }
+        }
+
+        stage(&apos;Correr e2e&apos;) {
+            when {
+                expression { env.PROFILE == &apos;stage&apos; }
+            }
+            steps {
+                sh &apos;&apos;&apos;
+                    echo &quot;Running E2E tests...&quot;
+                    kubectl apply -f ${K8S_MANIFESTS_DIR}/core/newman-e2e-job.yaml || exit 1
+                    kubectl wait --for=condition=complete job/newman-e2e-job --timeout=600s || exit 1
+                    echo &quot;Fetching Newman results...&quot;
+                    kubectl logs job/newman-e2e-tests
+                &apos;&apos;&apos;
+            }
+        }
+
+        stage(&apos;Desplegar Locust&apos;) {
+            when {
+                expression { env.PROFILE == &apos;dev&apos; || env.PROFILE == &apos;stage&apos; }
+            }
+            steps {
+                sh &apos;&apos;&apos;
+                    echo &quot;Deploying Locust...&quot;
+                    kubectl apply -f ${K8S_MANIFESTS_DIR}/core/locust-deployment.yaml || exit 1
+
+                    echo &quot;Esperando a que el servicio esté disponible...&quot;
+                    kubectl wait --for=condition=ready pod -l app=locust --timeout=300s || exit 1
+                    
+                    echo &quot;Obteniendo la URL de Locust...&quot;
+                    LOCUST_URL=$(kubectl get svc locust -o jsonpath=&apos;{.status.loadBalancer.ingress[0].ip}&apos;)
+                    if [ -z &quot;$LOCUST_URL&quot; ]; then
+                        LOCUST_URL=&quot;localhost&quot;
+                    fi
+                    echo &quot;Locust está disponible en: http://$LOCUST_URL:8089&quot;
+                &apos;&apos;&apos;
+            }
+        }
+    }
+
+    post {
+        always {
+            echo &quot;Pipeline finalizado&quot;
+        }
+        success {
+            echo &quot;Pipeline completado exitosamente&quot;
+        }
+        failure {
+            echo &quot;Pipeline falló&quot;
+        }
+    }
+}
+</script>
+    <loadedScripts class="linked-hash-map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>5042301496</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>2173787246</long>
+      </entry>
+      <entry>
+        <string>runQueue</string>
+        <long>42146256257</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>27805616840</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>1030658120</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>13699836800</long>
+      </entry>
+    </timings>
+    <internalCalls class="sorted-set">
+      <string>hudson.model.Result.fromString</string>
+      <string>org.jenkinsci.plugins.pipeline.StageStatus.TAG_NAME</string>
+      <string>org.jenkinsci.plugins.workflow.job.WorkflowRun.result</string>
+    </internalCalls>
+    <sandbox>true</sandbox>
+    <iota>66</iota>
+    <head>1:66</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+    <storageDir>workflow-completed</storageDir>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

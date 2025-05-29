@@ -12,25 +12,195 @@
   <description></description>
   <keepDependencies>false</keepDependencies>
   <properties/>
-  <definition class="org.jenkinsci.plugins.workflow.cps.CpsScmFlowDefinition" plugin="workflow-cps@4106.v7a_8a_8176d450">
-    <scm class="hudson.plugins.git.GitSCM" plugin="git@5.7.0">
-      <configVersion>2</configVersion>
-      <userRemoteConfigs>
-        <hudson.plugins.git.UserRemoteConfig>
-          <url>https://github.com/Juan181803/ecommerce-microservice-backend-app.git</url>
-        </hudson.plugins.git.UserRemoteConfig>
-      </userRemoteConfigs>
-      <branches>
-        <hudson.plugins.git.BranchSpec>
-          <name>*/main</name>
-        </hudson.plugins.git.BranchSpec>
-      </branches>
-      <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
-      <submoduleCfg class="empty-list"/>
-      <extensions/>
-    </scm>
-    <scriptPath>Jenkinsfile</scriptPath>
-    <lightweight>true</lightweight>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@4106.v7a_8a_8176d450">
+    <script>pipeline {
+    agent any
+    
+    environment {
+        K8S_MANIFESTS_DIR = &apos;k8s&apos;
+        NEWMAN_IMAGE_NAME = &apos;juanito0702&apos;
+        NEWMAN_IMAGE_TAG = &quot;latest&quot;
+        NEWMAN_REPORTS_DIR = &apos;newman-reports&apos;
+        PROFILE = &apos;dev&apos;
+        DOCKER_IMAGE_NAME = &apos;juanito0702&apos;
+    }
+    
+    stages {
+        stage(&apos;Preparación&apos;) {
+            steps {
+                sh &apos;&apos;&apos;
+                    echo &quot;Verificando Java...&quot;
+                    java -version
+                    
+                    echo &quot;Verificando archivos necesarios...&quot;
+                    echo &quot;Current directory: $(pwd)&quot;
+                    echo &quot;Workspace directory: $WORKSPACE&quot;
+                    echo &quot;Listing all files in current directory:&quot;
+                    ls -la
+                    
+                    if [ ! -f &quot;pom.xml&quot; ]; then
+                        echo &quot;ERROR: pom.xml no encontrado en $(pwd)&quot;
+                        echo &quot;Buscando pom.xml en el workspace...&quot;
+                        find $WORKSPACE -name &quot;pom.xml&quot;
+                        exit 1
+                    fi
+
+                    echo &quot;Verificando Maven wrapper...&quot;
+                    if [ ! -f &quot;mvnw&quot; ]; then
+                        echo &quot;ERROR: mvnw no encontrado&quot;
+                        exit 1
+                    fi
+                    chmod +x mvnw
+                &apos;&apos;&apos;
+            }
+        }
+        
+        stage(&apos;User Input&apos;) {
+            steps {
+                script {
+                    env.PROFILE = input message: &quot;Elige un perfil (prod / dev / stage)&quot;,
+                        parameters: [choice(name: &apos;PROFILE&apos;, choices: [&apos;prod&apos;, &apos;dev&apos;, &apos;stage&apos;], description: &apos;Selecciona el perfil de despliegue&apos;)]
+                }
+            }
+        }
+        
+        stage(&apos;Build&apos;) {
+            steps {
+                sh &apos;&apos;&apos;
+                    echo &quot;Building the project...&quot;
+                    echo &quot;Current directory: $(pwd)&quot;
+                    echo &quot;Workspace directory: $WORKSPACE&quot;
+                    echo &quot;Listing all files in current directory:&quot;
+                    ls -la
+                    
+                    # Compilamos el proyecto
+                    export MAVEN_OPTS=&quot;-Dmaven.compiler.source=11 -Dmaven.compiler.target=11&quot;
+                    ./mvnw clean install -DskipTests -Dlombok.version=1.18.22
+                &apos;&apos;&apos;
+            }
+        }
+        
+        stage(&apos;Unit and Integration Tests&apos;) {
+            steps {
+                sh &apos;&apos;&apos;
+                    echo &quot;Running unit and integration tests for all modules...&quot;
+                    ./mvnw verify -Dmaven.compiler.source=11 -Dmaven.compiler.target=11 -Dlombok.addLombokGeneratedAnnotation=true -Dlombok.extern.findbugs.addSuppressFBWarnings=true
+                &apos;&apos;&apos;
+            }
+        }
+        
+        stage(&apos;Build and Push Docker Images&apos;) {
+            steps {
+                withCredentials([usernamePassword(
+                    credentialsId: &apos;docker-hub-credentials&apos;,
+                    usernameVariable: &apos;DOCKER_USERNAME&apos;,
+                    passwordVariable: &apos;DOCKER_PASSWORD&apos;
+                )]) {
+                    sh &apos;&apos;&apos;
+                        echo &quot;Logging in to Docker Hub...&quot;
+                        echo &quot;$DOCKER_PASSWORD&quot; | docker login -u &quot;$DOCKER_USERNAME&quot; --password-stdin
+
+                        echo &quot;Building and pushing Docker images...&quot;
+                        docker-compose -f compose.yml build
+                        docker-compose -f compose.yml push
+
+                        echo &quot;Logout from Docker Hub...&quot;
+                        docker logout
+                    &apos;&apos;&apos;
+                }
+            }
+        }
+        
+        stage(&apos;Desplegar manifiestos&apos;) {
+            steps {
+                sh &apos;&apos;&apos;
+                    echo &quot;Verificando acceso a Kubernetes...&quot;
+                    if ! kubectl cluster-info &amp;&gt;/dev/null; then
+                        echo &quot;ERROR: No se puede acceder al cluster de Kubernetes&quot;
+                        exit 1
+                    fi
+
+                    echo &quot;Deploying Core Services...&quot;
+                    echo &quot;Deploying Zipkin...&quot;
+                    kubectl apply -f ${K8S_MANIFESTS_DIR}/core/zipkin-deployment.yaml || exit 1
+                    kubectl wait --for=condition=ready pod -l app=zipkin --timeout=200s || exit 1
+                    
+                    echo &quot;Deploying Service Discovery...&quot;
+                    kubectl apply -f ${K8S_MANIFESTS_DIR}/$PROFILE/service-discovery-deployment.yaml || exit 1
+                    kubectl wait --for=condition=ready pod -l app=service-discovery --timeout=300s || exit 1
+
+                    echo &quot;Deploying Cloud Config...&quot;
+                    kubectl apply -f ${K8S_MANIFESTS_DIR}/core/cloud-config-deployment.yaml || exit 1
+                    kubectl wait --for=condition=ready pod -l app=cloud-config --timeout=300s || exit 1
+                &apos;&apos;&apos;
+            }
+        }
+
+        stage(&apos;Desplegar microservicios&apos;) {
+            steps {
+                sh &quot;&quot;&quot;
+                    echo &quot;Deploying Microservices...&quot;
+                    for service in api-gateway favourite-service order-service payment-service product-service proxy-client shipping-service user-service; do
+                        echo &quot;Deploying $service...&quot;
+                        kubectl apply -f ${K8S_MANIFESTS_DIR}/${PROFILE}/${service}-deployment.yaml || exit 1
+                        kubectl wait --for=condition=ready pod -l app=${service} --timeout=300s || exit 1
+                    done
+                &quot;&quot;&quot;
+            }
+        }
+        
+        stage(&apos;Correr e2e&apos;) {
+            when {
+                expression { env.PROFILE == &apos;stage&apos; }
+            }
+            steps {
+                sh &apos;&apos;&apos;
+                    echo &quot;Running E2E tests...&quot;
+                    kubectl apply -f ${K8S_MANIFESTS_DIR}/core/newman-e2e-job.yaml || exit 1
+                    kubectl wait --for=condition=complete job/newman-e2e-job --timeout=600s || exit 1
+                    echo &quot;Fetching Newman results...&quot;
+                    kubectl logs job/newman-e2e-tests
+                &apos;&apos;&apos;
+            }
+        }
+        
+        stage(&apos;Desplegar Locust&apos;) {
+            when {
+                expression { env.PROFILE == &apos;dev&apos; || env.PROFILE == &apos;stage&apos; }
+            }
+            steps {
+                sh &apos;&apos;&apos;
+                    echo &quot;Deploying Locust...&quot;
+                    kubectl apply -f ${K8S_MANIFESTS_DIR}/core/locust-deployment.yaml || exit 1
+
+                    echo &quot;Esperando a que el servicio esté disponible...&quot;
+                    kubectl wait --for=condition=ready pod -l app=locust --timeout=300s || exit 1
+                    
+                    echo &quot;Obteniendo la URL de Locust...&quot;
+                    LOCUST_URL=$(kubectl get svc locust -o jsonpath=&apos;{.status.loadBalancer.ingress[0].ip}&apos;)
+                    if [ -z &quot;$LOCUST_URL&quot; ]; then
+                        LOCUST_URL=&quot;localhost&quot;
+                    fi
+                    echo &quot;Locust está disponible en: http://$LOCUST_URL:8089&quot;
+                &apos;&apos;&apos;
+            }
+        }
+    }
+    
+    post {
+        always {
+            echo &quot;Pipeline finalizado&quot;
+        }
+        success {
+            echo &quot;Pipeline completado exitosamente&quot;
+        }
+        failure {
+            echo &quot;Pipeline falló&quot;
+        }
+    }
+}
+</script>
+    <sandbox>true</sandbox>
   </definition>
   <triggers/>
   <disabled>false</disabled>
